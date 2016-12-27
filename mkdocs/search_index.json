@@ -3,7 +3,7 @@
         {
             "location": "/", 
             "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
-            "title": "Home"
+            "title": "Welcome"
         }, 
         {
             "location": "/#welcome-to-mkdocs", 
@@ -19,6 +19,586 @@
             "location": "/#project-layout", 
             "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.", 
             "title": "Project layout"
+        }, 
+        {
+            "location": "/getting-started/mission-and-core-values/", 
+            "text": "Mission \n Core Values\n\n\nThe systems we're creating must be open, permissionless, award fair access and democratise power", 
+            "title": "Mission & Core Values"
+        }, 
+        {
+            "location": "/getting-started/mission-and-core-values/#mission-core-values", 
+            "text": "The systems we're creating must be open, permissionless, award fair access and democratise power", 
+            "title": "Mission &amp; Core Values"
+        }, 
+        {
+            "location": "/getting-started/faq/", 
+            "text": "FAQ", 
+            "title": "FAQ"
+        }, 
+        {
+            "location": "/getting-started/faq/#faq", 
+            "text": "", 
+            "title": "FAQ"
+        }, 
+        {
+            "location": "/getting-started/code-of-conduct/", 
+            "text": "Code of Conduct\n\n\nCommunity\n\n\nStatus is about showing humanity to one another: the word itself captures the spirit of being human.\n\n\nWe want a productive, happy and agile community that can welcome new ideas in a complex field, improve every process every year, and foster collaboration between groups with very different needs, interests and skills.\n\n\nWe gain strength from diversity, and actively seek participation from those who enhance it. This code of conduct exists to ensure that diverse groups collaborate to mutual advantage and enjoyment. We will challenge prejudice that could jeopardise the participation of any person in the project.\n\n\nThe Code of Conduct governs how we behave in public or in private whenever the project will be judged by our actions. We expect it to be honoured by everyone who represents the project officially or informally, claims affiliation with the project, or participates directly.\n\n\nWe strive to:\n\n\n\n\n\n\nBe considerate\n \n\nOur work will be used by other people, and we in turn will depend on the work of others. Any decision we take will affect users and colleagues, and we should consider them when making decisions.\n\n\n\n\n\n\nBe respectful\n\nDisagreement is no excuse for poor manners. We work together to resolve conflict, assume good intentions and do our best to act in an empathic fashion. We don't allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.\n\n\n\n\n\n\nTake responsibility for our words and our actions\n\nWe can all make mistakes; when we do, we take responsibility for them. If someone has been harmed or offended, we listen carefully and respectfully, and work to right the wrong.\n\n\n\n\n\n\nBe collaborative\n\nWhat we produce is a complex whole made of many parts, it is the sum of many dreams. Collaboration between teams that each have their own goal and vision is essential; for the whole to be more than the sum of its parts, each part must make an effort to understand the whole.\n\n\nCollaboration reduces redundancy and improves the quality of our work. Internally and externally, we celebrate good collaboration. Wherever possible, we work closely with upstream projects and others in the free software community to coordinate our efforts. We prefer to work transparently and involve interested parties as early as possible.\n\n\n\n\n\n\nValue decisiveness, clarity and consensus\n\nDisagreements, social and technical, are normal, but we do not allow them to persist and fester leaving others uncertain of the agreed direction.\n\n\nWe expect participants in the project to resolve disagreements constructively. When they cannot, we escalate the matter to structures with designated leaders to arbitrate and provide clarity and direction.\n\n\n\n\n\n\nAsk for help when unsure\n\nNobody is expected to be perfect in this community. Asking questions early avoids many problems later, so questions are encouraged, though they may be directed to the appropriate forum. Those who are asked should be responsive and helpful.\n\n\n\n\n\n\nStep down considerately\n\nWhen somebody leaves or disengages from the project, we ask that they do so in a way that minimises disruption to the project. They should tell people they are leaving and take the proper steps to ensure that others can pick up where they left off.\n\n\n\n\n\n\nLeadership, authority and responsibility\n\n\nWe all lead by example, in debate and in action. We encourage new participants to feel empowered to lead, to take action, and to experiment when they feel innovation could improve the project. Leadership can be exercised by anyone simply by taking action, there is no need to wait for recognition when the opportunity to lead presents itself.\n\n\nDelegation from the top\n\n\nResponsibility for the project starts with the \"benevolent dictator\", who delegates specific responsibilities and the corresponding authority to a series of teams, councils and individuals, starting with the Community Council (\"CC\"). That Council or its delegated representative will arbitrate in any dispute.\n\n\nWe are a meritocracy; we delegate decision making, governance and leadership from senior bodies to the most able and engaged candidates.\n\n\nSupport for delegation is measured\n\n\nNominations to the boards and councils are at the discretion of the Community Council, however the Community Council will seek the input of the community before confirming appointments.\n\n\nLeadership is not an award, right, or title; it is a privilege, a responsibility and a mandate. A leader will only retain their authority as long as they retain the support of those who delegated that authority to them.\n\n\nWe value discussion, data and decisiveness\n\n\nWe gather opinions, data and commitments from concerned parties before taking a decision. We expect leaders to help teams come to a decision in a reasonable time, to seek guidance or be willing to take the decision themselves when consensus is lacking, and to take responsibility for implementation.\n\n\nThe poorest decision of all is no decision: clarity of direction has value in itself. Sometimes all the data are not available, or consensus is elusive. A decision must still be made. There is no guarantee of a perfect decision every time - we prefer to err, learn, and err less in future than to postpone action indefinitely.\n\n\nWe recognise that the project works better when we trust the teams closest to a problem to make the decision for the project. If we learn of a decision that we disagree with, we can engage the relevant team to find common ground, and failing that, we have a governance structure that can review the decision. Ultimately, if a decision has been taken by the people responsible for it, and is supported by the project governance, it will stand. None of us expects to agree with every decision, and we value highly the willingness to stand by the project and help it deliver even on the occasions when we ourselves may prefer a different route.\n\n\nOpen meritocracy\n\n\nWe invite anybody, from any company, to participate in any aspect of the project. Our community is open, and any responsibility can be carried by any contributor who demonstrates the required capacity and competence.\n\n\nTeamwork\n\n\nA leader's foremost goal is the success of the team.\n\n\n\"A virtuoso is judged by their actions; a leader is judged by the actions of their team.\" A leader knows when to act and when to step back. They know when to delegate work, and when to take it upon themselves.\n\n\nCredit\n\n\nA good leader does not seek the limelight, but celebrates team members for the work they do. Leaders may be more visible than members of the team, good ones use that visibility to highlight the great work of others.\n\n\nCourage and considerateness\n\n\nLeadership occasionally requires bold decisions that will not be widely understood, consensual or popular. We value the courage to take such decisions, because they enable the project as a whole to move forward faster than we could if we required complete consensus. Nevertheless, boldness demands considerateness; take bold decisions, but do so mindful of the challenges they present for others, and work to soften the impact of those decisions on them. Communicating changes and their reasoning clearly and early on is as important as the implementation of the change itself.\n\n\nConflicts of interest\n\n\nWe expect leaders to be aware when they are conflicted due to employment or other projects they are involved in, and abstain or delegate decisions that may be seen to be self-interested. We expect that everyone who participates in the project does so with the goal of making life better for its users.\n\n\nWhen in doubt, ask for a second opinion. Perceived conflicts of interest are important to address; as a leader, act to ensure that decisions are credible even if they must occasionally be unpopular, difficult or favourable to the interests of one group over another.\n\n\nThis Code is not exhaustive or complete. It is not a rulebook; it serves to distil our common understanding of a collaborative, shared environment and goals. We expect it to be followed in spirit as much as in the letter.\n\n\nThe Status Code of Conduct is licensed under the Creative Commons Attribution-Share Alike 3.0 license and has been appropriated from the Ubuntu Code of Conduct v2.0. You may re-use it for your own project, and modify it as you wish, just please allow others to use your modifications and give credit to the Status Project!", 
+            "title": "Code of Conduct"
+        }, 
+        {
+            "location": "/getting-started/code-of-conduct/#code-of-conduct", 
+            "text": "", 
+            "title": "Code of Conduct"
+        }, 
+        {
+            "location": "/getting-started/code-of-conduct/#community", 
+            "text": "Status is about showing humanity to one another: the word itself captures the spirit of being human.  We want a productive, happy and agile community that can welcome new ideas in a complex field, improve every process every year, and foster collaboration between groups with very different needs, interests and skills.  We gain strength from diversity, and actively seek participation from those who enhance it. This code of conduct exists to ensure that diverse groups collaborate to mutual advantage and enjoyment. We will challenge prejudice that could jeopardise the participation of any person in the project.  The Code of Conduct governs how we behave in public or in private whenever the project will be judged by our actions. We expect it to be honoured by everyone who represents the project officially or informally, claims affiliation with the project, or participates directly.  We strive to:    Be considerate   \nOur work will be used by other people, and we in turn will depend on the work of others. Any decision we take will affect users and colleagues, and we should consider them when making decisions.    Be respectful \nDisagreement is no excuse for poor manners. We work together to resolve conflict, assume good intentions and do our best to act in an empathic fashion. We don't allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.    Take responsibility for our words and our actions \nWe can all make mistakes; when we do, we take responsibility for them. If someone has been harmed or offended, we listen carefully and respectfully, and work to right the wrong.    Be collaborative \nWhat we produce is a complex whole made of many parts, it is the sum of many dreams. Collaboration between teams that each have their own goal and vision is essential; for the whole to be more than the sum of its parts, each part must make an effort to understand the whole.  Collaboration reduces redundancy and improves the quality of our work. Internally and externally, we celebrate good collaboration. Wherever possible, we work closely with upstream projects and others in the free software community to coordinate our efforts. We prefer to work transparently and involve interested parties as early as possible.    Value decisiveness, clarity and consensus \nDisagreements, social and technical, are normal, but we do not allow them to persist and fester leaving others uncertain of the agreed direction.  We expect participants in the project to resolve disagreements constructively. When they cannot, we escalate the matter to structures with designated leaders to arbitrate and provide clarity and direction.    Ask for help when unsure \nNobody is expected to be perfect in this community. Asking questions early avoids many problems later, so questions are encouraged, though they may be directed to the appropriate forum. Those who are asked should be responsive and helpful.    Step down considerately \nWhen somebody leaves or disengages from the project, we ask that they do so in a way that minimises disruption to the project. They should tell people they are leaving and take the proper steps to ensure that others can pick up where they left off.", 
+            "title": "Community"
+        }, 
+        {
+            "location": "/getting-started/code-of-conduct/#leadership-authority-and-responsibility", 
+            "text": "We all lead by example, in debate and in action. We encourage new participants to feel empowered to lead, to take action, and to experiment when they feel innovation could improve the project. Leadership can be exercised by anyone simply by taking action, there is no need to wait for recognition when the opportunity to lead presents itself.", 
+            "title": "Leadership, authority and responsibility"
+        }, 
+        {
+            "location": "/getting-started/code-of-conduct/#delegation-from-the-top", 
+            "text": "Responsibility for the project starts with the \"benevolent dictator\", who delegates specific responsibilities and the corresponding authority to a series of teams, councils and individuals, starting with the Community Council (\"CC\"). That Council or its delegated representative will arbitrate in any dispute.  We are a meritocracy; we delegate decision making, governance and leadership from senior bodies to the most able and engaged candidates.", 
+            "title": "Delegation from the top"
+        }, 
+        {
+            "location": "/getting-started/code-of-conduct/#support-for-delegation-is-measured", 
+            "text": "Nominations to the boards and councils are at the discretion of the Community Council, however the Community Council will seek the input of the community before confirming appointments.  Leadership is not an award, right, or title; it is a privilege, a responsibility and a mandate. A leader will only retain their authority as long as they retain the support of those who delegated that authority to them.", 
+            "title": "Support for delegation is measured"
+        }, 
+        {
+            "location": "/getting-started/code-of-conduct/#we-value-discussion-data-and-decisiveness", 
+            "text": "We gather opinions, data and commitments from concerned parties before taking a decision. We expect leaders to help teams come to a decision in a reasonable time, to seek guidance or be willing to take the decision themselves when consensus is lacking, and to take responsibility for implementation.  The poorest decision of all is no decision: clarity of direction has value in itself. Sometimes all the data are not available, or consensus is elusive. A decision must still be made. There is no guarantee of a perfect decision every time - we prefer to err, learn, and err less in future than to postpone action indefinitely.  We recognise that the project works better when we trust the teams closest to a problem to make the decision for the project. If we learn of a decision that we disagree with, we can engage the relevant team to find common ground, and failing that, we have a governance structure that can review the decision. Ultimately, if a decision has been taken by the people responsible for it, and is supported by the project governance, it will stand. None of us expects to agree with every decision, and we value highly the willingness to stand by the project and help it deliver even on the occasions when we ourselves may prefer a different route.", 
+            "title": "We value discussion, data and decisiveness"
+        }, 
+        {
+            "location": "/getting-started/code-of-conduct/#open-meritocracy", 
+            "text": "We invite anybody, from any company, to participate in any aspect of the project. Our community is open, and any responsibility can be carried by any contributor who demonstrates the required capacity and competence.", 
+            "title": "Open meritocracy"
+        }, 
+        {
+            "location": "/getting-started/code-of-conduct/#teamwork", 
+            "text": "A leader's foremost goal is the success of the team.  \"A virtuoso is judged by their actions; a leader is judged by the actions of their team.\" A leader knows when to act and when to step back. They know when to delegate work, and when to take it upon themselves.", 
+            "title": "Teamwork"
+        }, 
+        {
+            "location": "/getting-started/code-of-conduct/#credit", 
+            "text": "A good leader does not seek the limelight, but celebrates team members for the work they do. Leaders may be more visible than members of the team, good ones use that visibility to highlight the great work of others.", 
+            "title": "Credit"
+        }, 
+        {
+            "location": "/getting-started/code-of-conduct/#courage-and-considerateness", 
+            "text": "Leadership occasionally requires bold decisions that will not be widely understood, consensual or popular. We value the courage to take such decisions, because they enable the project as a whole to move forward faster than we could if we required complete consensus. Nevertheless, boldness demands considerateness; take bold decisions, but do so mindful of the challenges they present for others, and work to soften the impact of those decisions on them. Communicating changes and their reasoning clearly and early on is as important as the implementation of the change itself.", 
+            "title": "Courage and considerateness"
+        }, 
+        {
+            "location": "/getting-started/code-of-conduct/#conflicts-of-interest", 
+            "text": "We expect leaders to be aware when they are conflicted due to employment or other projects they are involved in, and abstain or delegate decisions that may be seen to be self-interested. We expect that everyone who participates in the project does so with the goal of making life better for its users.  When in doubt, ask for a second opinion. Perceived conflicts of interest are important to address; as a leader, act to ensure that decisions are credible even if they must occasionally be unpopular, difficult or favourable to the interests of one group over another.  This Code is not exhaustive or complete. It is not a rulebook; it serves to distil our common understanding of a collaborative, shared environment and goals. We expect it to be followed in spirit as much as in the letter.  The Status Code of Conduct is licensed under the Creative Commons Attribution-Share Alike 3.0 license and has been appropriated from the Ubuntu Code of Conduct v2.0. You may re-use it for your own project, and modify it as you wish, just please allow others to use your modifications and give credit to the Status Project!", 
+            "title": "Conflicts of interest"
+        }, 
+        {
+            "location": "/contributing/development/building-status/", 
+            "text": "Building Status\n\n\nThis document is the entry point for developers of Status. This guide is for anyone who is interested in building, developing, debugging or submitting a bug report, pull request or contributing to Status with code.\n\n\nThis guide is written with OS X in mind.\n\n\nBuild and Test\n\n\nRequirements\n\n\n\n\nHomebrew\n + \nbrew update\n (optional, for OS X)\n\n\nNode \n NPM\n \nbrew install node watchman\n\n\nLein\n \nbrew install leiningen\n\n\nreact-native\n \nnpm install -g react-native-cli\n\n\nLatest JDK\n \nbrew cask install java\n\n\nAndroid SDK with build tools version 23.0.1 [Mac] \nbrew install android-sdk\n or \nWindows/Linux\n\n\nGenymotion\n (optional, you may use an Android Virtual Device or real device)\n\n\nSetup Android Development Environment / Simulator\n\n\nGIT over SSH, please add public key to Github\n\n\nMaven\n\n\nCocoapods\n \nsudo gem install cocoapods\n\n\n\n\nDependencies \n Setup\n\n\n$ git clone git@github.com:status-im/status-react.git -b master \n cd status-react\n# or \n$ git clone git@github.com:status-im/status-react.git -b develop \n cd status-react\n\n$ lein deps \n npm install \n ./re-natal deps\n$ mvn -f modules/react-native-status/ios/RCTStatus dependency:unpack\n$ cd ios \n pod install \n cd ..\n\n\n\nBuilding Status for Release\n\n\n# fill in store file properties in android/gradle.properties\n$ lein prod-build\n$ react-native run-android --variant=release\n# for iOS, build in Xcode\n\n\n\nBuilding Status for Development\n\n\n$ ./re-natal use-android-device \ndevice\n # (genymotion, real or avd)\n# or\n$ ./re-natal use-ios-device \ndevice\n # (simulator or real)\n\n$ ./re-natal use-figwheel\n\n# new tab, run figwheel REPL\n$ BUILD_IDS=\"ios,android\" lein repl\n\n# new tab, run react native packager\n$ react-native start\n\n# new tab, enable communication to react-native and figwheel\n# for android\n$ adb reverse tcp:8081 tcp:8081\n$ adb reverse tcp:3449 tcp:3449\n$ react-native run-android\n\n# for ios\n$ react-native run-ios\n\n\n\nAccess Geth on Device\n\n\nadb forward tcp:8545 tcp:8545\nbuild/bin/geth attach http://localhost:8545\n\n\n\nContributing\n\n\nPlease make sure your contributions adhere to our coding guidelines:\n\n\n\n\nCode must be idiomatic Clojure, please refer to the \nstyle guidelines\n (i.e. use \nlein eastwood\n\n \n \nlein kibit\n).\n\n\nCode must be documented.\n\n\nPull requests need to be based on and opened against the \nmaster\n branch.\n\n\nCommit messages should be prefixed with the root namespace(s) under \nstatus-im\n that they modify.\n\n\ne.g. \"contacts, ios: add contact stylistic changes\"\n\n\n\n\nIssues\n\n\nOnly Github is used to track issues. (Please include the commit and branch when reporting an issue.)\n\n\nOverv.io\n is used to overview issues in multiple repositories.\n\n\nCode formatting\n\n\nPlease run \nlein eastwood\n and \nlein kibit\n before contributing.\n\n\nBranch naming\n\n\nBranch format must be under \nCATEGORY/PLAIN-TEXT-#ISSUE_NUMBER\n acceptable branches are;\n\n\nfeature/discover\n or \nbug/broken-form-#113\n\n\nThe following categories are;\n- \nfeature/\n for implementation of features\n- \nbug/\n for fixing bugs\n- \ntests/\n for unit/UI tests\n- \nexperiment/\n for non-features\n- \nwip/\n for longer lived branches\n- \njunk/\n for irrelevant/soon-to-be-deleted branches\n\n\nPull Requests\n\n\nPull Requests should by default commit on the \nmaster\n branch. The \nmaster\n branch is used for history, tags for releases. Each Pull Request must be rebased against \nmaster\n and squashed into a single commit, prefixed with the root namespace(s) under \nstatus-im\n that they modify. e.g.\n\n\n\n\n\"contacts, ios: add contact stylistic changes\"\n\n\n\n\nWalkthrough\n\n\nStart by first pulling down \nmaster\n\n\n$ git checkout master\n$ git fetch origin\n$ git merge master\n\n\n\nThen isolate the bug/feature work you will do into a branch;\n\n\n$ git checkout -b bug/missing-contact-#116\n\n\n\nKeep your branch fresh against master\n\n\n$ git fetch origin\n$ git rebase origin/master\n\n\n\nIf multiple people are working on the same feature branch don't forget to also\n\n\n$ git rebase origin bug/missing-contact-#116\n\n\n\nWhen you are reading to make your pull request;\n\n\n$ git push bug/missing-contact-#116\n\n\n\nAfter PR has been reviewed do a final cleanup and squash your commit\n\n\n$ git rebase -i origin/master\n\n\n\nRepository Overview\n\n\nThe Status application is divided into 6 core repositories;\n\n\n\n\n\n\nstatus-react\n - our main react native application writtein in Clojurescript, Java \n Objective C\n\n\n\n\n\n\ngo-ethereum\n - our branch of \ngo-ethereum\n which contains our custom modifications in \ngo-ethereum/status-develop\n\n\n\n\n\n\nstatus-go\n - represents our binding to the \ngo-ethereum\n lib and exposes methods to \nstatus-react\n to Java / Objective C.\n\n\n\n\nstatus-lib\n - implements our application protocols for chatbots, has been absorbed into \nstatus-react\n until application protocol settles\n\n\nreact-native-status\n - the intent behind this repo was to seperate Java/Objective C code into a react native module, it may be absorbed into \nstatus-react\n in future\n\n\nstatus-server\n - is our intermediary server primarily used for contact discovery.", 
+            "title": "Building Status"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#building-status", 
+            "text": "This document is the entry point for developers of Status. This guide is for anyone who is interested in building, developing, debugging or submitting a bug report, pull request or contributing to Status with code.  This guide is written with OS X in mind.", 
+            "title": "Building Status"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#build-and-test", 
+            "text": "", 
+            "title": "Build and Test"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#requirements", 
+            "text": "Homebrew  +  brew update  (optional, for OS X)  Node   NPM   brew install node watchman  Lein   brew install leiningen  react-native   npm install -g react-native-cli  Latest JDK   brew cask install java  Android SDK with build tools version 23.0.1 [Mac]  brew install android-sdk  or  Windows/Linux  Genymotion  (optional, you may use an Android Virtual Device or real device)  Setup Android Development Environment / Simulator  GIT over SSH, please add public key to Github  Maven  Cocoapods   sudo gem install cocoapods", 
+            "title": "Requirements"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#dependencies-setup", 
+            "text": "$ git clone git@github.com:status-im/status-react.git -b master   cd status-react\n# or \n$ git clone git@github.com:status-im/status-react.git -b develop   cd status-react\n\n$ lein deps   npm install   ./re-natal deps\n$ mvn -f modules/react-native-status/ios/RCTStatus dependency:unpack\n$ cd ios   pod install   cd ..", 
+            "title": "Dependencies &amp; Setup"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#building-status-for-release", 
+            "text": "# fill in store file properties in android/gradle.properties\n$ lein prod-build\n$ react-native run-android --variant=release\n# for iOS, build in Xcode", 
+            "title": "Building Status for Release"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#building-status-for-development", 
+            "text": "$ ./re-natal use-android-device  device  # (genymotion, real or avd)\n# or\n$ ./re-natal use-ios-device  device  # (simulator or real)\n\n$ ./re-natal use-figwheel\n\n# new tab, run figwheel REPL\n$ BUILD_IDS=\"ios,android\" lein repl\n\n# new tab, run react native packager\n$ react-native start\n\n# new tab, enable communication to react-native and figwheel\n# for android\n$ adb reverse tcp:8081 tcp:8081\n$ adb reverse tcp:3449 tcp:3449\n$ react-native run-android\n\n# for ios\n$ react-native run-ios", 
+            "title": "Building Status for Development"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#access-geth-on-device", 
+            "text": "adb forward tcp:8545 tcp:8545\nbuild/bin/geth attach http://localhost:8545", 
+            "title": "Access Geth on Device"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#contributing", 
+            "text": "Please make sure your contributions adhere to our coding guidelines:   Code must be idiomatic Clojure, please refer to the  style guidelines  (i.e. use  lein eastwood     lein kibit ).  Code must be documented.  Pull requests need to be based on and opened against the  master  branch.  Commit messages should be prefixed with the root namespace(s) under  status-im  that they modify.  e.g. \"contacts, ios: add contact stylistic changes\"", 
+            "title": "Contributing"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#issues", 
+            "text": "Only Github is used to track issues. (Please include the commit and branch when reporting an issue.)  Overv.io  is used to overview issues in multiple repositories.", 
+            "title": "Issues"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#code-formatting", 
+            "text": "Please run  lein eastwood  and  lein kibit  before contributing.", 
+            "title": "Code formatting"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#branch-naming", 
+            "text": "Branch format must be under  CATEGORY/PLAIN-TEXT-#ISSUE_NUMBER  acceptable branches are;  feature/discover  or  bug/broken-form-#113  The following categories are;\n-  feature/  for implementation of features\n-  bug/  for fixing bugs\n-  tests/  for unit/UI tests\n-  experiment/  for non-features\n-  wip/  for longer lived branches\n-  junk/  for irrelevant/soon-to-be-deleted branches", 
+            "title": "Branch naming"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#pull-requests", 
+            "text": "Pull Requests should by default commit on the  master  branch. The  master  branch is used for history, tags for releases. Each Pull Request must be rebased against  master  and squashed into a single commit, prefixed with the root namespace(s) under  status-im  that they modify. e.g.   \"contacts, ios: add contact stylistic changes\"", 
+            "title": "Pull Requests"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#walkthrough", 
+            "text": "Start by first pulling down  master  $ git checkout master\n$ git fetch origin\n$ git merge master  Then isolate the bug/feature work you will do into a branch;  $ git checkout -b bug/missing-contact-#116  Keep your branch fresh against master  $ git fetch origin\n$ git rebase origin/master  If multiple people are working on the same feature branch don't forget to also  $ git rebase origin bug/missing-contact-#116  When you are reading to make your pull request;  $ git push bug/missing-contact-#116  After PR has been reviewed do a final cleanup and squash your commit  $ git rebase -i origin/master", 
+            "title": "Walkthrough"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#repository-overview", 
+            "text": "The Status application is divided into 6 core repositories;    status-react  - our main react native application writtein in Clojurescript, Java   Objective C    go-ethereum  - our branch of  go-ethereum  which contains our custom modifications in  go-ethereum/status-develop    status-go  - represents our binding to the  go-ethereum  lib and exposes methods to  status-react  to Java / Objective C.   status-lib  - implements our application protocols for chatbots, has been absorbed into  status-react  until application protocol settles  react-native-status  - the intent behind this repo was to seperate Java/Objective C code into a react native module, it may be absorbed into  status-react  in future  status-server  - is our intermediary server primarily used for contact discovery.", 
+            "title": "Repository Overview"
+        }, 
+        {
+            "location": "/contributing/development/adding-dapps/", 
+            "text": "Adding DApps", 
+            "title": "Adding DApps"
+        }, 
+        {
+            "location": "/contributing/development/adding-dapps/#adding-dapps", 
+            "text": "", 
+            "title": "Adding DApps"
+        }, 
+        {
+            "location": "/contributing/development/clojurescript/", 
+            "text": "Clojurescript\n\n\nhttps://github.com/status-im/status-react\n\n\nProject Structure (out of date)\n\n\n\n\nThe structure of the project was changed from\n   ```\nsyng_im\n\n\nhandlers.cljs\n\n\nsubs.cljs\n\n\nmodels\n\n\ncomponents\n\n\nchats\n\n\ncontatcs\n\n\nreact.cljs\n\n\n\n\n\n\n\n\n\n\n\n\n   to\n    ```\nsyng_im\n   - chat \n       - handlers.cljs\n       - subs.cljs\n       - views\n       - styles\n       - screen.cljs\n   - contacts\n      ...\n   ....\n   - components\n   - handlers.cljs\n   - subs.cljs\n\n\n\n\nSo previously \nsyng-im.handlers\n ns contained all handlers, now it is the point where all handlers are required, and the place for very common handlers (like \n:set\n).\n\nsyng-im.subs\n ns contained all subscriptions, but now it has to contain only common handlers, like \n:get\n. Everything specific to particular feature/screen (like \nchat\n/\ncontacts\n/\nnavigation\n etc), including specific handlers, subs, views etc. should be placed inside feature's dir. This helps to simplify reasoning about the particular feature by avoiding of mixing of code with unrelated functionality inside one namespace. We still have \ncomponents\n which will contain common components and views like \ntext\n/\nview\n/\ncarousel\n etc, that can be used inside other \nviews\n\n\n\n\n\n\nViews must not contain any logic related to control on applications data (changing of state, specific validation/checks of data etc...). The only way to work with app-db inside views is to subscribe to particular data from app-db and dispatch events to handlers.\n\n\n\n\n\n\nStyles. Views should be free of styles definitions but only reference to them. Everything related to presentation should be moved to \nfeature.styles\n/\ncomponents.component-name.styles\n ns. If there is any logic related to the presentation which should be computed based on data it is fine to write a function which will take that data as parameters and return styles.\n\n\n\n\n\n\nHandlers. The idea is to keep handlers pure as far as it possible and don't mix code that contains side-effects with code that is pure. The code that contains \nside-effects\n shouldn't contain any application's logic. It means that if we have handler like\n   \n(register-handler  :load-messages\n    (-\n load-messages!\n         ((enrich add-messages)))))\n\neverything related to applications logic (like processing of messages after loading, adding messages to app-db, etc) should be placed inside \nadd-messages\n function, when \nload-messages!\n only contains a call to external api/db/whatever outside app-db. In this case, all handlers which contain applications logic are pure and that means that they are testable (I hope we will get to tests once).\n\n\n\n\n\n\nSubs. Nothing specific. Just keep them in right namespaces.\n\n\n\n\n\n\nCommon things:\n\n\n\n\n\n\nNamespaces should not contain all other namespaces in \nrequire\n form. Just keep there namespaces/refers that are really used.\n\n\n\n\n\n\nModels shouldn't contain any logic wich not related to fetching data from db. \n\n\n\n\n\n\nThere is no need to gather \"paths\" inside \nsyng-im.db\n ns. This only leads to coupled code with a lot of senseless references. For instance to code like this\n   ```\n   (register-handler :change-message\n     (fn [db [_ message]]\n       (change-message db message)))\n\n\n\n\n\n\n(defn change-message [db message]\n     (assoc-in db (message-path (get-current-chat-id id)) message))\n\n\n(defn message-path [chat-id]\n     [:chats chat-id :message])\n\n\n(defn get-curent-chat-id [db]\n     (get-in db current-chat-id-path))\n\n\n(def current-chat-id-path :current-chat-id)\n\n\nwhere these functions are placed in three different namespaces, when it can be just\n   ```\n(register-handler :change-message\n     (fn [{:keys [current-chat-id] :as db} [_ message]]\n       (assoc-in db [:chats current-chat-id :message] message)))\n\n\n\n\n\n\nSpecific properties that are used everywhere for same components better to move to components definition than to repeat each time when a component is used. Like \n:underlineColorAndroid :transparent\n for \ntext-input\n\n\n\n\nAnd so on... Other things are more related to Clojure, not to application's or \nre-frame\n's architecture.", 
+            "title": "Clojurescript"
+        }, 
+        {
+            "location": "/contributing/development/clojurescript/#clojurescript", 
+            "text": "https://github.com/status-im/status-react", 
+            "title": "Clojurescript"
+        }, 
+        {
+            "location": "/contributing/development/clojurescript/#project-structure-out-of-date", 
+            "text": "The structure of the project was changed from\n   ```\nsyng_im  handlers.cljs  subs.cljs  models  components  chats  contatcs  react.cljs          to\n    ```\nsyng_im\n   - chat \n       - handlers.cljs\n       - subs.cljs\n       - views\n       - styles\n       - screen.cljs\n   - contacts\n      ...\n   ....\n   - components\n   - handlers.cljs\n   - subs.cljs  So previously  syng-im.handlers  ns contained all handlers, now it is the point where all handlers are required, and the place for very common handlers (like  :set ). syng-im.subs  ns contained all subscriptions, but now it has to contain only common handlers, like  :get . Everything specific to particular feature/screen (like  chat / contacts / navigation  etc), including specific handlers, subs, views etc. should be placed inside feature's dir. This helps to simplify reasoning about the particular feature by avoiding of mixing of code with unrelated functionality inside one namespace. We still have  components  which will contain common components and views like  text / view / carousel  etc, that can be used inside other  views    Views must not contain any logic related to control on applications data (changing of state, specific validation/checks of data etc...). The only way to work with app-db inside views is to subscribe to particular data from app-db and dispatch events to handlers.    Styles. Views should be free of styles definitions but only reference to them. Everything related to presentation should be moved to  feature.styles / components.component-name.styles  ns. If there is any logic related to the presentation which should be computed based on data it is fine to write a function which will take that data as parameters and return styles.    Handlers. The idea is to keep handlers pure as far as it possible and don't mix code that contains side-effects with code that is pure. The code that contains  side-effects  shouldn't contain any application's logic. It means that if we have handler like\n    (register-handler  :load-messages\n    (-  load-messages!\n         ((enrich add-messages))))) \neverything related to applications logic (like processing of messages after loading, adding messages to app-db, etc) should be placed inside  add-messages  function, when  load-messages!  only contains a call to external api/db/whatever outside app-db. In this case, all handlers which contain applications logic are pure and that means that they are testable (I hope we will get to tests once).    Subs. Nothing specific. Just keep them in right namespaces.    Common things:    Namespaces should not contain all other namespaces in  require  form. Just keep there namespaces/refers that are really used.    Models shouldn't contain any logic wich not related to fetching data from db.     There is no need to gather \"paths\" inside  syng-im.db  ns. This only leads to coupled code with a lot of senseless references. For instance to code like this\n   ```\n   (register-handler :change-message\n     (fn [db [_ message]]\n       (change-message db message)))    (defn change-message [db message]\n     (assoc-in db (message-path (get-current-chat-id id)) message))  (defn message-path [chat-id]\n     [:chats chat-id :message])  (defn get-curent-chat-id [db]\n     (get-in db current-chat-id-path))  (def current-chat-id-path :current-chat-id)  where these functions are placed in three different namespaces, when it can be just\n   ```\n(register-handler :change-message\n     (fn [{:keys [current-chat-id] :as db} [_ message]]\n       (assoc-in db [:chats current-chat-id :message] message)))   Specific properties that are used everywhere for same components better to move to components definition than to repeat each time when a component is used. Like  :underlineColorAndroid :transparent  for  text-input   And so on... Other things are more related to Clojure, not to application's or  re-frame 's architecture.", 
+            "title": "Project Structure (out of date)"
+        }, 
+        {
+            "location": "/contributing/development/golang/", 
+            "text": "Golang", 
+            "title": "Golang"
+        }, 
+        {
+            "location": "/contributing/development/golang/#golang", 
+            "text": "", 
+            "title": "Golang"
+        }, 
+        {
+            "location": "/contributing/ux-and-design/", 
+            "text": "Design", 
+            "title": "UX & Design"
+        }, 
+        {
+            "location": "/contributing/ux-and-design/#design", 
+            "text": "", 
+            "title": "Design"
+        }, 
+        {
+            "location": "/contributing/testing-and-feedback/", 
+            "text": "Testing\n\n\nShake your phone and submit bug report\n\n\nFor Developers\n\n\nTo run appium tests:\n\n\n\n\ninstall appium \nnpm install -g appium\n\n\nstart appium server in new tab \nappium \n\n\nstart application on emulator or real device\n\n\nrun tests \nlein test\n\n\n\n\nTo run unit tests execute:\n\n\nlein doo node test once\n   \n\n     or\n\n\nlein doo node test\n\n\nSecond command will watch files inside \nsrc\n and \ntest\n folders and rerun on changes.", 
+            "title": "Testing & Feedback"
+        }, 
+        {
+            "location": "/contributing/testing-and-feedback/#testing", 
+            "text": "Shake your phone and submit bug report", 
+            "title": "Testing"
+        }, 
+        {
+            "location": "/contributing/testing-and-feedback/#for-developers", 
+            "text": "To run appium tests:   install appium  npm install -g appium  start appium server in new tab  appium   start application on emulator or real device  run tests  lein test   To run unit tests execute:  lein doo node test once     \n     or  lein doo node test  Second command will watch files inside  src  and  test  folders and rerun on changes.", 
+            "title": "For Developers"
+        }, 
+        {
+            "location": "/contributing/documenting/", 
+            "text": "Documenting", 
+            "title": "Documenting"
+        }, 
+        {
+            "location": "/contributing/documenting/#documenting", 
+            "text": "", 
+            "title": "Documenting"
+        }, 
+        {
+            "location": "/contributing/marketing/", 
+            "text": "Marketing", 
+            "title": "Marketing"
+        }, 
+        {
+            "location": "/contributing/marketing/#marketing", 
+            "text": "", 
+            "title": "Marketing"
+        }, 
+        {
+            "location": "/community/slack/", 
+            "text": "Slack", 
+            "title": "Slack"
+        }, 
+        {
+            "location": "/community/slack/#slack", 
+            "text": "", 
+            "title": "Slack"
+        }, 
+        {
+            "location": "/community/newsletter/", 
+            "text": "Newsletter", 
+            "title": "Newsletter"
+        }, 
+        {
+            "location": "/community/newsletter/#newsletter", 
+            "text": "", 
+            "title": "Newsletter"
+        }, 
+        {
+            "location": "/community/blog/", 
+            "text": "Blog", 
+            "title": "Blog"
+        }, 
+        {
+            "location": "/community/blog/#blog", 
+            "text": "", 
+            "title": "Blog"
+        }, 
+        {
+            "location": "/community/tell-a-friend/", 
+            "text": "evangelism", 
+            "title": "Tell a Friend"
+        }, 
+        {
+            "location": "/specifications/contact-sharing/", 
+            "text": "Contact Sharing\n\n\nbasic idea is to hash the pair of phone numbers (me, other) so that there are many collisions and then publish this (plausible deniable, because of collisions). and the contact your friend out of band if there is a hash that could be a match (which it is most likely not).\n\n\nGeneral problem: \n\u00a0- Data is readable by anyone\n\u00a0- The problem is not so much, that the server must not learn the contacts, but \u00a0that \n\u00a0 \u00a0 \u00a0- no one must learn them, while all data is public\n\n\nAlice announces its connection with Bob by:\n\n\n\n\ncalculating H(A_phone_number + B_phone_number) \n\n\napplying costly scrypt or PBKDF2 hashing to derive H'\n\n\ntruncating H\u2019 to a low number of bits H'', so that collisions are likely\n\n\npublicly registers its unique pubkey_alice_bob for \u00a0H''\n\n\n\n\nNotes so far: \n- rainbow tables of 10^10^2 size (i.e. all phone number combinations) are impractical\n- calculating all combinations is prohibitively costly \n- collisions of H\u2019\u2019 allow plausible deniability\n- Problem: an adversary can impersonate Alice, need spam protection (PoW) here\n\n\nBob wants to know if Alice is participating in the network:\n- Bob calculates H(A_phone_number + B_phone_number) \n- Bob generates H\u2019 and H\u2019'\n- for all matching entries for H\u2019\u2019 (including the one generated by Alice)\n\u00a0- Bob encrypts truncated H(mobile_bob) for pubkey_alice_bob\n\u00a0- and sends the message to Alice inbox on the server\n\u00a0- Alice loads and decrypts the message\n\u00a0- Alice can match \u00a0truncated H(mobile_bob) in hear contact list with a very low false positive rate\n\u00a0- if Alice thinks she knows Bob, she might reply out of band\n\n\nNotes:\n- Bob can still plausibly deny that he knows Alice\n- Bob can still plausibly deny that he participates in the system\n- add some proof of work or similar for spam protection\n\n\nThis is hard against:\n- Leaking users contact lists\n- An adversary with a hypothesis about a connection can learn bobs phone number though\n\n\nLimitations:\n- New users (Bob) won\u2019t see others directly\n- Existing users (Alice) need to invite Bob\n- Quite some computation and communication overhead\n\u00a0- ~ 500 x 10 messages send\n\u00a0- 2x key pairs to remember for each\n\n\nThe Difficulty Of Private Contact Discovery \nhttps://whispersystems.org/blog/contact-discovery/\nhttps://news.ycombinator.com/item?id=7007554\nhttps://news.ycombinator.com/item?id=11288169\nhttps://news.ycombinator.com/item?id=11289223\n\n\nLame solution which is prone to rainbow table attacks. \nhttps://github.com/SilentCircle/contact-discovery", 
+            "title": "Contact Sharing (WIP)"
+        }, 
+        {
+            "location": "/specifications/contact-sharing/#contact-sharing", 
+            "text": "basic idea is to hash the pair of phone numbers (me, other) so that there are many collisions and then publish this (plausible deniable, because of collisions). and the contact your friend out of band if there is a hash that could be a match (which it is most likely not).  General problem: \n\u00a0- Data is readable by anyone\n\u00a0- The problem is not so much, that the server must not learn the contacts, but \u00a0that \n\u00a0 \u00a0 \u00a0- no one must learn them, while all data is public  Alice announces its connection with Bob by:   calculating H(A_phone_number + B_phone_number)   applying costly scrypt or PBKDF2 hashing to derive H'  truncating H\u2019 to a low number of bits H'', so that collisions are likely  publicly registers its unique pubkey_alice_bob for \u00a0H''   Notes so far: \n- rainbow tables of 10^10^2 size (i.e. all phone number combinations) are impractical\n- calculating all combinations is prohibitively costly \n- collisions of H\u2019\u2019 allow plausible deniability\n- Problem: an adversary can impersonate Alice, need spam protection (PoW) here  Bob wants to know if Alice is participating in the network:\n- Bob calculates H(A_phone_number + B_phone_number) \n- Bob generates H\u2019 and H\u2019'\n- for all matching entries for H\u2019\u2019 (including the one generated by Alice)\n\u00a0- Bob encrypts truncated H(mobile_bob) for pubkey_alice_bob\n\u00a0- and sends the message to Alice inbox on the server\n\u00a0- Alice loads and decrypts the message\n\u00a0- Alice can match \u00a0truncated H(mobile_bob) in hear contact list with a very low false positive rate\n\u00a0- if Alice thinks she knows Bob, she might reply out of band  Notes:\n- Bob can still plausibly deny that he knows Alice\n- Bob can still plausibly deny that he participates in the system\n- add some proof of work or similar for spam protection  This is hard against:\n- Leaking users contact lists\n- An adversary with a hypothesis about a connection can learn bobs phone number though  Limitations:\n- New users (Bob) won\u2019t see others directly\n- Existing users (Alice) need to invite Bob\n- Quite some computation and communication overhead\n\u00a0- ~ 500 x 10 messages send\n\u00a0- 2x key pairs to remember for each  The Difficulty Of Private Contact Discovery \nhttps://whispersystems.org/blog/contact-discovery/\nhttps://news.ycombinator.com/item?id=7007554\nhttps://news.ycombinator.com/item?id=11288169\nhttps://news.ycombinator.com/item?id=11289223  Lame solution which is prone to rainbow table attacks. \nhttps://github.com/SilentCircle/contact-discovery", 
+            "title": "Contact Sharing"
+        }, 
+        {
+            "location": "/specifications/chat-api/", 
+            "text": "Chat API\n\n\nCommands\n\n\n!init (hidden)\n\n    - if it exists run on open chat session, only in 1-to-1 chats.\n\n!help\n\n!settings\n\n\nExplicitly calling commands\n\n\nDApps are namespaced with @dappname!command, which can be useful if same commands used by multiple bots are available, alternatively these can be used for commands when bot is not actually in the chat, ie @wallet!send\n\n\nCustom Keyboards\n\n\nParameters use custom keyboards (instead of types, we adapt our types to be keyboards themselves?)  \n\n\nMake our emoji/sticker market with this, otherwise accessible through commands\nie !init command with param that opens up a config\n\n\nMessages\n\n\n\n\nsubscription to message feed\n\n\napi for sending messages, and setting things like \"typing\"\n\n\nnot available in group\n\n\n\n\nPrivacy\n\n\n\n\nby default does not receive all messages in group chat\n\n\nonly commands and in 1-to-1", 
+            "title": "Chat API (WIP)"
+        }, 
+        {
+            "location": "/specifications/chat-api/#chat-api", 
+            "text": "", 
+            "title": "Chat API"
+        }, 
+        {
+            "location": "/specifications/chat-api/#commands", 
+            "text": "!init (hidden) \n    - if it exists run on open chat session, only in 1-to-1 chats. \n!help \n!settings", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/specifications/chat-api/#explicitly-calling-commands", 
+            "text": "DApps are namespaced with @dappname!command, which can be useful if same commands used by multiple bots are available, alternatively these can be used for commands when bot is not actually in the chat, ie @wallet!send", 
+            "title": "Explicitly calling commands"
+        }, 
+        {
+            "location": "/specifications/chat-api/#custom-keyboards", 
+            "text": "Parameters use custom keyboards (instead of types, we adapt our types to be keyboards themselves?)    Make our emoji/sticker market with this, otherwise accessible through commands\nie !init command with param that opens up a config", 
+            "title": "Custom Keyboards"
+        }, 
+        {
+            "location": "/specifications/chat-api/#messages", 
+            "text": "subscription to message feed  api for sending messages, and setting things like \"typing\"  not available in group", 
+            "title": "Messages"
+        }, 
+        {
+            "location": "/specifications/chat-api/#privacy", 
+            "text": "by default does not receive all messages in group chat  only commands and in 1-to-1", 
+            "title": "Privacy"
+        }, 
+        {
+            "location": "/specifications/discover/", 
+            "text": "Discover\n\n\nThis document describes the Discover feature of Status. Ethereum is its community, and with Discover we want to connect other Ethereum users with other Ethereum users - to trade and exchange ideas. Ultimately this will reduce transaction costs and increase the utility of ETH.\n\n\nDiscover is done through a users Status (hence the application name). This status is a 140 char sub-headline to a users profile which can be seen on \nmy profile\n, \nuser profile\n and \ndiscover\n screens.\n\n\nA status is private and not shared with anyone except their immediate contacts, unless a \n#hashtag\n is introduced. These #hashtags are locally searchable on the discover screen.\n\n\nThe Discover application protocol is built ontop of Whisper, possibly utilising our messaging protocol and is implemented in \nstatus-im/status-lib\n\n\nPeriodically the client should request from it's contacts, a package of statuses that is an aggregate compilation of discoverable statuses (created using the specifications below), this package should contain no more than 100-500 statuses and the period in which the client requests the package is after when the user is back online and/or after waiting X hours has elapsed. Whisper penalizes larger payloads so we may have to chunk this. \n140chars \u00d7 4bytes (utf-8) \u00d7 100 contacts = 54kb\n\n\nThe 100 contacts the user decides to return is weighted by;\n- the newest available information (latest status from that user),\n- the most seen contact statuses by other contacts. (that user who has seen the same contact status from all his contacts)\n- and actual interactions with contacts, favor contacts that the user has actually messaged themselves.\n- if contact is online\n\n\nThe Discover screen then takes this aggregate search space \n\n100-500 statuses \u00d7 users in contact list\n and organise them by #hashtags, the hashtags that have more than X contacts are put into the carousel under that #hastag category.\n\n\nBelow it the statuses are listed by most recent.\n\n\nOn tapping one of these messages a chat session is attempted with that user.\n\n\nEach user should cache no more than 1000 statuses", 
+            "title": "Discover (WIP)"
+        }, 
+        {
+            "location": "/specifications/discover/#discover", 
+            "text": "This document describes the Discover feature of Status. Ethereum is its community, and with Discover we want to connect other Ethereum users with other Ethereum users - to trade and exchange ideas. Ultimately this will reduce transaction costs and increase the utility of ETH.  Discover is done through a users Status (hence the application name). This status is a 140 char sub-headline to a users profile which can be seen on  my profile ,  user profile  and  discover  screens.  A status is private and not shared with anyone except their immediate contacts, unless a  #hashtag  is introduced. These #hashtags are locally searchable on the discover screen.  The Discover application protocol is built ontop of Whisper, possibly utilising our messaging protocol and is implemented in  status-im/status-lib  Periodically the client should request from it's contacts, a package of statuses that is an aggregate compilation of discoverable statuses (created using the specifications below), this package should contain no more than 100-500 statuses and the period in which the client requests the package is after when the user is back online and/or after waiting X hours has elapsed. Whisper penalizes larger payloads so we may have to chunk this.  140chars \u00d7 4bytes (utf-8) \u00d7 100 contacts = 54kb  The 100 contacts the user decides to return is weighted by;\n- the newest available information (latest status from that user),\n- the most seen contact statuses by other contacts. (that user who has seen the same contact status from all his contacts)\n- and actual interactions with contacts, favor contacts that the user has actually messaged themselves.\n- if contact is online  The Discover screen then takes this aggregate search space  100-500 statuses \u00d7 users in contact list  and organise them by #hashtags, the hashtags that have more than X contacts are put into the carousel under that #hastag category.  Below it the statuses are listed by most recent.  On tapping one of these messages a chat session is attempted with that user.  Each user should cache no more than 1000 statuses", 
+            "title": "Discover"
+        }, 
+        {
+            "location": "/specifications/messaging/", 
+            "text": "Messaging\n\n\nChat Protocol Test setup (out of date)\n\n\n\n\n\n\nStart app in android\n\n\n\n\n\n\nBuild geth:\n ```\n git clone https://github.com/status-im/go-ethereum\n cd go-ethereum\n git checkout develop\n make geth\n\n\n\n\n\n\n Alternatively on Mac it can be done by\n ```\n brew tap ethereum/ethereum\nbrew install ethereum --devel\n\n\n\n\n\n\nConnect to app geth console\n\n\n\n\n```\n adb forward tcp:8545 tcp:8545\n build/bin/geth attach http://localhost:8545\n\n\n4. Inside console:\n\n ```\nadmin.addPeer(\nenode://e2f28126720452aa82f7d3083e49e6b3945502cb94d9750a15e27ee310eed6991618199f878e5fbc7dfa0e20f0af9554b41f491dc8f1dbae8f0f2d37a3a613aa@139.162.13.89:55555\n)\n\n\n\n\n\n\nAfter 10 seconds you should see the peer in:\n\n\n\n\nadmin.peers", 
+            "title": "Status Messaging (WIP)"
+        }, 
+        {
+            "location": "/specifications/messaging/#messaging", 
+            "text": "", 
+            "title": "Messaging"
+        }, 
+        {
+            "location": "/specifications/messaging/#chat-protocol-test-setup-out-of-date", 
+            "text": "Start app in android    Build geth:\n ```\n git clone https://github.com/status-im/go-ethereum\n cd go-ethereum\n git checkout develop\n make geth     Alternatively on Mac it can be done by\n ```\n brew tap ethereum/ethereum\nbrew install ethereum --devel   Connect to app geth console   ```\n adb forward tcp:8545 tcp:8545\n build/bin/geth attach http://localhost:8545  4. Inside console:\n\n ```\nadmin.addPeer( enode://e2f28126720452aa82f7d3083e49e6b3945502cb94d9750a15e27ee310eed6991618199f878e5fbc7dfa0e20f0af9554b41f491dc8f1dbae8f0f2d37a3a613aa@139.162.13.89:55555 )   After 10 seconds you should see the peer in:   admin.peers", 
+            "title": "Chat Protocol Test setup (out of date)"
+        }, 
+        {
+            "location": "/specifications/erc20-exchange/", 
+            "text": "ERC20-to-Fiat Exchange", 
+            "title": "Exchange (WIP)"
+        }, 
+        {
+            "location": "/specifications/erc20-exchange/#erc20-to-fiat-exchange", 
+            "text": "", 
+            "title": "ERC20-to-Fiat Exchange"
+        }, 
+        {
+            "location": "/specifications/sticker-market/", 
+            "text": "Sticker Market", 
+            "title": "Sticker Market (WIP)"
+        }, 
+        {
+            "location": "/specifications/sticker-market/#sticker-market", 
+            "text": "", 
+            "title": "Sticker Market"
+        }, 
+        {
+            "location": "/specifications/visual-programming/", 
+            "text": "Visual Programming", 
+            "title": "Visual Programming (WIP)"
+        }, 
+        {
+            "location": "/specifications/visual-programming/#visual-programming", 
+            "text": "", 
+            "title": "Visual Programming"
+        }, 
+        {
+            "location": "/specifications/moments/", 
+            "text": "Moments", 
+            "title": "Moments (WIP)"
+        }, 
+        {
+            "location": "/specifications/moments/#moments", 
+            "text": "", 
+            "title": "Moments"
+        }, 
+        {
+            "location": "/licenses/mpl2/", 
+            "text": "Mozilla Public License Version 2.0\n\n\n1. Definitions\n\n\n1.1. \u201cContributor\u201d\n\n    means each individual or legal entity that creates, contributes to\n    the creation of, or owns Covered Software.\n\n\n1.2. \u201cContributor Version\u201d\n\n    means the combination of the Contributions of others (if any) used\n    by a Contributor and that particular Contributor's Contribution.\n\n\n1.3. \u201cContribution\u201d\n\n    means Covered Software of a particular Contributor.\n\n\n1.4. \u201cCovered Software\u201d\n\n    means Source Code Form to which the initial Contributor has attached\n    the notice in Exhibit A, the Executable Form of such Source Code\n    Form, and Modifications of such Source Code Form, in each case\n    including portions thereof.\n\n\n1.5. \u201cIncompatible With Secondary Licenses\u201d\n\n    means\n\n\n\n\n(a)\n that the initial Contributor has attached the notice described\n    in Exhibit B to the Covered Software; or\n\n\n(b)\n that the Covered Software was made available under the terms of\n    version 1.1 or earlier of the License, but not also under the\n    terms of a Secondary License.\n\n\n\n\n1.6. \u201cExecutable Form\u201d\n\n    means any form of the work other than Source Code Form.\n\n\n1.7. \u201cLarger Work\u201d\n\n    means a work that combines Covered Software with other material, in \n    a separate file or files, that is not Covered Software.\n\n\n1.8. \u201cLicense\u201d\n\n    means this document.\n\n\n1.9. \u201cLicensable\u201d\n\n    means having the right to grant, to the maximum extent possible,\n    whether at the time of the initial grant or subsequently, any and\n    all of the rights conveyed by this License.\n\n\n1.10. \u201cModifications\u201d\n\n    means any of the following:\n\n\n\n\n(a)\n any file in Source Code Form that results from an addition to,\n    deletion from, or modification of the contents of Covered\n    Software; or\n\n\n(b)\n any new file in Source Code Form that contains any Covered\n    Software.\n\n\n\n\n1.11. \u201cPatent Claims\u201d of a Contributor\n\n    means any patent claim(s), including without limitation, method,\n    process, and apparatus claims, in any patent Licensable by such\n    Contributor that would be infringed, but for the grant of the\n    License, by the making, using, selling, offering for sale, having\n    made, import, or transfer of either its Contributions or its\n    Contributor Version.\n\n\n1.12. \u201cSecondary License\u201d\n\n    means either the GNU General Public License, Version 2.0, the GNU\n    Lesser General Public License, Version 2.1, the GNU Affero General\n    Public License, Version 3.0, or any later versions of those\n    licenses.\n\n\n1.13. \u201cSource Code Form\u201d\n\n    means the form of the work preferred for making modifications.\n\n\n1.14. \u201cYou\u201d (or \u201cYour\u201d)\n\n    means an individual or a legal entity exercising rights under this\n    License. For legal entities, \u201cYou\u201d includes any entity that\n    controls, is controlled by, or is under common control with You. For\n    purposes of this definition, \u201ccontrol\u201d means \n(a)\n the power, direct\n    or indirect, to cause the direction or management of such entity,\n    whether by contract or otherwise, or \n(b)\n ownership of more than\n    fifty percent (50%) of the outstanding shares or beneficial\n    ownership of such entity.\n\n\n2. License Grants and Conditions\n\n\n2.1. Grants\n\n\nEach Contributor hereby grants You a world-wide, royalty-free,\nnon-exclusive license:\n\n\n\n\n(a)\n under intellectual property rights (other than patent or trademark)\n    Licensable by such Contributor to use, reproduce, make available,\n    modify, display, perform, distribute, and otherwise exploit its\n    Contributions, either on an unmodified basis, with Modifications, or\n    as part of a Larger Work; and\n\n\n(b)\n under Patent Claims of such Contributor to make, use, sell, offer\n    for sale, have made, import, and otherwise transfer either its\n    Contributions or its Contributor Version.\n\n\n\n\n2.2. Effective Date\n\n\nThe licenses granted in Section 2.1 with respect to any Contribution\nbecome effective for each Contribution on the date the Contributor first\ndistributes such Contribution.\n\n\n2.3. Limitations on Grant Scope\n\n\nThe licenses granted in this Section 2 are the only rights granted under\nthis License. No additional rights or licenses will be implied from the\ndistribution or licensing of Covered Software under this License.\nNotwithstanding Section 2.1(b) above, no patent license is granted by a\nContributor:\n\n\n\n\n(a)\n for any code that a Contributor has removed from Covered Software;\n    or\n\n\n(b)\n for infringements caused by: \n(i)\n Your and any other third party's\n    modifications of Covered Software, or \n(ii)\n the combination of its\n    Contributions with other software (except as part of its Contributor\n    Version); or\n\n\n(c)\n under Patent Claims infringed by Covered Software in the absence of\n    its Contributions.\n\n\n\n\nThis License does not grant any rights in the trademarks, service marks,\nor logos of any Contributor (except as may be necessary to comply with\nthe notice requirements in Section 3.4).\n\n\n2.4. Subsequent Licenses\n\n\nNo Contributor makes additional grants as a result of Your choice to\ndistribute the Covered Software under a subsequent version of this\nLicense (see Section 10.2) or under the terms of a Secondary License (if\npermitted under the terms of Section 3.3).\n\n\n2.5. Representation\n\n\nEach Contributor represents that the Contributor believes its\nContributions are its original creation(s) or it has sufficient rights\nto grant the rights to its Contributions conveyed by this License.\n\n\n2.6. Fair Use\n\n\nThis License is not intended to limit any rights You have under\napplicable copyright doctrines of fair use, fair dealing, or other\nequivalents.\n\n\n2.7. Conditions\n\n\nSections 3.1, 3.2, 3.3, and 3.4 are conditions of the licenses granted\nin Section 2.1.\n\n\n3. Responsibilities\n\n\n3.1. Distribution of Source Form\n\n\nAll distribution of Covered Software in Source Code Form, including any\nModifications that You create or to which You contribute, must be under\nthe terms of this License. You must inform recipients that the Source\nCode Form of the Covered Software is governed by the terms of this\nLicense, and how they can obtain a copy of this License. You may not\nattempt to alter or restrict the recipients' rights in the Source Code\nForm.\n\n\n3.2. Distribution of Executable Form\n\n\nIf You distribute Covered Software in Executable Form then:\n\n\n\n\n\n\n(a)\n such Covered Software must also be made available in Source Code\n    Form, as described in Section 3.1, and You must inform recipients of\n    the Executable Form how they can obtain a copy of such Source Code\n    Form by reasonable means in a timely manner, at a charge no more\n    than the cost of distribution to the recipient; and\n\n\n\n\n\n\n(b)\n You may distribute such Executable Form under the terms of this\n    License, or sublicense it under different terms, provided that the\n    license for the Executable Form does not attempt to limit or alter\n    the recipients' rights in the Source Code Form under this License.\n\n\n\n\n\n\n3.3. Distribution of a Larger Work\n\n\nYou may create and distribute a Larger Work under terms of Your choice,\nprovided that You also comply with the requirements of this License for\nthe Covered Software. If the Larger Work is a combination of Covered\nSoftware with a work governed by one or more Secondary Licenses, and the\nCovered Software is not Incompatible With Secondary Licenses, this\nLicense permits You to additionally distribute such Covered Software\nunder the terms of such Secondary License(s), so that the recipient of\nthe Larger Work may, at their option, further distribute the Covered\nSoftware under the terms of either this License or such Secondary\nLicense(s).\n\n\n3.4. Notices\n\n\nYou may not remove or alter the substance of any license notices\n(including copyright notices, patent notices, disclaimers of warranty,\nor limitations of liability) contained within the Source Code Form of\nthe Covered Software, except that You may alter any license notices to\nthe extent required to remedy known factual inaccuracies.\n\n\n3.5. Application of Additional Terms\n\n\nYou may choose to offer, and to charge a fee for, warranty, support,\nindemnity or liability obligations to one or more recipients of Covered\nSoftware. However, You may do so only on Your own behalf, and not on\nbehalf of any Contributor. You must make it absolutely clear that any\nsuch warranty, support, indemnity, or liability obligation is offered by\nYou alone, and You hereby agree to indemnify every Contributor for any\nliability incurred by such Contributor as a result of warranty, support,\nindemnity or liability terms You offer. You may include additional\ndisclaimers of warranty and limitations of liability specific to any\njurisdiction.\n\n\n4. Inability to Comply Due to Statute or Regulation\n\n\nIf it is impossible for You to comply with any of the terms of this\nLicense with respect to some or all of the Covered Software due to\nstatute, judicial order, or regulation then You must: \n(a)\n comply with\nthe terms of this License to the maximum extent possible; and \n(b)\n\ndescribe the limitations and the code they affect. Such description must\nbe placed in a text file included with all distributions of the Covered\nSoftware under this License. Except to the extent prohibited by statute\nor regulation, such description must be sufficiently detailed for a\nrecipient of ordinary skill to be able to understand it.\n\n\n5. Termination\n\n\n5.1.\n The rights granted under this License will terminate automatically\nif You fail to comply with any of its terms. However, if You become\ncompliant, then the rights granted under this License from a particular\nContributor are reinstated \n(a)\n provisionally, unless and until such\nContributor explicitly and finally terminates Your grants, and \n(b)\n on an\nongoing basis, if such Contributor fails to notify You of the\nnon-compliance by some reasonable means prior to 60 days after You have\ncome back into compliance. Moreover, Your grants from a particular\nContributor are reinstated on an ongoing basis if such Contributor\nnotifies You of the non-compliance by some reasonable means, this is the\nfirst time You have received notice of non-compliance with this License\nfrom such Contributor, and You become compliant prior to 30 days after\nYour receipt of the notice.\n\n\n5.2.\n If You initiate litigation against any entity by asserting a patent\ninfringement claim (excluding declaratory judgment actions,\ncounter-claims, and cross-claims) alleging that a Contributor Version\ndirectly or indirectly infringes any patent, then the rights granted to\nYou by any and all Contributors for the Covered Software under Section\n2.1 of this License shall terminate.\n\n\n5.3.\n In the event of termination under Sections 5.1 or 5.2 above, all\nend user license agreements (excluding distributors and resellers) which\nhave been validly granted by You or Your distributors under this License\nprior to termination shall survive termination.\n\n\n6. Disclaimer of Warranty\n\n\n\n\nCovered Software is provided under this License on an \u201cas is\u201d\nbasis, without warranty of any kind, either expressed, implied, or\nstatutory, including, without limitation, warranties that the\nCovered Software is free of defects, merchantable, fit for a\nparticular purpose or non-infringing. The entire risk as to the\nquality and performance of the Covered Software is with You.\nShould any Covered Software prove defective in any respect, You\n(not any Contributor) assume the cost of any necessary servicing,\nrepair, or correction. This disclaimer of warranty constitutes an\nessential part of this License. No use of any Covered Software is\nauthorized under this License except under this disclaimer.\n\n\n\n\n7. Limitation of Liability\n\n\n\n\nUnder no circumstances and under no legal theory, whether tort\n(including negligence), contract, or otherwise, shall any\nContributor, or anyone who distributes Covered Software as\npermitted above, be liable to You for any direct, indirect,\nspecial, incidental, or consequential damages of any character\nincluding, without limitation, damages for lost profits, loss of\ngoodwill, work stoppage, computer failure or malfunction, or any\nand all other commercial damages or losses, even if such party\nshall have been informed of the possibility of such damages. This\nlimitation of liability shall not apply to liability for death or\npersonal injury resulting from such party's negligence to the\nextent applicable law prohibits such limitation. Some\njurisdictions do not allow the exclusion or limitation of\nincidental or consequential damages, so this exclusion and\nlimitation may not apply to You.\n\n\n\n\n8. Litigation\n\n\nAny litigation relating to this License may be brought only in the\ncourts of a jurisdiction where the defendant maintains its principal\nplace of business and such litigation shall be governed by laws of that\njurisdiction, without reference to its conflict-of-law provisions.\nNothing in this Section shall prevent a party's ability to bring\ncross-claims or counter-claims.\n\n\n9. Miscellaneous\n\n\nThis License represents the complete agreement concerning the subject\nmatter hereof. If any provision of this License is held to be\nunenforceable, such provision shall be reformed only to the extent\nnecessary to make it enforceable. Any law or regulation which provides\nthat the language of a contract shall be construed against the drafter\nshall not be used to construe this License against a Contributor.\n\n\n10. Versions of the License\n\n\n10.1. New Versions\n\n\nMozilla Foundation is the license steward. Except as provided in Section\n10.3, no one other than the license steward has the right to modify or\npublish new versions of this License. Each version will be given a\ndistinguishing version number.\n\n\n10.2. Effect of New Versions\n\n\nYou may distribute the Covered Software under the terms of the version\nof the License under which You originally received the Covered Software,\nor under the terms of any subsequent version published by the license\nsteward.\n\n\n10.3. Modified Versions\n\n\nIf you create software not governed by this License, and you want to\ncreate a new license for such software, you may create and use a\nmodified version of this License if you rename the license and remove\nany references to the name of the license steward (except to note that\nsuch modified license differs from this License).\n\n\n10.4. Distributing Source Code Form that is Incompatible With Secondary Licenses\n\n\nIf You choose to distribute Source Code Form that is Incompatible With\nSecondary Licenses under the terms of this version of the License, the\nnotice described in Exhibit B of this License must be attached.\n\n\nExhibit A - Source Code Form License Notice\n\n\nThis Source Code Form is subject to the terms of the Mozilla Public\nLicense, v. 2.0. If a copy of the MPL was not distributed with this\nfile, You can obtain one at http://mozilla.org/MPL/2.0/.\n\n\n\nIf it is not possible or desirable to put the notice in a particular\nfile, then You may include the notice in a location (such as a LICENSE\nfile in a relevant directory) where a recipient would be likely to look\nfor such a notice.\n\n\nYou may add additional accurate notices of copyright ownership.\n\n\nExhibit B - \u201cIncompatible With Secondary Licenses\u201d Notice\n\n\nThis Source Code Form is \"Incompatible With Secondary Licenses\", as\ndefined by the Mozilla Public License, v. 2.0.", 
+            "title": "MPL2"
+        }, 
+        {
+            "location": "/licenses/mpl2/#mozilla-public-license-version-20", 
+            "text": "", 
+            "title": "Mozilla Public License Version 2.0"
+        }, 
+        {
+            "location": "/licenses/mpl2/#1-definitions", 
+            "text": "1.1. \u201cContributor\u201d \n    means each individual or legal entity that creates, contributes to\n    the creation of, or owns Covered Software.  1.2. \u201cContributor Version\u201d \n    means the combination of the Contributions of others (if any) used\n    by a Contributor and that particular Contributor's Contribution.  1.3. \u201cContribution\u201d \n    means Covered Software of a particular Contributor.  1.4. \u201cCovered Software\u201d \n    means Source Code Form to which the initial Contributor has attached\n    the notice in Exhibit A, the Executable Form of such Source Code\n    Form, and Modifications of such Source Code Form, in each case\n    including portions thereof.  1.5. \u201cIncompatible With Secondary Licenses\u201d \n    means   (a)  that the initial Contributor has attached the notice described\n    in Exhibit B to the Covered Software; or  (b)  that the Covered Software was made available under the terms of\n    version 1.1 or earlier of the License, but not also under the\n    terms of a Secondary License.   1.6. \u201cExecutable Form\u201d \n    means any form of the work other than Source Code Form.  1.7. \u201cLarger Work\u201d \n    means a work that combines Covered Software with other material, in \n    a separate file or files, that is not Covered Software.  1.8. \u201cLicense\u201d \n    means this document.  1.9. \u201cLicensable\u201d \n    means having the right to grant, to the maximum extent possible,\n    whether at the time of the initial grant or subsequently, any and\n    all of the rights conveyed by this License.  1.10. \u201cModifications\u201d \n    means any of the following:   (a)  any file in Source Code Form that results from an addition to,\n    deletion from, or modification of the contents of Covered\n    Software; or  (b)  any new file in Source Code Form that contains any Covered\n    Software.   1.11. \u201cPatent Claims\u201d of a Contributor \n    means any patent claim(s), including without limitation, method,\n    process, and apparatus claims, in any patent Licensable by such\n    Contributor that would be infringed, but for the grant of the\n    License, by the making, using, selling, offering for sale, having\n    made, import, or transfer of either its Contributions or its\n    Contributor Version.  1.12. \u201cSecondary License\u201d \n    means either the GNU General Public License, Version 2.0, the GNU\n    Lesser General Public License, Version 2.1, the GNU Affero General\n    Public License, Version 3.0, or any later versions of those\n    licenses.  1.13. \u201cSource Code Form\u201d \n    means the form of the work preferred for making modifications.  1.14. \u201cYou\u201d (or \u201cYour\u201d) \n    means an individual or a legal entity exercising rights under this\n    License. For legal entities, \u201cYou\u201d includes any entity that\n    controls, is controlled by, or is under common control with You. For\n    purposes of this definition, \u201ccontrol\u201d means  (a)  the power, direct\n    or indirect, to cause the direction or management of such entity,\n    whether by contract or otherwise, or  (b)  ownership of more than\n    fifty percent (50%) of the outstanding shares or beneficial\n    ownership of such entity.", 
+            "title": "1. Definitions"
+        }, 
+        {
+            "location": "/licenses/mpl2/#2-license-grants-and-conditions", 
+            "text": "", 
+            "title": "2. License Grants and Conditions"
+        }, 
+        {
+            "location": "/licenses/mpl2/#21-grants", 
+            "text": "Each Contributor hereby grants You a world-wide, royalty-free,\nnon-exclusive license:   (a)  under intellectual property rights (other than patent or trademark)\n    Licensable by such Contributor to use, reproduce, make available,\n    modify, display, perform, distribute, and otherwise exploit its\n    Contributions, either on an unmodified basis, with Modifications, or\n    as part of a Larger Work; and  (b)  under Patent Claims of such Contributor to make, use, sell, offer\n    for sale, have made, import, and otherwise transfer either its\n    Contributions or its Contributor Version.", 
+            "title": "2.1. Grants"
+        }, 
+        {
+            "location": "/licenses/mpl2/#22-effective-date", 
+            "text": "The licenses granted in Section 2.1 with respect to any Contribution\nbecome effective for each Contribution on the date the Contributor first\ndistributes such Contribution.", 
+            "title": "2.2. Effective Date"
+        }, 
+        {
+            "location": "/licenses/mpl2/#23-limitations-on-grant-scope", 
+            "text": "The licenses granted in this Section 2 are the only rights granted under\nthis License. No additional rights or licenses will be implied from the\ndistribution or licensing of Covered Software under this License.\nNotwithstanding Section 2.1(b) above, no patent license is granted by a\nContributor:   (a)  for any code that a Contributor has removed from Covered Software;\n    or  (b)  for infringements caused by:  (i)  Your and any other third party's\n    modifications of Covered Software, or  (ii)  the combination of its\n    Contributions with other software (except as part of its Contributor\n    Version); or  (c)  under Patent Claims infringed by Covered Software in the absence of\n    its Contributions.   This License does not grant any rights in the trademarks, service marks,\nor logos of any Contributor (except as may be necessary to comply with\nthe notice requirements in Section 3.4).", 
+            "title": "2.3. Limitations on Grant Scope"
+        }, 
+        {
+            "location": "/licenses/mpl2/#24-subsequent-licenses", 
+            "text": "No Contributor makes additional grants as a result of Your choice to\ndistribute the Covered Software under a subsequent version of this\nLicense (see Section 10.2) or under the terms of a Secondary License (if\npermitted under the terms of Section 3.3).", 
+            "title": "2.4. Subsequent Licenses"
+        }, 
+        {
+            "location": "/licenses/mpl2/#25-representation", 
+            "text": "Each Contributor represents that the Contributor believes its\nContributions are its original creation(s) or it has sufficient rights\nto grant the rights to its Contributions conveyed by this License.", 
+            "title": "2.5. Representation"
+        }, 
+        {
+            "location": "/licenses/mpl2/#26-fair-use", 
+            "text": "This License is not intended to limit any rights You have under\napplicable copyright doctrines of fair use, fair dealing, or other\nequivalents.", 
+            "title": "2.6. Fair Use"
+        }, 
+        {
+            "location": "/licenses/mpl2/#27-conditions", 
+            "text": "Sections 3.1, 3.2, 3.3, and 3.4 are conditions of the licenses granted\nin Section 2.1.", 
+            "title": "2.7. Conditions"
+        }, 
+        {
+            "location": "/licenses/mpl2/#3-responsibilities", 
+            "text": "", 
+            "title": "3. Responsibilities"
+        }, 
+        {
+            "location": "/licenses/mpl2/#31-distribution-of-source-form", 
+            "text": "All distribution of Covered Software in Source Code Form, including any\nModifications that You create or to which You contribute, must be under\nthe terms of this License. You must inform recipients that the Source\nCode Form of the Covered Software is governed by the terms of this\nLicense, and how they can obtain a copy of this License. You may not\nattempt to alter or restrict the recipients' rights in the Source Code\nForm.", 
+            "title": "3.1. Distribution of Source Form"
+        }, 
+        {
+            "location": "/licenses/mpl2/#32-distribution-of-executable-form", 
+            "text": "If You distribute Covered Software in Executable Form then:    (a)  such Covered Software must also be made available in Source Code\n    Form, as described in Section 3.1, and You must inform recipients of\n    the Executable Form how they can obtain a copy of such Source Code\n    Form by reasonable means in a timely manner, at a charge no more\n    than the cost of distribution to the recipient; and    (b)  You may distribute such Executable Form under the terms of this\n    License, or sublicense it under different terms, provided that the\n    license for the Executable Form does not attempt to limit or alter\n    the recipients' rights in the Source Code Form under this License.", 
+            "title": "3.2. Distribution of Executable Form"
+        }, 
+        {
+            "location": "/licenses/mpl2/#33-distribution-of-a-larger-work", 
+            "text": "You may create and distribute a Larger Work under terms of Your choice,\nprovided that You also comply with the requirements of this License for\nthe Covered Software. If the Larger Work is a combination of Covered\nSoftware with a work governed by one or more Secondary Licenses, and the\nCovered Software is not Incompatible With Secondary Licenses, this\nLicense permits You to additionally distribute such Covered Software\nunder the terms of such Secondary License(s), so that the recipient of\nthe Larger Work may, at their option, further distribute the Covered\nSoftware under the terms of either this License or such Secondary\nLicense(s).", 
+            "title": "3.3. Distribution of a Larger Work"
+        }, 
+        {
+            "location": "/licenses/mpl2/#34-notices", 
+            "text": "You may not remove or alter the substance of any license notices\n(including copyright notices, patent notices, disclaimers of warranty,\nor limitations of liability) contained within the Source Code Form of\nthe Covered Software, except that You may alter any license notices to\nthe extent required to remedy known factual inaccuracies.", 
+            "title": "3.4. Notices"
+        }, 
+        {
+            "location": "/licenses/mpl2/#35-application-of-additional-terms", 
+            "text": "You may choose to offer, and to charge a fee for, warranty, support,\nindemnity or liability obligations to one or more recipients of Covered\nSoftware. However, You may do so only on Your own behalf, and not on\nbehalf of any Contributor. You must make it absolutely clear that any\nsuch warranty, support, indemnity, or liability obligation is offered by\nYou alone, and You hereby agree to indemnify every Contributor for any\nliability incurred by such Contributor as a result of warranty, support,\nindemnity or liability terms You offer. You may include additional\ndisclaimers of warranty and limitations of liability specific to any\njurisdiction.", 
+            "title": "3.5. Application of Additional Terms"
+        }, 
+        {
+            "location": "/licenses/mpl2/#4-inability-to-comply-due-to-statute-or-regulation", 
+            "text": "If it is impossible for You to comply with any of the terms of this\nLicense with respect to some or all of the Covered Software due to\nstatute, judicial order, or regulation then You must:  (a)  comply with\nthe terms of this License to the maximum extent possible; and  (b) \ndescribe the limitations and the code they affect. Such description must\nbe placed in a text file included with all distributions of the Covered\nSoftware under this License. Except to the extent prohibited by statute\nor regulation, such description must be sufficiently detailed for a\nrecipient of ordinary skill to be able to understand it.", 
+            "title": "4. Inability to Comply Due to Statute or Regulation"
+        }, 
+        {
+            "location": "/licenses/mpl2/#5-termination", 
+            "text": "5.1.  The rights granted under this License will terminate automatically\nif You fail to comply with any of its terms. However, if You become\ncompliant, then the rights granted under this License from a particular\nContributor are reinstated  (a)  provisionally, unless and until such\nContributor explicitly and finally terminates Your grants, and  (b)  on an\nongoing basis, if such Contributor fails to notify You of the\nnon-compliance by some reasonable means prior to 60 days after You have\ncome back into compliance. Moreover, Your grants from a particular\nContributor are reinstated on an ongoing basis if such Contributor\nnotifies You of the non-compliance by some reasonable means, this is the\nfirst time You have received notice of non-compliance with this License\nfrom such Contributor, and You become compliant prior to 30 days after\nYour receipt of the notice.  5.2.  If You initiate litigation against any entity by asserting a patent\ninfringement claim (excluding declaratory judgment actions,\ncounter-claims, and cross-claims) alleging that a Contributor Version\ndirectly or indirectly infringes any patent, then the rights granted to\nYou by any and all Contributors for the Covered Software under Section\n2.1 of this License shall terminate.  5.3.  In the event of termination under Sections 5.1 or 5.2 above, all\nend user license agreements (excluding distributors and resellers) which\nhave been validly granted by You or Your distributors under this License\nprior to termination shall survive termination.", 
+            "title": "5. Termination"
+        }, 
+        {
+            "location": "/licenses/mpl2/#6-disclaimer-of-warranty", 
+            "text": "Covered Software is provided under this License on an \u201cas is\u201d\nbasis, without warranty of any kind, either expressed, implied, or\nstatutory, including, without limitation, warranties that the\nCovered Software is free of defects, merchantable, fit for a\nparticular purpose or non-infringing. The entire risk as to the\nquality and performance of the Covered Software is with You.\nShould any Covered Software prove defective in any respect, You\n(not any Contributor) assume the cost of any necessary servicing,\nrepair, or correction. This disclaimer of warranty constitutes an\nessential part of this License. No use of any Covered Software is\nauthorized under this License except under this disclaimer.", 
+            "title": "6. Disclaimer of Warranty"
+        }, 
+        {
+            "location": "/licenses/mpl2/#7-limitation-of-liability", 
+            "text": "Under no circumstances and under no legal theory, whether tort\n(including negligence), contract, or otherwise, shall any\nContributor, or anyone who distributes Covered Software as\npermitted above, be liable to You for any direct, indirect,\nspecial, incidental, or consequential damages of any character\nincluding, without limitation, damages for lost profits, loss of\ngoodwill, work stoppage, computer failure or malfunction, or any\nand all other commercial damages or losses, even if such party\nshall have been informed of the possibility of such damages. This\nlimitation of liability shall not apply to liability for death or\npersonal injury resulting from such party's negligence to the\nextent applicable law prohibits such limitation. Some\njurisdictions do not allow the exclusion or limitation of\nincidental or consequential damages, so this exclusion and\nlimitation may not apply to You.", 
+            "title": "7. Limitation of Liability"
+        }, 
+        {
+            "location": "/licenses/mpl2/#8-litigation", 
+            "text": "Any litigation relating to this License may be brought only in the\ncourts of a jurisdiction where the defendant maintains its principal\nplace of business and such litigation shall be governed by laws of that\njurisdiction, without reference to its conflict-of-law provisions.\nNothing in this Section shall prevent a party's ability to bring\ncross-claims or counter-claims.", 
+            "title": "8. Litigation"
+        }, 
+        {
+            "location": "/licenses/mpl2/#9-miscellaneous", 
+            "text": "This License represents the complete agreement concerning the subject\nmatter hereof. If any provision of this License is held to be\nunenforceable, such provision shall be reformed only to the extent\nnecessary to make it enforceable. Any law or regulation which provides\nthat the language of a contract shall be construed against the drafter\nshall not be used to construe this License against a Contributor.", 
+            "title": "9. Miscellaneous"
+        }, 
+        {
+            "location": "/licenses/mpl2/#10-versions-of-the-license", 
+            "text": "", 
+            "title": "10. Versions of the License"
+        }, 
+        {
+            "location": "/licenses/mpl2/#101-new-versions", 
+            "text": "Mozilla Foundation is the license steward. Except as provided in Section\n10.3, no one other than the license steward has the right to modify or\npublish new versions of this License. Each version will be given a\ndistinguishing version number.", 
+            "title": "10.1. New Versions"
+        }, 
+        {
+            "location": "/licenses/mpl2/#102-effect-of-new-versions", 
+            "text": "You may distribute the Covered Software under the terms of the version\nof the License under which You originally received the Covered Software,\nor under the terms of any subsequent version published by the license\nsteward.", 
+            "title": "10.2. Effect of New Versions"
+        }, 
+        {
+            "location": "/licenses/mpl2/#103-modified-versions", 
+            "text": "If you create software not governed by this License, and you want to\ncreate a new license for such software, you may create and use a\nmodified version of this License if you rename the license and remove\nany references to the name of the license steward (except to note that\nsuch modified license differs from this License).", 
+            "title": "10.3. Modified Versions"
+        }, 
+        {
+            "location": "/licenses/mpl2/#104-distributing-source-code-form-that-is-incompatible-with-secondary-licenses", 
+            "text": "If You choose to distribute Source Code Form that is Incompatible With\nSecondary Licenses under the terms of this version of the License, the\nnotice described in Exhibit B of this License must be attached.", 
+            "title": "10.4. Distributing Source Code Form that is Incompatible With Secondary Licenses"
+        }, 
+        {
+            "location": "/licenses/mpl2/#exhibit-a-source-code-form-license-notice", 
+            "text": "This Source Code Form is subject to the terms of the Mozilla Public\nLicense, v. 2.0. If a copy of the MPL was not distributed with this\nfile, You can obtain one at http://mozilla.org/MPL/2.0/.  If it is not possible or desirable to put the notice in a particular\nfile, then You may include the notice in a location (such as a LICENSE\nfile in a relevant directory) where a recipient would be likely to look\nfor such a notice.  You may add additional accurate notices of copyright ownership.", 
+            "title": "Exhibit A - Source Code Form License Notice"
+        }, 
+        {
+            "location": "/licenses/mpl2/#exhibit-b-incompatible-with-secondary-licenses-notice", 
+            "text": "This Source Code Form is \"Incompatible With Secondary Licenses\", as\ndefined by the Mozilla Public License, v. 2.0.", 
+            "title": "Exhibit B - \u201cIncompatible With Secondary Licenses\u201d Notice"
+        }, 
+        {
+            "location": "/licenses/lgpl-v3.0-static/", 
+            "text": "GNU Lesser General Public License\n\n\nVersion 3, 29 June 2007\n\n\nCopyright \u00a9 2007 Free Software Foundation, Inc. \nhttp://fsf.org/\n\n\nEveryone is permitted to copy and distribute verbatim copies\nof this license document, but changing it is not allowed.\n\n\nThis version of the GNU Lesser General Public License incorporates\nthe terms and conditions of version 3 of the GNU General Public\nLicense, supplemented by the additional permissions listed below.\n\n\n0. Additional Definitions\n\n\nAs used herein, \u201cthis License\u201d refers to version 3 of the GNU Lesser\nGeneral Public License, and the \u201cGNU GPL\u201d refers to version 3 of the GNU\nGeneral Public License.\n\n\n\u201cThe Library\u201d refers to a covered work governed by this License,\nother than an Application or a Combined Work as defined below.\n\n\nAn \u201cApplication\u201d is any work that makes use of an interface provided\nby the Library, but which is not otherwise based on the Library.\nDefining a subclass of a class defined by the Library is deemed a mode\nof using an interface provided by the Library.\n\n\nA \u201cCombined Work\u201d is a work produced by combining or linking an\nApplication with the Library.  The particular version of the Library\nwith which the Combined Work was made is also called the \u201cLinked\nVersion\u201d.\n\n\nThe \u201cMinimal Corresponding Source\u201d for a Combined Work means the\nCorresponding Source for the Combined Work, excluding any source code\nfor portions of the Combined Work that, considered in isolation, are\nbased on the Application, and not on the Linked Version.\n\n\nThe \u201cCorresponding Application Code\u201d for a Combined Work means the\nobject code and/or source code for the Application, including any data\nand utility programs needed for reproducing the Combined Work from the\nApplication, but excluding the System Libraries of the Combined Work.\n\n\n1. Exception to Section 3 of the GNU GPL\n\n\nYou may convey a covered work under sections 3 and 4 of this License\nwithout being bound by section 3 of the GNU GPL.\n\n\n2. Conveying Modified Versions\n\n\nIf you modify a copy of the Library, and, in your modifications, a\nfacility refers to a function or data to be supplied by an Application\nthat uses the facility (other than as an argument passed when the\nfacility is invoked), then you may convey a copy of the modified\nversion:\n\n\n\n\n\n\na)\n under this License, provided that you make a good faith effort to\nensure that, in the event an Application does not supply the\nfunction or data, the facility still operates, and performs\nwhatever part of its purpose remains meaningful, or\n\n\n\n\n\n\nb)\n under the GNU GPL, with none of the additional permissions of\nthis License applicable to that copy.\n\n\n\n\n\n\n3. Object Code Incorporating Material from Library Header Files\n\n\nThe object code form of an Application may incorporate material from\na header file that is part of the Library.  You may convey such object\ncode under terms of your choice, provided that, if the incorporated\nmaterial is not limited to numerical parameters, data structure\nlayouts and accessors, or small macros, inline functions and templates\n(ten or fewer lines in length), you do both of the following:\n\n\n\n\na)\n Give prominent notice with each copy of the object code that the\nLibrary is used in it and that the Library and its use are\ncovered by this License.\n\n\nb)\n Accompany the object code with a copy of the GNU GPL and this license\ndocument.\n\n\n\n\n4. Combined Works\n\n\nYou may convey a Combined Work under terms of your choice that,\ntaken together, effectively do not restrict modification of the\nportions of the Library contained in the Combined Work and reverse\nengineering for debugging such modifications, if you also do each of\nthe following:\n\n\n\n\n\n\na)\n Give prominent notice with each copy of the Combined Work that\nthe Library is used in it and that the Library and its use are\ncovered by this License.\n\n\n\n\n\n\nb)\n Accompany the Combined Work with a copy of the GNU GPL and this license\ndocument.\n\n\n\n\n\n\nc)\n For a Combined Work that displays copyright notices during\nexecution, include the copyright notice for the Library among\nthese notices, as well as a reference directing the user to the\ncopies of the GNU GPL and this license document.\n\n\n\n\n\n\nd)\n Do one of the following:\n\n\n\n\n0)\n Convey the Minimal Corresponding Source under the terms of this\nLicense, and the Corresponding Application Code in a form\nsuitable for, and under terms that permit, the user to\nrecombine or relink the Application with a modified version of\nthe Linked Version to produce a modified Combined Work, in the\nmanner specified by section 6 of the GNU GPL for conveying\nCorresponding Source.\n\n\n1)\n Use a suitable shared library mechanism for linking with the\nLibrary.  A suitable mechanism is one that \n(a)\n uses at run time\na copy of the Library already present on the user's computer\nsystem, and \n(b)\n will operate properly with a modified version\nof the Library that is interface-compatible with the Linked\nVersion.\n\n\n\n\n\n\n\n\ne)\n Provide Installation Information, but only if you would otherwise\nbe required to provide such information under section 6 of the\nGNU GPL, and only to the extent that such information is\nnecessary to install and execute a modified version of the\nCombined Work produced by recombining or relinking the\nApplication with a modified version of the Linked Version. (If\nyou use option \n4d0\n, the Installation Information must accompany\nthe Minimal Corresponding Source and Corresponding Application\nCode. If you use option \n4d1\n, you must provide the Installation\nInformation in the manner specified by section 6 of the GNU GPL\nfor conveying Corresponding Source.)\n\n\n\n\n\n\n5. Combined Libraries\n\n\nYou may place library facilities that are a work based on the\nLibrary side by side in a single library together with other library\nfacilities that are not Applications and are not covered by this\nLicense, and convey such a combined library under terms of your\nchoice, if you do both of the following:\n\n\n\n\na)\n Accompany the combined library with a copy of the same work based\non the Library, uncombined with any other library facilities,\nconveyed under the terms of this License.\n\n\nb)\n Give prominent notice with the combined library that part of it\nis a work based on the Library, and explaining where to find the\naccompanying uncombined form of the same work.\n\n\n\n\n6. Revised Versions of the GNU Lesser General Public License\n\n\nThe Free Software Foundation may publish revised and/or new versions\nof the GNU Lesser General Public License from time to time. Such new\nversions will be similar in spirit to the present version, but may\ndiffer in detail to address new problems or concerns.\n\n\nEach version is given a distinguishing version number. If the\nLibrary as you received it specifies that a certain numbered version\nof the GNU Lesser General Public License \u201cor any later version\u201d\napplies to it, you have the option of following the terms and\nconditions either of that published version or of any later version\npublished by the Free Software Foundation. If the Library as you\nreceived it does not specify a version number of the GNU Lesser\nGeneral Public License, you may choose any version of the GNU Lesser\nGeneral Public License ever published by the Free Software Foundation.\n\n\nIf the Library as you received it specifies that a proxy can decide\nwhether future versions of the GNU Lesser General Public License shall\napply, that proxy's public statement of acceptance of any version is\npermanent authorization for you to choose that version for the\nLibrary.\n\n\n\n\nSPECIAL EXCEPTION GRANTED BY COPYRIGHT HOLDERS\n\n\nAs a special exception, copyright holders give you permission to link this\nlibrary with independent modules to produce an executable, regardless of\nthe license terms of these independent modules, and to copy and distribute\nthe resulting executable under terms of your choice, provided that you also\nmeet, for each linked independent module, the terms and conditions of\nthe license of that module. An independent module is a module which is not\nderived from or based on this library. If you modify this library, you must\nextend this exception to your version of the library.\n\n\nNote: this exception relieves you of any obligations under sections 4 and 5\nof this license, and section 6 of the GNU General Public License.", 
+            "title": "LGPLv3-static"
+        }, 
+        {
+            "location": "/licenses/lgpl-v3.0-static/#gnu-lesser-general-public-license", 
+            "text": "Version 3, 29 June 2007  Copyright \u00a9 2007 Free Software Foundation, Inc.  http://fsf.org/  Everyone is permitted to copy and distribute verbatim copies\nof this license document, but changing it is not allowed.  This version of the GNU Lesser General Public License incorporates\nthe terms and conditions of version 3 of the GNU General Public\nLicense, supplemented by the additional permissions listed below.", 
+            "title": "GNU Lesser General Public License"
+        }, 
+        {
+            "location": "/licenses/lgpl-v3.0-static/#0-additional-definitions", 
+            "text": "As used herein, \u201cthis License\u201d refers to version 3 of the GNU Lesser\nGeneral Public License, and the \u201cGNU GPL\u201d refers to version 3 of the GNU\nGeneral Public License.  \u201cThe Library\u201d refers to a covered work governed by this License,\nother than an Application or a Combined Work as defined below.  An \u201cApplication\u201d is any work that makes use of an interface provided\nby the Library, but which is not otherwise based on the Library.\nDefining a subclass of a class defined by the Library is deemed a mode\nof using an interface provided by the Library.  A \u201cCombined Work\u201d is a work produced by combining or linking an\nApplication with the Library.  The particular version of the Library\nwith which the Combined Work was made is also called the \u201cLinked\nVersion\u201d.  The \u201cMinimal Corresponding Source\u201d for a Combined Work means the\nCorresponding Source for the Combined Work, excluding any source code\nfor portions of the Combined Work that, considered in isolation, are\nbased on the Application, and not on the Linked Version.  The \u201cCorresponding Application Code\u201d for a Combined Work means the\nobject code and/or source code for the Application, including any data\nand utility programs needed for reproducing the Combined Work from the\nApplication, but excluding the System Libraries of the Combined Work.", 
+            "title": "0. Additional Definitions"
+        }, 
+        {
+            "location": "/licenses/lgpl-v3.0-static/#1-exception-to-section-3-of-the-gnu-gpl", 
+            "text": "You may convey a covered work under sections 3 and 4 of this License\nwithout being bound by section 3 of the GNU GPL.", 
+            "title": "1. Exception to Section 3 of the GNU GPL"
+        }, 
+        {
+            "location": "/licenses/lgpl-v3.0-static/#2-conveying-modified-versions", 
+            "text": "If you modify a copy of the Library, and, in your modifications, a\nfacility refers to a function or data to be supplied by an Application\nthat uses the facility (other than as an argument passed when the\nfacility is invoked), then you may convey a copy of the modified\nversion:    a)  under this License, provided that you make a good faith effort to\nensure that, in the event an Application does not supply the\nfunction or data, the facility still operates, and performs\nwhatever part of its purpose remains meaningful, or    b)  under the GNU GPL, with none of the additional permissions of\nthis License applicable to that copy.", 
+            "title": "2. Conveying Modified Versions"
+        }, 
+        {
+            "location": "/licenses/lgpl-v3.0-static/#3-object-code-incorporating-material-from-library-header-files", 
+            "text": "The object code form of an Application may incorporate material from\na header file that is part of the Library.  You may convey such object\ncode under terms of your choice, provided that, if the incorporated\nmaterial is not limited to numerical parameters, data structure\nlayouts and accessors, or small macros, inline functions and templates\n(ten or fewer lines in length), you do both of the following:   a)  Give prominent notice with each copy of the object code that the\nLibrary is used in it and that the Library and its use are\ncovered by this License.  b)  Accompany the object code with a copy of the GNU GPL and this license\ndocument.", 
+            "title": "3. Object Code Incorporating Material from Library Header Files"
+        }, 
+        {
+            "location": "/licenses/lgpl-v3.0-static/#4-combined-works", 
+            "text": "You may convey a Combined Work under terms of your choice that,\ntaken together, effectively do not restrict modification of the\nportions of the Library contained in the Combined Work and reverse\nengineering for debugging such modifications, if you also do each of\nthe following:    a)  Give prominent notice with each copy of the Combined Work that\nthe Library is used in it and that the Library and its use are\ncovered by this License.    b)  Accompany the Combined Work with a copy of the GNU GPL and this license\ndocument.    c)  For a Combined Work that displays copyright notices during\nexecution, include the copyright notice for the Library among\nthese notices, as well as a reference directing the user to the\ncopies of the GNU GPL and this license document.    d)  Do one of the following:   0)  Convey the Minimal Corresponding Source under the terms of this\nLicense, and the Corresponding Application Code in a form\nsuitable for, and under terms that permit, the user to\nrecombine or relink the Application with a modified version of\nthe Linked Version to produce a modified Combined Work, in the\nmanner specified by section 6 of the GNU GPL for conveying\nCorresponding Source.  1)  Use a suitable shared library mechanism for linking with the\nLibrary.  A suitable mechanism is one that  (a)  uses at run time\na copy of the Library already present on the user's computer\nsystem, and  (b)  will operate properly with a modified version\nof the Library that is interface-compatible with the Linked\nVersion.     e)  Provide Installation Information, but only if you would otherwise\nbe required to provide such information under section 6 of the\nGNU GPL, and only to the extent that such information is\nnecessary to install and execute a modified version of the\nCombined Work produced by recombining or relinking the\nApplication with a modified version of the Linked Version. (If\nyou use option  4d0 , the Installation Information must accompany\nthe Minimal Corresponding Source and Corresponding Application\nCode. If you use option  4d1 , you must provide the Installation\nInformation in the manner specified by section 6 of the GNU GPL\nfor conveying Corresponding Source.)", 
+            "title": "4. Combined Works"
+        }, 
+        {
+            "location": "/licenses/lgpl-v3.0-static/#5-combined-libraries", 
+            "text": "You may place library facilities that are a work based on the\nLibrary side by side in a single library together with other library\nfacilities that are not Applications and are not covered by this\nLicense, and convey such a combined library under terms of your\nchoice, if you do both of the following:   a)  Accompany the combined library with a copy of the same work based\non the Library, uncombined with any other library facilities,\nconveyed under the terms of this License.  b)  Give prominent notice with the combined library that part of it\nis a work based on the Library, and explaining where to find the\naccompanying uncombined form of the same work.", 
+            "title": "5. Combined Libraries"
+        }, 
+        {
+            "location": "/licenses/lgpl-v3.0-static/#6-revised-versions-of-the-gnu-lesser-general-public-license", 
+            "text": "The Free Software Foundation may publish revised and/or new versions\nof the GNU Lesser General Public License from time to time. Such new\nversions will be similar in spirit to the present version, but may\ndiffer in detail to address new problems or concerns.  Each version is given a distinguishing version number. If the\nLibrary as you received it specifies that a certain numbered version\nof the GNU Lesser General Public License \u201cor any later version\u201d\napplies to it, you have the option of following the terms and\nconditions either of that published version or of any later version\npublished by the Free Software Foundation. If the Library as you\nreceived it does not specify a version number of the GNU Lesser\nGeneral Public License, you may choose any version of the GNU Lesser\nGeneral Public License ever published by the Free Software Foundation.  If the Library as you received it specifies that a proxy can decide\nwhether future versions of the GNU Lesser General Public License shall\napply, that proxy's public statement of acceptance of any version is\npermanent authorization for you to choose that version for the\nLibrary.", 
+            "title": "6. Revised Versions of the GNU Lesser General Public License"
+        }, 
+        {
+            "location": "/licenses/lgpl-v3.0-static/#special-exception-granted-by-copyright-holders", 
+            "text": "As a special exception, copyright holders give you permission to link this\nlibrary with independent modules to produce an executable, regardless of\nthe license terms of these independent modules, and to copy and distribute\nthe resulting executable under terms of your choice, provided that you also\nmeet, for each linked independent module, the terms and conditions of\nthe license of that module. An independent module is a module which is not\nderived from or based on this library. If you modify this library, you must\nextend this exception to your version of the library.  Note: this exception relieves you of any obligations under sections 4 and 5\nof this license, and section 6 of the GNU General Public License.", 
+            "title": "SPECIAL EXCEPTION GRANTED BY COPYRIGHT HOLDERS"
         }
     ]
 }

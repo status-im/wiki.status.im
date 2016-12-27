@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Code of Conduct - Status Wiki</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+	
+	<script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-79146816-1', 'wiki.status.im');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../..">Status Wiki</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                    <li >
+                        <a href="../..">Welcome</a>
+                    </li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting Started <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../mission-and-core-values/">Mission & Core Values</a>
+</li>
+                            
+<li >
+    <a href="../faq/">FAQ</a>
+</li>
+                            
+<li class="active">
+    <a href="./">Code of Conduct</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contributing <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+  <li class="dropdown-submenu">
+    <a href="#">Developers</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../contributing/development/building-status/">Building Status</a>
+</li>
+            
+<li >
+    <a href="../../contributing/development/adding-dapps/">Adding DApps</a>
+</li>
+            
+<li >
+    <a href="../../contributing/development/clojurescript/">Clojurescript</a>
+</li>
+            
+<li >
+    <a href="../../contributing/development/golang/">Golang</a>
+</li>
+    </ul>
+  </li>
+                            
+<li >
+    <a href="../../contributing/ux-and-design/">UX & Design</a>
+</li>
+                            
+<li >
+    <a href="../../contributing/testing-and-feedback/">Testing & Feedback</a>
+</li>
+                            
+<li >
+    <a href="../../contributing/documenting/">Documenting</a>
+</li>
+                            
+<li >
+    <a href="../../contributing/marketing/">Marketing</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Community <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../community/slack/">Slack</a>
+</li>
+                            
+<li >
+    <a href="../../community/newsletter/">Newsletter</a>
+</li>
+                            
+<li >
+    <a href="../../community/blog/">Blog</a>
+</li>
+                            
+<li >
+    <a href="../../community/tell-a-friend/">Tell a Friend</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Specifications <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../specifications/contact-sharing/">Contact Sharing (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../specifications/chat-api/">Chat API (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../specifications/discover/">Discover (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../specifications/messaging/">Status Messaging (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../specifications/erc20-exchange/">Exchange (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../specifications/sticker-market/">Sticker Market (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../specifications/visual-programming/">Visual Programming (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../specifications/moments/">Moments (WIP)</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">License <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../licenses/mpl2/">MPL2</a>
+</li>
+                            
+<li >
+    <a href="../../licenses/lgpl-v3.0-static/">LGPLv3-static</a>
+</li>
+                        </ul>
+                    </li>
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                    <li >
+                        <a rel="next" href="../faq/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../../contributing/development/building-status/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#code-of-conduct">Code of Conduct</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#leadership-authority-and-responsibility">Leadership, authority and responsibility</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="code-of-conduct">Code of Conduct</h1>
+<h2 id="community">Community</h2>
+<p>Status is about showing humanity to one another: the word itself captures the spirit of being human.</p>
+<p>We want a productive, happy and agile community that can welcome new ideas in a complex field, improve every process every year, and foster collaboration between groups with very different needs, interests and skills.</p>
+<p>We gain strength from diversity, and actively seek participation from those who enhance it. This code of conduct exists to ensure that diverse groups collaborate to mutual advantage and enjoyment. We will challenge prejudice that could jeopardise the participation of any person in the project.</p>
+<p>The Code of Conduct governs how we behave in public or in private whenever the project will be judged by our actions. We expect it to be honoured by everyone who represents the project officially or informally, claims affiliation with the project, or participates directly.</p>
+<p>We strive to:</p>
+<ul>
+<li>
+<p><strong>Be considerate</strong> <br />
+Our work will be used by other people, and we in turn will depend on the work of others. Any decision we take will affect users and colleagues, and we should consider them when making decisions.</p>
+</li>
+<li>
+<p><strong>Be respectful</strong><br />
+Disagreement is no excuse for poor manners. We work together to resolve conflict, assume good intentions and do our best to act in an empathic fashion. We don't allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.</p>
+</li>
+<li>
+<p><strong>Take responsibility for our words and our actions</strong><br />
+We can all make mistakes; when we do, we take responsibility for them. If someone has been harmed or offended, we listen carefully and respectfully, and work to right the wrong.</p>
+</li>
+<li>
+<p><strong>Be collaborative</strong><br />
+What we produce is a complex whole made of many parts, it is the sum of many dreams. Collaboration between teams that each have their own goal and vision is essential; for the whole to be more than the sum of its parts, each part must make an effort to understand the whole.</p>
+<p>Collaboration reduces redundancy and improves the quality of our work. Internally and externally, we celebrate good collaboration. Wherever possible, we work closely with upstream projects and others in the free software community to coordinate our efforts. We prefer to work transparently and involve interested parties as early as possible.</p>
+</li>
+<li>
+<p><strong>Value decisiveness, clarity and consensus</strong><br />
+Disagreements, social and technical, are normal, but we do not allow them to persist and fester leaving others uncertain of the agreed direction.</p>
+<p>We expect participants in the project to resolve disagreements constructively. When they cannot, we escalate the matter to structures with designated leaders to arbitrate and provide clarity and direction.</p>
+</li>
+<li>
+<p><strong>Ask for help when unsure</strong>
+Nobody is expected to be perfect in this community. Asking questions early avoids many problems later, so questions are encouraged, though they may be directed to the appropriate forum. Those who are asked should be responsive and helpful.</p>
+</li>
+<li>
+<p><strong>Step down considerately</strong><br />
+When somebody leaves or disengages from the project, we ask that they do so in a way that minimises disruption to the project. They should tell people they are leaving and take the proper steps to ensure that others can pick up where they left off.</p>
+</li>
+</ul>
+<h2 id="leadership-authority-and-responsibility">Leadership, authority and responsibility</h2>
+<p>We all lead by example, in debate and in action. We encourage new participants to feel empowered to lead, to take action, and to experiment when they feel innovation could improve the project. Leadership can be exercised by anyone simply by taking action, there is no need to wait for recognition when the opportunity to lead presents itself.</p>
+<h3 id="delegation-from-the-top">Delegation from the top</h3>
+<p>Responsibility for the project starts with the "benevolent dictator", who delegates specific responsibilities and the corresponding authority to a series of teams, councils and individuals, starting with the Community Council ("CC"). That Council or its delegated representative will arbitrate in any dispute.</p>
+<p>We are a meritocracy; we delegate decision making, governance and leadership from senior bodies to the most able and engaged candidates.</p>
+<h3 id="support-for-delegation-is-measured">Support for delegation is measured</h3>
+<p>Nominations to the boards and councils are at the discretion of the Community Council, however the Community Council will seek the input of the community before confirming appointments.</p>
+<p>Leadership is not an award, right, or title; it is a privilege, a responsibility and a mandate. A leader will only retain their authority as long as they retain the support of those who delegated that authority to them.</p>
+<h3 id="we-value-discussion-data-and-decisiveness">We value discussion, data and decisiveness</h3>
+<p>We gather opinions, data and commitments from concerned parties before taking a decision. We expect leaders to help teams come to a decision in a reasonable time, to seek guidance or be willing to take the decision themselves when consensus is lacking, and to take responsibility for implementation.</p>
+<p>The poorest decision of all is no decision: clarity of direction has value in itself. Sometimes all the data are not available, or consensus is elusive. A decision must still be made. There is no guarantee of a perfect decision every time - we prefer to err, learn, and err less in future than to postpone action indefinitely.</p>
+<p>We recognise that the project works better when we trust the teams closest to a problem to make the decision for the project. If we learn of a decision that we disagree with, we can engage the relevant team to find common ground, and failing that, we have a governance structure that can review the decision. Ultimately, if a decision has been taken by the people responsible for it, and is supported by the project governance, it will stand. None of us expects to agree with every decision, and we value highly the willingness to stand by the project and help it deliver even on the occasions when we ourselves may prefer a different route.</p>
+<h3 id="open-meritocracy">Open meritocracy</h3>
+<p>We invite anybody, from any company, to participate in any aspect of the project. Our community is open, and any responsibility can be carried by any contributor who demonstrates the required capacity and competence.</p>
+<h3 id="teamwork">Teamwork</h3>
+<p>A leader's foremost goal is the success of the team.</p>
+<p>"A virtuoso is judged by their actions; a leader is judged by the actions of their team." A leader knows when to act and when to step back. They know when to delegate work, and when to take it upon themselves.</p>
+<h3 id="credit">Credit</h3>
+<p>A good leader does not seek the limelight, but celebrates team members for the work they do. Leaders may be more visible than members of the team, good ones use that visibility to highlight the great work of others.</p>
+<h3 id="courage-and-considerateness">Courage and considerateness</h3>
+<p>Leadership occasionally requires bold decisions that will not be widely understood, consensual or popular. We value the courage to take such decisions, because they enable the project as a whole to move forward faster than we could if we required complete consensus. Nevertheless, boldness demands considerateness; take bold decisions, but do so mindful of the challenges they present for others, and work to soften the impact of those decisions on them. Communicating changes and their reasoning clearly and early on is as important as the implementation of the change itself.</p>
+<h3 id="conflicts-of-interest">Conflicts of interest</h3>
+<p>We expect leaders to be aware when they are conflicted due to employment or other projects they are involved in, and abstain or delegate decisions that may be seen to be self-interested. We expect that everyone who participates in the project does so with the goal of making life better for its users.</p>
+<p>When in doubt, ask for a second opinion. Perceived conflicts of interest are important to address; as a leader, act to ensure that decisions are credible even if they must occasionally be unpopular, difficult or favourable to the interests of one group over another.</p>
+<p>This Code is not exhaustive or complete. It is not a rulebook; it serves to distil our common understanding of a collaborative, shared environment and goals. We expect it to be followed in spirit as much as in the letter.</p>
+<p>The Status Code of Conduct is licensed under the Creative Commons Attribution-Share Alike 3.0 license and has been appropriated from the Ubuntu Code of Conduct v2.0. You may re-use it for your own project, and modify it as you wish, just please allow others to use your modifications and give credit to the Status Project!</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

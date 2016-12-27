@@ -4,9 +4,161 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2016-12-24</lastmod>
+     <lastmod>2016-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
+    
+
+    
+        
+    <url>
+     <loc>/getting-started/mission-and-core-values/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/getting-started/faq/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/getting-started/code-of-conduct/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc></loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/contributing/ux-and-design/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/contributing/testing-and-feedback/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/contributing/documenting/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/contributing/marketing/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/community/slack/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/community/newsletter/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/community/blog/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/community/tell-a-friend/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/specifications/contact-sharing/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/specifications/chat-api/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/specifications/discover/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/specifications/messaging/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/specifications/erc20-exchange/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/specifications/sticker-market/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/specifications/visual-programming/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/specifications/moments/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/licenses/mpl2/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/licenses/lgpl-v3.0-static/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
 </urlset>
