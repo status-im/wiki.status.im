@@ -60,7 +60,7 @@ No, we support Android & iOS
 
 ## Is it possible to install Status & how can I test?
 
-At the moment you have to build it yourself, we are just fixing some bugs before first alpha release to the early access subscribers which signed up on our website [https://status.im](https://status.im) - alternatively there are some binaries floating around the Slack now.
+At the moment you have to [build it yourself](../contributing/development/building-status.md), we are just fixing some bugs before first alpha release to the early access subscribers which signed up on our website [https://status.im](https://status.im) - alternatively there are some binaries floating around the Slack now.
 
 Soon we'll have our alpha test on Google Play & Testflight. Currently Status has been tested on:
 
@@ -68,6 +68,7 @@ Soon we'll have our alpha test on Google Play & Testflight. Currently Status has
 - Samsung Galaxy Nexus
 - Samsung Galaxy A3
 - Samsung Galaxy A5
+- Samsung Galaxy S7 Edge
 - Motorola G3
 - iPhone 5
 - iPhone 6S

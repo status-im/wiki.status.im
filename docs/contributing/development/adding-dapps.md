@@ -2,7 +2,7 @@
 
 During the Alpha we are accepting example DApps as default contacts, to add your DApp to Status, you need to ensure it works on testnet (Ropsten) and submit a single commit pull request to [status-react](http://github.com/status-im/status-react) with the following:
 
-- Place a nice 85x85px icon of your DApp to `images/contacts` directory. The file should be named the same as your DApp, for example `my-dapp.png`.
+- Place a square icon(`85x85px` or `192x192`) of your DApp to `images/contacts` directory. The file should be named the same as your DApp, for example `my-dapp.png`.
 
 - Add information about this icon to `src/status_im/resources.cljs`, for example:
 ```
@@ -24,5 +24,3 @@ During the Alpha we are accepting example DApps as default contacts, to add your
      "dapp-url": "http://link-to-your-dapp.com"}
 ]
 ```
-
-- Submit PR
