@@ -24,6 +24,7 @@ pages:
     - Newsletter: 'community/newsletter.md'
     - Blog: 'community/blog.md'
     - Tell a Friend: 'community/tell-a-friend.md'
+    - Development: 'community/development.md'
   - Specifications:
     - Contact Sharing (WIP): 'specifications/contact-sharing.md'
     - Chat API (WIP): 'specifications/chat-api.md'
