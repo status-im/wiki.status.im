@@ -232,7 +232,38 @@
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="adding-dapps">Adding DApps</h1></div>
+<h1 id="adding-dapps">Adding DApps</h1>
+<p>During the Alpha we are accepting example DApps as default contacts, to add your DApp to Status, you need to ensure it works on testnet (Ropsten) and submit a single commit pull request to <a href="http://github.com/status-im/status-react">status-react</a> with the following:</p>
+<ul>
+<li>
+<p>Place a nice 85x85px icon of your DApp to <code>images/contacts</code> directory. The file should be named the same as your DApp, for example <code>my-dapp.png</code>.</p>
+</li>
+<li>
+<p>Add information about this icon to <code>src/status_im/resources.cljs</code>, for example:</p>
+</li>
+</ul>
+<pre><code>(def contacts
+  {:auction-house (js/require &quot;./images/contacts/auction-house.png&quot;)
+   :my-dapp (js/require &quot;./images/contacts/my-dapp.png&quot;)})
+</code></pre>
+
+<ul>
+<li>Add your DApp to the list of existing DApps (<code>resources/default_contacts.json</code>):</li>
+</ul>
+<pre><code>[
+    ...,
+
+    {&quot;id&quot;: &quot;my-dapp&quot;,
+     &quot;name&quot;: &quot;My DApp&quot;,
+     &quot;photo-path&quot;: &quot;contacts://my-dapp&quot;,
+     &quot;dapp?&quot;: true,
+     &quot;dapp-url&quot;: &quot;http://link-to-your-dapp.com&quot;}
+]
+</code></pre>
+
+<ul>
+<li>Submit PR</li>
+</ul></div>
         </div>
 
         <footer class="col-md-12">

@@ -327,12 +327,12 @@
         }, 
         {
             "location": "/contributing/development/adding-dapps/", 
-            "text": "Adding DApps", 
+            "text": "Adding DApps\n\n\nDuring the Alpha we are accepting example DApps as default contacts, to add your DApp to Status, you need to ensure it works on testnet (Ropsten) and submit a single commit pull request to \nstatus-react\n with the following:\n\n\n\n\n\n\nPlace a nice 85x85px icon of your DApp to \nimages/contacts\n directory. The file should be named the same as your DApp, for example \nmy-dapp.png\n.\n\n\n\n\n\n\nAdd information about this icon to \nsrc/status_im/resources.cljs\n, for example:\n\n\n\n\n\n\n(def contacts\n  {:auction-house (js/require \n./images/contacts/auction-house.png\n)\n   :my-dapp (js/require \n./images/contacts/my-dapp.png\n)})\n\n\n\n\n\n\nAdd your DApp to the list of existing DApps (\nresources/default_contacts.json\n):\n\n\n\n\n[\n    ...,\n\n    {\nid\n: \nmy-dapp\n,\n     \nname\n: \nMy DApp\n,\n     \nphoto-path\n: \ncontacts://my-dapp\n,\n     \ndapp?\n: true,\n     \ndapp-url\n: \nhttp://link-to-your-dapp.com\n}\n]\n\n\n\n\n\n\nSubmit PR", 
             "title": "Adding DApps"
         }, 
         {
             "location": "/contributing/development/adding-dapps/#adding-dapps", 
-            "text": "", 
+            "text": "During the Alpha we are accepting example DApps as default contacts, to add your DApp to Status, you need to ensure it works on testnet (Ropsten) and submit a single commit pull request to  status-react  with the following:    Place a nice 85x85px icon of your DApp to  images/contacts  directory. The file should be named the same as your DApp, for example  my-dapp.png .    Add information about this icon to  src/status_im/resources.cljs , for example:    (def contacts\n  {:auction-house (js/require  ./images/contacts/auction-house.png )\n   :my-dapp (js/require  ./images/contacts/my-dapp.png )})   Add your DApp to the list of existing DApps ( resources/default_contacts.json ):   [\n    ...,\n\n    { id :  my-dapp ,\n      name :  My DApp ,\n      photo-path :  contacts://my-dapp ,\n      dapp? : true,\n      dapp-url :  http://link-to-your-dapp.com }\n]   Submit PR", 
             "title": "Adding DApps"
         }, 
         {
