@@ -3,7 +3,7 @@
 
     
     <url>
-     <loc>/</loc>
+     <loc>https://wiki.status.im/</loc>
      <lastmod>2016-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -12,19 +12,19 @@
     
         
     <url>
-     <loc>/getting-started/mission-and-core-values/</loc>
+     <loc>https://wiki.status.im/getting-started/mission-and-core-values/</loc>
      <lastmod>2016-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/getting-started/faq/</loc>
+     <loc>https://wiki.status.im/getting-started/faq/</loc>
      <lastmod>2016-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/getting-started/code-of-conduct/</loc>
+     <loc>https://wiki.status.im/getting-started/code-of-conduct/</loc>
      <lastmod>2016-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -34,59 +34,31 @@
     
         
     <url>
-     <loc></loc>
+     <loc>https://wiki.status.im</loc>
      <lastmod></lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/contributing/ux-and-design/</loc>
+     <loc>https://wiki.status.im/contributing/ux-and-design/</loc>
      <lastmod>2016-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/contributing/testing-and-feedback/</loc>
+     <loc>https://wiki.status.im/contributing/testing-and-feedback/</loc>
      <lastmod>2016-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/contributing/documenting/</loc>
+     <loc>https://wiki.status.im/contributing/documenting/</loc>
      <lastmod>2016-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/contributing/marketing/</loc>
-     <lastmod>2016-12-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>/community/slack/</loc>
-     <lastmod>2016-12-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/community/newsletter/</loc>
-     <lastmod>2016-12-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/community/blog/</loc>
-     <lastmod>2016-12-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/community/tell-a-friend/</loc>
+     <loc>https://wiki.status.im/contributing/marketing/</loc>
      <lastmod>2016-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -96,49 +68,25 @@
     
         
     <url>
-     <loc>/specifications/contact-sharing/</loc>
+     <loc>https://wiki.status.im/community/slack/</loc>
      <lastmod>2016-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/specifications/chat-api/</loc>
+     <loc>https://wiki.status.im/community/newsletter/</loc>
      <lastmod>2016-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/specifications/discover/</loc>
+     <loc>https://wiki.status.im/community/blog/</loc>
      <lastmod>2016-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/specifications/messaging/</loc>
-     <lastmod>2016-12-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/specifications/erc20-exchange/</loc>
-     <lastmod>2016-12-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/specifications/sticker-market/</loc>
-     <lastmod>2016-12-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/specifications/visual-programming/</loc>
-     <lastmod>2016-12-27</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/specifications/moments/</loc>
+     <loc>https://wiki.status.im/community/tell-a-friend/</loc>
      <lastmod>2016-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -148,13 +96,65 @@
     
         
     <url>
-     <loc>/licenses/mpl2/</loc>
+     <loc>https://wiki.status.im/specifications/contact-sharing/</loc>
      <lastmod>2016-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/licenses/lgpl-v3.0-static/</loc>
+     <loc>https://wiki.status.im/specifications/chat-api/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://wiki.status.im/specifications/discover/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://wiki.status.im/specifications/messaging/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://wiki.status.im/specifications/erc20-exchange/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://wiki.status.im/specifications/sticker-market/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://wiki.status.im/specifications/visual-programming/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://wiki.status.im/specifications/moments/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>https://wiki.status.im/licenses/mpl2/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://wiki.status.im/licenses/lgpl-v3.0-static/</loc>
      <lastmod>2016-12-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
