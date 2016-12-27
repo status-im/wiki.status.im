@@ -52,13 +52,68 @@
         }, 
         {
             "location": "/getting-started/faq/", 
-            "text": "FAQ", 
+            "text": "FAQ\n\n\nWhy a Messenger?\n\n\nWhen Carl \n Jarrad looked at how to achieve mass adoption for a client. We looked at things such as where the people are, how they behave on their devices, time spent on pc vs mobile - as of 2014 more time is spent on mobile than desktop, and of that time - a THIRD of it is spent within Instant Messengers.\n\n\nInstant Messengers have the highest retention rates, that is when you purchase an install, they become sticky and typically users won't immediately uninstall. \n\n\nThe average user lifetime sky rockets once their friends are involved. When you start thinking about this as a user base and how to connect that with Ethereum, things like payments and applications built ontop of Ethereum integrated into a converstional interface starts becoming like a clear path forward.\n\n\nUltimately we're building a hybrid browser and messenger for us to have the best chance to cast the widest net and focus on user acquisition, staying agnostic and as close to the principles Ethereum embodies.\n\n\nDoes Status support DApps that have their own web page ?\n\n\nYes, we absolutely support DApps on their own webpage and are striving for SWARM support also. Chances are, if a DApp works in Mist or MetaMask it is likely to work in Status!\n\n\nOur goal is to be a DApp browser for Android \n iOS, in addition to this we'll support a Chat API if you wish to integrate within a chat context.\n\n\nCan your app be launched with a link?\n\n\nNot at the moment, the standard we will likely support is \nEIP67\n.\n\n\nDo I have to run go-ethereum myself or on server?\n\n\nStatus includes \ngo-ethereum\n and connects directly to the Ethereum network. All you need to do is run the Status app! This is possible to do with the new Light Client Protocol.\n\n\nWhen did you guys start coding and how you are funded?\n\n\nStatus is largely self funded and we've been working on it since prior Devcon1 we were awarded a devgrant to port EthereumJ to Android prior to that.\n\n\nEthereumJ has different goals, its developers intended for server use and had no interest in supporting the light client protocol, another large factor is we wanted largely a single codebase for multiple platforms, we had Java running on iOS and Android, we want unify the GUI but the means to do that (JavaFX) is really not suited to mobile devices. \n\n\nOur current approach allows us to get bleeding edge tech and stability of geth whilst maintaining a single codebase.\n\n\nI am new to Ethereum \n Blockchain. I would like to contribute to the project, where would you suggest I start?\n\n\nTo get up to speed with Ethereum, you can check out ethdocs\n\n\nhttp://www.ethdocs.org/en/latest/\n\n\nFor Status take a look under the Contributing section of our wiki\n\n\nhttps://wiki.status.im\n\n\nI have a DApp that runs on Mist how can I test it in Status?\n\n\nSo each chat context has a command !browse - allowing users to access a webview (you can imagine this as a bit like a browser tab), so much in the same way as mist. In terms of integration/compatibility nothing is required on your end to do that if it already works in Mist.\nThat said, looking beyond the alpha, we'll have developer tooling, and a way for DApp developers to have profiles for theirs DApps (this then makes them discoverable through the 'Discover' feature), along with the Chat API for Developers who want to integrate through a conversational UI rather than (or in addition to) webview\n\n\nWhat is the \"jail\" in your status-react code?\n\n\nWhen the Chat API is ready to use, your javascript code is executed in Otto VM  \nhttps://github.com/robertkrimen/otto\n  this is the same javascript engine \ngo-ethereum\n uses. That way your code is executed in a \"jail\" and shouldn't interfere with the rest of Status. At least, that's the theory, at the moment we have no implementation of the halting problem, but we will.\n\n\nFor web DApps, we rely on the webview to correctly jail javascript.\n\n\nWhen can we expect to see the Beta?\n\n\nFirst we will release alpha by end of Q4 2016, beta will come end of Q1 2017 with developer tooling, bug fixes \n the ability to integrate with chat.\n\n\nIs it going to be for Android only?\n\n\nNo, we support Android \n iOS\n\n\nIs it possible to install Status \n how can I test?\n\n\nAt the moment you have to build it yourself, we are just fixing some bugs before first alpha release to the early access subscribers which signed up on our website \nhttps://status.im\n - alternatively there are some binaries floating around the Slack now.\n\n\nSoon we'll have our alpha test on Google Play \n Testflight. Currently Status has been tested on:\n\n\n\n\nLG Nexus 5X\n\n\nSamsung Galaxy Nexus\n\n\nSamsung Galaxy A3\n\n\nSamsung Galaxy A5\n\n\nMotorola G3\n\n\niPhone 5\n\n\niPhone 6S\n\n\niPhone 7", 
             "title": "FAQ"
         }, 
         {
             "location": "/getting-started/faq/#faq", 
             "text": "", 
             "title": "FAQ"
+        }, 
+        {
+            "location": "/getting-started/faq/#why-a-messenger", 
+            "text": "When Carl   Jarrad looked at how to achieve mass adoption for a client. We looked at things such as where the people are, how they behave on their devices, time spent on pc vs mobile - as of 2014 more time is spent on mobile than desktop, and of that time - a THIRD of it is spent within Instant Messengers.  Instant Messengers have the highest retention rates, that is when you purchase an install, they become sticky and typically users won't immediately uninstall.   The average user lifetime sky rockets once their friends are involved. When you start thinking about this as a user base and how to connect that with Ethereum, things like payments and applications built ontop of Ethereum integrated into a converstional interface starts becoming like a clear path forward.  Ultimately we're building a hybrid browser and messenger for us to have the best chance to cast the widest net and focus on user acquisition, staying agnostic and as close to the principles Ethereum embodies.", 
+            "title": "Why a Messenger?"
+        }, 
+        {
+            "location": "/getting-started/faq/#does-status-support-dapps-that-have-their-own-web-page", 
+            "text": "Yes, we absolutely support DApps on their own webpage and are striving for SWARM support also. Chances are, if a DApp works in Mist or MetaMask it is likely to work in Status!  Our goal is to be a DApp browser for Android   iOS, in addition to this we'll support a Chat API if you wish to integrate within a chat context.", 
+            "title": "Does Status support DApps that have their own web page ?"
+        }, 
+        {
+            "location": "/getting-started/faq/#can-your-app-be-launched-with-a-link", 
+            "text": "Not at the moment, the standard we will likely support is  EIP67 .", 
+            "title": "Can your app be launched with a link?"
+        }, 
+        {
+            "location": "/getting-started/faq/#do-i-have-to-run-go-ethereum-myself-or-on-server", 
+            "text": "Status includes  go-ethereum  and connects directly to the Ethereum network. All you need to do is run the Status app! This is possible to do with the new Light Client Protocol.", 
+            "title": "Do I have to run go-ethereum myself or on server?"
+        }, 
+        {
+            "location": "/getting-started/faq/#when-did-you-guys-start-coding-and-how-you-are-funded", 
+            "text": "Status is largely self funded and we've been working on it since prior Devcon1 we were awarded a devgrant to port EthereumJ to Android prior to that.  EthereumJ has different goals, its developers intended for server use and had no interest in supporting the light client protocol, another large factor is we wanted largely a single codebase for multiple platforms, we had Java running on iOS and Android, we want unify the GUI but the means to do that (JavaFX) is really not suited to mobile devices.   Our current approach allows us to get bleeding edge tech and stability of geth whilst maintaining a single codebase.", 
+            "title": "When did you guys start coding and how you are funded?"
+        }, 
+        {
+            "location": "/getting-started/faq/#i-am-new-to-ethereum-blockchain-i-would-like-to-contribute-to-the-project-where-would-you-suggest-i-start", 
+            "text": "To get up to speed with Ethereum, you can check out ethdocs  http://www.ethdocs.org/en/latest/  For Status take a look under the Contributing section of our wiki  https://wiki.status.im", 
+            "title": "I am new to Ethereum &amp; Blockchain. I would like to contribute to the project, where would you suggest I start?"
+        }, 
+        {
+            "location": "/getting-started/faq/#i-have-a-dapp-that-runs-on-mist-how-can-i-test-it-in-status", 
+            "text": "So each chat context has a command !browse - allowing users to access a webview (you can imagine this as a bit like a browser tab), so much in the same way as mist. In terms of integration/compatibility nothing is required on your end to do that if it already works in Mist.\nThat said, looking beyond the alpha, we'll have developer tooling, and a way for DApp developers to have profiles for theirs DApps (this then makes them discoverable through the 'Discover' feature), along with the Chat API for Developers who want to integrate through a conversational UI rather than (or in addition to) webview", 
+            "title": "I have a DApp that runs on Mist how can I test it in Status?"
+        }, 
+        {
+            "location": "/getting-started/faq/#what-is-the-jail-in-your-status-react-code", 
+            "text": "When the Chat API is ready to use, your javascript code is executed in Otto VM   https://github.com/robertkrimen/otto   this is the same javascript engine  go-ethereum  uses. That way your code is executed in a \"jail\" and shouldn't interfere with the rest of Status. At least, that's the theory, at the moment we have no implementation of the halting problem, but we will.  For web DApps, we rely on the webview to correctly jail javascript.", 
+            "title": "What is the \"jail\" in your status-react code?"
+        }, 
+        {
+            "location": "/getting-started/faq/#when-can-we-expect-to-see-the-beta", 
+            "text": "First we will release alpha by end of Q4 2016, beta will come end of Q1 2017 with developer tooling, bug fixes   the ability to integrate with chat.", 
+            "title": "When can we expect to see the Beta?"
+        }, 
+        {
+            "location": "/getting-started/faq/#is-it-going-to-be-for-android-only", 
+            "text": "No, we support Android   iOS", 
+            "title": "Is it going to be for Android only?"
+        }, 
+        {
+            "location": "/getting-started/faq/#is-it-possible-to-install-status-how-can-i-test", 
+            "text": "At the moment you have to build it yourself, we are just fixing some bugs before first alpha release to the early access subscribers which signed up on our website  https://status.im  - alternatively there are some binaries floating around the Slack now.  Soon we'll have our alpha test on Google Play   Testflight. Currently Status has been tested on:   LG Nexus 5X  Samsung Galaxy Nexus  Samsung Galaxy A3  Samsung Galaxy A5  Motorola G3  iPhone 5  iPhone 6S  iPhone 7", 
+            "title": "Is it possible to install Status &amp; how can I test?"
         }, 
         {
             "location": "/getting-started/code-of-conduct/", 
@@ -119,6 +174,81 @@
             "location": "/getting-started/code-of-conduct/#conflicts-of-interest", 
             "text": "We expect leaders to be aware when they are conflicted due to employment or other projects they are involved in, and abstain or delegate decisions that may be seen to be self-interested. We expect that everyone who participates in the project does so with the goal of making life better for its users.  When in doubt, ask for a second opinion. Perceived conflicts of interest are important to address; as a leader, act to ensure that decisions are credible even if they must occasionally be unpopular, difficult or favourable to the interests of one group over another.  This Code is not exhaustive or complete. It is not a rulebook; it serves to distil our common understanding of a collaborative, shared environment and goals. We expect it to be followed in spirit as much as in the letter.  The Status Code of Conduct is licensed under the Creative Commons Attribution-Share Alike 3.0 license and has been appropriated from the Ubuntu Code of Conduct v2.0. You may re-use it for your own project, and modify it as you wish, just please allow others to use your modifications and give credit to the Status Project!", 
             "title": "Conflicts of interest"
+        }, 
+        {
+            "location": "/contributing/development/building-status/", 
+            "text": "Building Status\n\n\nThis document is the entry point for developers of Status. This guide is for anyone who is interested in building, developing, debugging or submitting a bug report, pull request or contributing to Status with code.\n\n\nThis guide is written with OS X in mind.\n\n\nBuild and Test\n\n\nRequirements\n\n\n\n\nHomebrew\n + \nbrew update\n (optional, for OS X)\n\n\nNode \n NPM\n \nbrew install node watchman\n\n\nLein\n \nbrew install leiningen\n\n\nreact-native\n \nnpm install -g react-native-cli\n\n\nLatest JDK\n \nbrew cask install java\n\n\nAndroid SDK with build tools version 23.0.1 [Mac] \nbrew install android-sdk\n or \nWindows/Linux\n\n\nGenymotion\n (optional, you may use an Android Virtual Device or real device)\n\n\nSetup Android Development Environment / Simulator\n\n\nGIT over SSH, please add public key to Github\n\n\nMaven\n\n\nCocoapods\n \nsudo gem install cocoapods\n\n\n\n\nDependencies \n Setup\n\n\n$ git clone git@github.com:status-im/status-react.git -b master \n cd status-react\n# or \n$ git clone git@github.com:status-im/status-react.git -b develop \n cd status-react\n\n$ lein deps \n npm install \n ./re-natal deps\n$ mvn -f modules/react-native-status/ios/RCTStatus dependency:unpack\n$ cd ios \n pod install \n cd ..\n\n\n\nBuilding Status for Release\n\n\n# fill in store file properties in android/gradle.properties\n$ lein prod-build\n$ react-native run-android --variant=release\n# for iOS, build in Xcode\n\n\n\nBuilding Status for Development\n\n\n$ ./re-natal use-android-device \ndevice\n # (genymotion, real or avd)\n# or\n$ ./re-natal use-ios-device \ndevice\n # (simulator or real)\n\n$ ./re-natal use-figwheel\n\n# new tab, run figwheel REPL\n$ BUILD_IDS=\"ios,android\" lein repl\n\n# new tab, run react native packager\n$ react-native start\n\n# new tab, enable communication to react-native and figwheel\n# for android\n$ adb reverse tcp:8081 tcp:8081\n$ adb reverse tcp:3449 tcp:3449\n$ react-native run-android\n\n# for ios\n$ react-native run-ios\n\n\n\nAccess Geth on Device\n\n\nadb forward tcp:8545 tcp:8545\nbuild/bin/geth attach http://localhost:8545\n\n\n\nContributing\n\n\nPlease make sure your contributions adhere to our coding guidelines:\n\n\n\n\nCode must be idiomatic Clojure, please refer to the \nstyle guidelines\n (i.e. use \nlein eastwood\n\n \n \nlein kibit\n).\n\n\nCode must be documented.\n\n\nPull requests need to be based on and opened against the \nmaster\n branch.\n\n\nCommit messages should be prefixed with the root namespace(s) under \nstatus-im\n that they modify.\n\n\ne.g. \"contacts, ios: add contact stylistic changes\"\n\n\n\n\nIssues\n\n\nOnly Github is used to track issues. (Please include the commit and branch when reporting an issue.)\n\n\nOverv.io\n is used to overview issues in multiple repositories.\n\n\nCode formatting\n\n\nPlease run \nlein eastwood\n and \nlein kibit\n before contributing.\n\n\nBranch naming\n\n\nBranch format must be under \nCATEGORY/PLAIN-TEXT-#ISSUE_NUMBER\n acceptable branches are;\n\n\nfeature/discover\n or \nbug/broken-form-#113\n\n\nThe following categories are;\n- \nfeature/\n for implementation of features\n- \nbug/\n for fixing bugs\n- \ntests/\n for unit/UI tests\n- \nexperiment/\n for non-features\n- \nwip/\n for longer lived branches\n- \njunk/\n for irrelevant/soon-to-be-deleted branches\n\n\nPull Requests\n\n\nPull Requests should by default commit on the \nmaster\n branch. The \nmaster\n branch is used for history, tags for releases. Each Pull Request must be rebased against \nmaster\n and squashed into a single commit, prefixed with the root namespace(s) under \nstatus-im\n that they modify. e.g.\n\n\n\n\n\"contacts, ios: add contact stylistic changes\"\n\n\n\n\nWalkthrough\n\n\nStart by first pulling down \nmaster\n\n\n$ git checkout master\n$ git fetch origin\n$ git merge master\n\n\n\nThen isolate the bug/feature work you will do into a branch;\n\n\n$ git checkout -b bug/missing-contact-#116\n\n\n\nKeep your branch fresh against master\n\n\n$ git fetch origin\n$ git rebase origin/master\n\n\n\nIf multiple people are working on the same feature branch don't forget to also\n\n\n$ git rebase origin bug/missing-contact-#116\n\n\n\nWhen you are reading to make your pull request;\n\n\n$ git push bug/missing-contact-#116\n\n\n\nAfter PR has been reviewed do a final cleanup and squash your commit\n\n\n$ git rebase -i origin/master\n\n\n\nRepository Overview\n\n\nThe Status application is divided into 6 core repositories;\n\n\n\n\n\n\nstatus-react\n - our main react native application writtein in Clojurescript, Java \n Objective C\n\n\n\n\n\n\ngo-ethereum\n - our branch of \ngo-ethereum\n which contains our custom modifications in \ngo-ethereum/status-develop\n\n\n\n\n\n\nstatus-go\n - represents our binding to the \ngo-ethereum\n lib and exposes methods to \nstatus-react\n to Java / Objective C.\n\n\n\n\nstatus-lib\n - implements our application protocols for chatbots, has been absorbed into \nstatus-react\n until application protocol settles\n\n\nreact-native-status\n - the intent behind this repo was to seperate Java/Objective C code into a react native module, it may be absorbed into \nstatus-react\n in future\n\n\nstatus-server\n - is our intermediary server primarily used for contact discovery.", 
+            "title": "Building Status"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#building-status", 
+            "text": "This document is the entry point for developers of Status. This guide is for anyone who is interested in building, developing, debugging or submitting a bug report, pull request or contributing to Status with code.  This guide is written with OS X in mind.", 
+            "title": "Building Status"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#build-and-test", 
+            "text": "", 
+            "title": "Build and Test"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#requirements", 
+            "text": "Homebrew  +  brew update  (optional, for OS X)  Node   NPM   brew install node watchman  Lein   brew install leiningen  react-native   npm install -g react-native-cli  Latest JDK   brew cask install java  Android SDK with build tools version 23.0.1 [Mac]  brew install android-sdk  or  Windows/Linux  Genymotion  (optional, you may use an Android Virtual Device or real device)  Setup Android Development Environment / Simulator  GIT over SSH, please add public key to Github  Maven  Cocoapods   sudo gem install cocoapods", 
+            "title": "Requirements"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#dependencies-setup", 
+            "text": "$ git clone git@github.com:status-im/status-react.git -b master   cd status-react\n# or \n$ git clone git@github.com:status-im/status-react.git -b develop   cd status-react\n\n$ lein deps   npm install   ./re-natal deps\n$ mvn -f modules/react-native-status/ios/RCTStatus dependency:unpack\n$ cd ios   pod install   cd ..", 
+            "title": "Dependencies &amp; Setup"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#building-status-for-release", 
+            "text": "# fill in store file properties in android/gradle.properties\n$ lein prod-build\n$ react-native run-android --variant=release\n# for iOS, build in Xcode", 
+            "title": "Building Status for Release"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#building-status-for-development", 
+            "text": "$ ./re-natal use-android-device  device  # (genymotion, real or avd)\n# or\n$ ./re-natal use-ios-device  device  # (simulator or real)\n\n$ ./re-natal use-figwheel\n\n# new tab, run figwheel REPL\n$ BUILD_IDS=\"ios,android\" lein repl\n\n# new tab, run react native packager\n$ react-native start\n\n# new tab, enable communication to react-native and figwheel\n# for android\n$ adb reverse tcp:8081 tcp:8081\n$ adb reverse tcp:3449 tcp:3449\n$ react-native run-android\n\n# for ios\n$ react-native run-ios", 
+            "title": "Building Status for Development"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#access-geth-on-device", 
+            "text": "adb forward tcp:8545 tcp:8545\nbuild/bin/geth attach http://localhost:8545", 
+            "title": "Access Geth on Device"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#contributing", 
+            "text": "Please make sure your contributions adhere to our coding guidelines:   Code must be idiomatic Clojure, please refer to the  style guidelines  (i.e. use  lein eastwood     lein kibit ).  Code must be documented.  Pull requests need to be based on and opened against the  master  branch.  Commit messages should be prefixed with the root namespace(s) under  status-im  that they modify.  e.g. \"contacts, ios: add contact stylistic changes\"", 
+            "title": "Contributing"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#issues", 
+            "text": "Only Github is used to track issues. (Please include the commit and branch when reporting an issue.)  Overv.io  is used to overview issues in multiple repositories.", 
+            "title": "Issues"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#code-formatting", 
+            "text": "Please run  lein eastwood  and  lein kibit  before contributing.", 
+            "title": "Code formatting"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#branch-naming", 
+            "text": "Branch format must be under  CATEGORY/PLAIN-TEXT-#ISSUE_NUMBER  acceptable branches are;  feature/discover  or  bug/broken-form-#113  The following categories are;\n-  feature/  for implementation of features\n-  bug/  for fixing bugs\n-  tests/  for unit/UI tests\n-  experiment/  for non-features\n-  wip/  for longer lived branches\n-  junk/  for irrelevant/soon-to-be-deleted branches", 
+            "title": "Branch naming"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#pull-requests", 
+            "text": "Pull Requests should by default commit on the  master  branch. The  master  branch is used for history, tags for releases. Each Pull Request must be rebased against  master  and squashed into a single commit, prefixed with the root namespace(s) under  status-im  that they modify. e.g.   \"contacts, ios: add contact stylistic changes\"", 
+            "title": "Pull Requests"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#walkthrough", 
+            "text": "Start by first pulling down  master  $ git checkout master\n$ git fetch origin\n$ git merge master  Then isolate the bug/feature work you will do into a branch;  $ git checkout -b bug/missing-contact-#116  Keep your branch fresh against master  $ git fetch origin\n$ git rebase origin/master  If multiple people are working on the same feature branch don't forget to also  $ git rebase origin bug/missing-contact-#116  When you are reading to make your pull request;  $ git push bug/missing-contact-#116  After PR has been reviewed do a final cleanup and squash your commit  $ git rebase -i origin/master", 
+            "title": "Walkthrough"
+        }, 
+        {
+            "location": "/contributing/development/building-status/#repository-overview", 
+            "text": "The Status application is divided into 6 core repositories;    status-react  - our main react native application writtein in Clojurescript, Java   Objective C    go-ethereum  - our branch of  go-ethereum  which contains our custom modifications in  go-ethereum/status-develop    status-go  - represents our binding to the  go-ethereum  lib and exposes methods to  status-react  to Java / Objective C.   status-lib  - implements our application protocols for chatbots, has been absorbed into  status-react  until application protocol settles  react-native-status  - the intent behind this repo was to seperate Java/Objective C code into a react native module, it may be absorbed into  status-react  in future  status-server  - is our intermediary server primarily used for contact discovery.", 
+            "title": "Repository Overview"
         }, 
         {
             "location": "/contributing/development/building-status/", 
@@ -267,13 +397,18 @@
         }, 
         {
             "location": "/contributing/marketing/", 
-            "text": "Marketing", 
+            "text": "Marketing\n\n\nHow to create Buzz", 
             "title": "Marketing"
         }, 
         {
             "location": "/contributing/marketing/#marketing", 
             "text": "", 
             "title": "Marketing"
+        }, 
+        {
+            "location": "/contributing/marketing/#how-to-create-buzz", 
+            "text": "", 
+            "title": "How to create Buzz"
         }, 
         {
             "location": "/community/slack/", 

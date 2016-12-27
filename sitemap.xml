@@ -29,6 +29,12 @@
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>https://wiki.status.im/contributing/development/building-status/</loc>
+     <lastmod>2016-12-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
