@@ -1,6 +1,6 @@
 site_name: Status Wiki
-# site_url: https://wiki.status.im
-# repo_url: https://github.com/status-im/wiki.status.im/
+site_url: https://wiki.status.im
+repo_url: https://github.com/status-im/wiki.status.im/
 site_description: 'Everything you need to know about Status, a messenger and browser for Ethereum'
 google_analytics: ['UA-79146816-1', 'wiki.status.im']
 pages:
