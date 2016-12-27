@@ -1,1 +1,38 @@
-site_name: My Docs
+site_name: Status Wiki
+# site_url: https://wiki.status.im
+# repo_url: https://github.com/status-im/wiki.status.im/
+site_description: 'Everything you need to know about Status, a messenger and browser for Ethereum'
+google_analytics: ['UA-79146816-1', 'wiki.status.im']
+pages:
+  - Welcome: index.md
+  - Getting Started:
+    - Mission & Core Values : 'getting-started/mission-and-core-values.md'
+    - FAQ: 'getting-started/faq.md'
+    - Code of Conduct: 'getting-started/code-of-conduct.md'
+  - Contributing:
+    - Developers:
+      - Building Status: 'contributing/development/building-status.md'
+      - Adding DApps: 'contributing/development/adding-dapps.md'
+      - Clojurescript: 'contributing/development/clojurescript.md'
+      - Golang: 'contributing/development/golang.md'
+    - UX & Design: 'contributing/ux-and-design.md'
+    - Testing & Feedback: 'contributing/testing-and-feedback.md'
+    - Documenting: 'contributing/documenting.md'
+    - Marketing: 'contributing/marketing.md'
+  - Community:
+    - Slack: 'community/slack.md'
+    - Newsletter: 'community/newsletter.md'
+    - Blog: 'community/blog.md'
+    - Tell a Friend: 'community/tell-a-friend.md'
+  - Specifications:
+    - Contact Sharing (WIP): 'specifications/contact-sharing.md'
+    - Chat API (WIP): 'specifications/chat-api.md'
+    - Discover (WIP): 'specifications/discover.md'
+    - Status Messaging (WIP): 'specifications/messaging.md'
+    - Exchange (WIP): 'specifications/erc20-exchange.md'
+    - Sticker Market (WIP): 'specifications/sticker-market.md'
+    - Visual Programming (WIP): 'specifications/visual-programming.md'
+    - Moments (WIP): 'specifications/moments.md'
+  - License:
+    - MPL2: 'licenses/mpl2.md'
+    - LGPLv3-static: 'licenses/lgpl-v3.0-static.md'
