@@ -74,6 +74,11 @@ Soon we'll have our alpha test on Google Play & Testflight. Currently Status has
 - iPhone 6S
 - iPhone 7
 
+## What languages do you support?
+
+We’re currently supporting 30 languages — this includes; English, 官話, 官话, 廣東話, 上海话, Nederlands, Français, Deutsch, हिन्दी, Magyar, Italiano, 日本語, 한국어, Polski, Português brasileiro, Português europeu, Română, Slovenski, Español, Español (Latin-America), Swahili, Svenska, Suisse française, Schweizerdeutsch, Svizzera Italiana, ภาษาไทย, Türkçe, русский, українська, اُردُو & Tiếng Việt!
+
+If you see a typo, mistranslation or something missing, don't hesitate to let us know!
 
 
 
