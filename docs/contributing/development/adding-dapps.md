@@ -17,10 +17,17 @@ During the Alpha we are accepting example DApps as default contacts, to add your
 [
     ...,
 
-    {"id": "my-dapp",
-     "name": "My DApp",
-     "photo-path": "contacts://my-dapp",
-     "dapp?": true,
-     "dapp-url": "http://link-to-your-dapp.com"}
+    "my-dapp": {
+        "name":
+        {
+            "en": "My DApp"
+        },
+        "photo-path": "contacts://my-dapp",
+        "dapp?": true,
+        "dapp-url":
+        {
+            "en": "http://link-to-your-dapp.com"
+        }
+    }
 ]
 ```

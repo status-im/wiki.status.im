@@ -29,15 +29,15 @@ pages:
     - Development: 'community/development.md'
     # - Transcripts: # Slack
 
-  - Specifications:
-    - Contact Sharing (WIP): 'specifications/contact-sharing.md'
-    - Chat API (WIP): 'specifications/chat-api.md'
-    - Discover (WIP): 'specifications/discover.md'
-    - Status Messaging (WIP): 'specifications/messaging.md'
-    - Exchange (WIP): 'specifications/erc20-exchange.md'
-    - Sticker Market (WIP): 'specifications/sticker-market.md'
-    - Visual Programming (WIP): 'specifications/visual-programming.md'
-    - Moments (WIP): 'specifications/moments.md'
+  - Proposals:
+    - Contact Sharing (WIP): 'proposals/contact-sharing.md'
+    - Chat API (WIP): 'proposals/chat-api.md'
+    - Discover (WIP): 'proposals/discover.md'
+    - Status Messaging (WIP): 'proposals/messaging.md'
+    - Exchange (WIP): 'proposals/erc20-exchange.md'
+    - Sticker Market (WIP): 'proposals/sticker-market.md'
+    - Visual Programming (WIP): 'proposals/visual-programming.md'
+    - Moments (WIP): 'proposals/moments.md'
   - License:
     - MPL2: 'licenses/mpl2.md'
     - LGPLv3-static: 'licenses/lgpl-v3.0-static.md'
