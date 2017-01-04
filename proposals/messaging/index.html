@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://wiki.status.im/specifications/chat-api/">
+        <link rel="canonical" href="https://wiki.status.im/proposals/messaging/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Chat API (WIP) - Status Wiki</title>
+        <title>Status Messaging (WIP) - Status Wiki</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -147,23 +147,23 @@
                         </ul>
                     </li>
                     <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Specifications <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Proposals <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             
 <li >
     <a href="../contact-sharing/">Contact Sharing (WIP)</a>
 </li>
                             
-<li class="active">
-    <a href="./">Chat API (WIP)</a>
+<li >
+    <a href="../chat-api/">Chat API (WIP)</a>
 </li>
                             
 <li >
     <a href="../discover/">Discover (WIP)</a>
 </li>
                             
-<li >
-    <a href="../messaging/">Status Messaging (WIP)</a>
+<li class="active">
+    <a href="./">Status Messaging (WIP)</a>
 </li>
                             
 <li >
@@ -205,12 +205,12 @@
                     </a>
                 </li>
                     <li >
-                        <a rel="next" href="../contact-sharing/">
+                        <a rel="next" href="../discover/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../discover/">
+                        <a rel="prev" href="../erc20-exchange/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -227,38 +227,49 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#chat-api">Chat API</a></li>
-            <li><a href="#commands">Commands</a></li>
-            <li><a href="#custom-keyboards">Custom Keyboards</a></li>
-            <li><a href="#messages">Messages</a></li>
-            <li><a href="#privacy">Privacy</a></li>
+        <li class="main active"><a href="#messaging">Messaging</a></li>
+            <li><a href="#chat-protocol-test-setup-out-of-date">Chat Protocol Test setup (out of date)</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="chat-api">Chat API</h1>
-<h2 id="commands">Commands</h2>
-<p>!init (hidden)<br />
-    - if it exists run on open chat session, only in 1-to-1 chats.<br />
-!help<br />
-!settings</p>
-<h3 id="explicitly-calling-commands">Explicitly calling commands</h3>
-<p>DApps are namespaced with @dappname!command, which can be useful if same commands used by multiple bots are available, alternatively these can be used for commands when bot is not actually in the chat, ie @wallet!send</p>
-<h2 id="custom-keyboards">Custom Keyboards</h2>
-<p>Parameters use custom keyboards (instead of types, we adapt our types to be keyboards themselves?)  </p>
-<p>Make our emoji/sticker market with this, otherwise accessible through commands
-ie !init command with param that opens up a config</p>
-<h2 id="messages">Messages</h2>
-<ul>
-<li>subscription to message feed</li>
-<li>api for sending messages, and setting things like "typing"</li>
-<li>not available in group</li>
-</ul>
-<h2 id="privacy">Privacy</h2>
-<ul>
-<li>by default does not receive all messages in group chat</li>
-<li>only commands and in 1-to-1</li>
-</ul></div>
+<h1 id="messaging">Messaging</h1>
+<h2 id="chat-protocol-test-setup-out-of-date">Chat Protocol Test setup (out of date)</h2>
+<ol>
+<li>
+<p>Start app in android</p>
+</li>
+<li>
+<p>Build geth:
+ ```
+ git clone https://github.com/status-im/go-ethereum
+ cd go-ethereum
+ git checkout develop
+ make geth</p>
+</li>
+</ol>
+<pre><code> Alternatively on Mac it can be done by
+ ```
+ brew tap ethereum/ethereum
+brew install ethereum --devel
+</code></pre>
+
+<ol>
+<li>Connect to app geth console</li>
+</ol>
+<p>```
+ adb forward tcp:8545 tcp:8545
+ build/bin/geth attach http://localhost:8545</p>
+<pre><code>4. Inside console:
+
+ ```
+admin.addPeer(&quot;enode://e2f28126720452aa82f7d3083e49e6b3945502cb94d9750a15e27ee310eed6991618199f878e5fbc7dfa0e20f0af9554b41f491dc8f1dbae8f0f2d37a3a613aa@139.162.13.89:55555&quot;)
+</code></pre>
+
+<ol>
+<li>After 10 seconds you should see the peer in:</li>
+</ol>
+<p><code>admin.peers</code></p></div>
         </div>
 
         <footer class="col-md-12">

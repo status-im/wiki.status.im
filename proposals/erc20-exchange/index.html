@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://wiki.status.im/specifications/discover/">
+        <link rel="canonical" href="https://wiki.status.im/proposals/erc20-exchange/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Discover (WIP) - Status Wiki</title>
+        <title>Exchange (WIP) - Status Wiki</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -147,7 +147,7 @@
                         </ul>
                     </li>
                     <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Specifications <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Proposals <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             
 <li >
@@ -158,16 +158,16 @@
     <a href="../chat-api/">Chat API (WIP)</a>
 </li>
                             
-<li class="active">
-    <a href="./">Discover (WIP)</a>
+<li >
+    <a href="../discover/">Discover (WIP)</a>
 </li>
                             
 <li >
     <a href="../messaging/">Status Messaging (WIP)</a>
 </li>
                             
-<li >
-    <a href="../erc20-exchange/">Exchange (WIP)</a>
+<li class="active">
+    <a href="./">Exchange (WIP)</a>
 </li>
                             
 <li >
@@ -205,12 +205,12 @@
                     </a>
                 </li>
                     <li >
-                        <a rel="next" href="../chat-api/">
+                        <a rel="next" href="../messaging/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../messaging/">
+                        <a rel="prev" href="../sticker-market/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -227,27 +227,12 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#discover">Discover</a></li>
+        <li class="main active"><a href="#erc20-to-fiat-exchange">ERC20-to-Fiat Exchange</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="discover">Discover</h1>
-<p>This document describes the Discover feature of Status. Ethereum is its community, and with Discover we want to connect other Ethereum users with other Ethereum users - to trade and exchange ideas. Ultimately this will reduce transaction costs and increase the utility of ETH.</p>
-<p>Discover is done through a users Status (hence the application name). This status is a 140 char sub-headline to a users profile which can be seen on <a href="https://zpl.io/22nSfB">my profile</a>, <a href="https://zpl.io/CFBa8">user profile</a> and <a href="https://zpl.io/Z1p9XlV">discover</a> screens.</p>
-<p>A status is private and not shared with anyone except their immediate contacts, unless a <strong>#hashtag</strong> is introduced. These #hashtags are locally searchable on the discover screen.</p>
-<p>The Discover application protocol is built ontop of Whisper, possibly utilising our messaging protocol and is implemented in <a href="https://github.com/status-im/status-lib/tree/master/src/cljs/status_im/protocol">status-im/status-lib</a></p>
-<p>Periodically the client should request from it's contacts, a package of statuses that is an aggregate compilation of discoverable statuses (created using the specifications below), this package should contain no more than 100-500 statuses and the period in which the client requests the package is after when the user is back online and/or after waiting X hours has elapsed. Whisper penalizes larger payloads so we may have to chunk this. <code>140chars × 4bytes (utf-8) × 100 contacts = 54kb</code></p>
-<p>The 100 contacts the user decides to return is weighted by;
-- the newest available information (latest status from that user),
-- the most seen contact statuses by other contacts. (that user who has seen the same contact status from all his contacts)
-- and actual interactions with contacts, favor contacts that the user has actually messaged themselves.
-- if contact is online</p>
-<p>The Discover screen then takes this aggregate search space 
-<code>100-500 statuses × users in contact list</code> and organise them by #hashtags, the hashtags that have more than X contacts are put into the carousel under that #hastag category.</p>
-<p>Below it the statuses are listed by most recent.</p>
-<p>On tapping one of these messages a chat session is attempted with that user.</p>
-<p>Each user should cache no more than 1000 statuses</p></div>
+<h1 id="erc20-to-fiat-exchange">ERC20-to-Fiat Exchange</h1></div>
         </div>
 
         <footer class="col-md-12">

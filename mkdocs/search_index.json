@@ -332,12 +332,12 @@
         }, 
         {
             "location": "/contributing/development/adding-dapps/", 
-            "text": "Adding DApps\n\n\nDuring the Alpha we are accepting example DApps as default contacts, to add your DApp to Status, you need to ensure it works on testnet (Ropsten) and submit a single commit pull request to \nstatus-react\n with the following:\n\n\n\n\n\n\nPlace a square icon(\n85x85px\n or \n192x192\n) of your DApp to \nimages/contacts\n directory. The file should be named the same as your DApp, for example \nmy-dapp.png\n.\n\n\n\n\n\n\nAdd information about this icon to \nsrc/status_im/resources.cljs\n, for example:\n\n\n\n\n\n\n(def contacts\n  {:auction-house (js/require \n./images/contacts/auction-house.png\n)\n   :my-dapp (js/require \n./images/contacts/my-dapp.png\n)})\n\n\n\n\n\n\nAdd your DApp to the list of existing DApps (\nresources/default_contacts.json\n):\n\n\n\n\n[\n    ...,\n\n    {\nid\n: \nmy-dapp\n,\n     \nname\n: \nMy DApp\n,\n     \nphoto-path\n: \ncontacts://my-dapp\n,\n     \ndapp?\n: true,\n     \ndapp-url\n: \nhttp://link-to-your-dapp.com\n}\n]", 
+            "text": "Adding DApps\n\n\nDuring the Alpha we are accepting example DApps as default contacts, to add your DApp to Status, you need to ensure it works on testnet (Ropsten) and submit a single commit pull request to \nstatus-react\n with the following:\n\n\n\n\n\n\nPlace a square icon(\n85x85px\n or \n192x192\n) of your DApp to \nimages/contacts\n directory. The file should be named the same as your DApp, for example \nmy-dapp.png\n.\n\n\n\n\n\n\nAdd information about this icon to \nsrc/status_im/resources.cljs\n, for example:\n\n\n\n\n\n\n(def contacts\n  {:auction-house (js/require \n./images/contacts/auction-house.png\n)\n   :my-dapp (js/require \n./images/contacts/my-dapp.png\n)})\n\n\n\n\n\n\nAdd your DApp to the list of existing DApps (\nresources/default_contacts.json\n):\n\n\n\n\n[\n    ...,\n\n    \nmy-dapp\n: {\n        \nname\n:\n        {\n            \nen\n: \nMy DApp\n\n        },\n        \nphoto-path\n: \ncontacts://my-dapp\n,\n        \ndapp?\n: true,\n        \ndapp-url\n:\n        {\n            \nen\n: \nhttp://link-to-your-dapp.com\n\n        }\n    }\n]", 
             "title": "Adding DApps"
         }, 
         {
             "location": "/contributing/development/adding-dapps/#adding-dapps", 
-            "text": "During the Alpha we are accepting example DApps as default contacts, to add your DApp to Status, you need to ensure it works on testnet (Ropsten) and submit a single commit pull request to  status-react  with the following:    Place a square icon( 85x85px  or  192x192 ) of your DApp to  images/contacts  directory. The file should be named the same as your DApp, for example  my-dapp.png .    Add information about this icon to  src/status_im/resources.cljs , for example:    (def contacts\n  {:auction-house (js/require  ./images/contacts/auction-house.png )\n   :my-dapp (js/require  ./images/contacts/my-dapp.png )})   Add your DApp to the list of existing DApps ( resources/default_contacts.json ):   [\n    ...,\n\n    { id :  my-dapp ,\n      name :  My DApp ,\n      photo-path :  contacts://my-dapp ,\n      dapp? : true,\n      dapp-url :  http://link-to-your-dapp.com }\n]", 
+            "text": "During the Alpha we are accepting example DApps as default contacts, to add your DApp to Status, you need to ensure it works on testnet (Ropsten) and submit a single commit pull request to  status-react  with the following:    Place a square icon( 85x85px  or  192x192 ) of your DApp to  images/contacts  directory. The file should be named the same as your DApp, for example  my-dapp.png .    Add information about this icon to  src/status_im/resources.cljs , for example:    (def contacts\n  {:auction-house (js/require  ./images/contacts/auction-house.png )\n   :my-dapp (js/require  ./images/contacts/my-dapp.png )})   Add your DApp to the list of existing DApps ( resources/default_contacts.json ):   [\n    ...,\n\n     my-dapp : {\n         name :\n        {\n             en :  My DApp \n        },\n         photo-path :  contacts://my-dapp ,\n         dapp? : true,\n         dapp-url :\n        {\n             en :  http://link-to-your-dapp.com \n        }\n    }\n]", 
             "title": "Adding DApps"
         }, 
         {
@@ -461,112 +461,112 @@
             "title": "Community Development"
         }, 
         {
-            "location": "/specifications/contact-sharing/", 
+            "location": "/proposals/contact-sharing/", 
             "text": "Contact Sharing\n\n\nbasic idea is to hash the pair of phone numbers (me, other) so that there are many collisions and then publish this (plausible deniable, because of collisions). and the contact your friend out of band if there is a hash that could be a match (which it is most likely not).\n\n\nGeneral problem: \n\u00a0- Data is readable by anyone\n\u00a0- The problem is not so much, that the server must not learn the contacts, but \u00a0that \n\u00a0 \u00a0 \u00a0- no one must learn them, while all data is public\n\n\nAlice announces its connection with Bob by:\n\n\n\n\ncalculating H(A_phone_number + B_phone_number) \n\n\napplying costly scrypt or PBKDF2 hashing to derive H'\n\n\ntruncating H\u2019 to a low number of bits H'', so that collisions are likely\n\n\npublicly registers its unique pubkey_alice_bob for \u00a0H''\n\n\n\n\nNotes so far: \n- rainbow tables of 10^10^2 size (i.e. all phone number combinations) are impractical\n- calculating all combinations is prohibitively costly \n- collisions of H\u2019\u2019 allow plausible deniability\n- Problem: an adversary can impersonate Alice, need spam protection (PoW) here\n\n\nBob wants to know if Alice is participating in the network:\n- Bob calculates H(A_phone_number + B_phone_number) \n- Bob generates H\u2019 and H\u2019'\n- for all matching entries for H\u2019\u2019 (including the one generated by Alice)\n\u00a0- Bob encrypts truncated H(mobile_bob) for pubkey_alice_bob\n\u00a0- and sends the message to Alice inbox on the server\n\u00a0- Alice loads and decrypts the message\n\u00a0- Alice can match \u00a0truncated H(mobile_bob) in hear contact list with a very low false positive rate\n\u00a0- if Alice thinks she knows Bob, she might reply out of band\n\n\nNotes:\n- Bob can still plausibly deny that he knows Alice\n- Bob can still plausibly deny that he participates in the system\n- add some proof of work or similar for spam protection\n\n\nThis is hard against:\n- Leaking users contact lists\n- An adversary with a hypothesis about a connection can learn bobs phone number though\n\n\nLimitations:\n- New users (Bob) won\u2019t see others directly\n- Existing users (Alice) need to invite Bob\n- Quite some computation and communication overhead\n\u00a0- ~ 500 x 10 messages send\n\u00a0- 2x key pairs to remember for each\n\n\nThe Difficulty Of Private Contact Discovery \nhttps://whispersystems.org/blog/contact-discovery/\nhttps://news.ycombinator.com/item?id=7007554\nhttps://news.ycombinator.com/item?id=11288169\nhttps://news.ycombinator.com/item?id=11289223\n\n\nLame solution which is prone to rainbow table attacks. \nhttps://github.com/SilentCircle/contact-discovery", 
             "title": "Contact Sharing (WIP)"
         }, 
         {
-            "location": "/specifications/contact-sharing/#contact-sharing", 
+            "location": "/proposals/contact-sharing/#contact-sharing", 
             "text": "basic idea is to hash the pair of phone numbers (me, other) so that there are many collisions and then publish this (plausible deniable, because of collisions). and the contact your friend out of band if there is a hash that could be a match (which it is most likely not).  General problem: \n\u00a0- Data is readable by anyone\n\u00a0- The problem is not so much, that the server must not learn the contacts, but \u00a0that \n\u00a0 \u00a0 \u00a0- no one must learn them, while all data is public  Alice announces its connection with Bob by:   calculating H(A_phone_number + B_phone_number)   applying costly scrypt or PBKDF2 hashing to derive H'  truncating H\u2019 to a low number of bits H'', so that collisions are likely  publicly registers its unique pubkey_alice_bob for \u00a0H''   Notes so far: \n- rainbow tables of 10^10^2 size (i.e. all phone number combinations) are impractical\n- calculating all combinations is prohibitively costly \n- collisions of H\u2019\u2019 allow plausible deniability\n- Problem: an adversary can impersonate Alice, need spam protection (PoW) here  Bob wants to know if Alice is participating in the network:\n- Bob calculates H(A_phone_number + B_phone_number) \n- Bob generates H\u2019 and H\u2019'\n- for all matching entries for H\u2019\u2019 (including the one generated by Alice)\n\u00a0- Bob encrypts truncated H(mobile_bob) for pubkey_alice_bob\n\u00a0- and sends the message to Alice inbox on the server\n\u00a0- Alice loads and decrypts the message\n\u00a0- Alice can match \u00a0truncated H(mobile_bob) in hear contact list with a very low false positive rate\n\u00a0- if Alice thinks she knows Bob, she might reply out of band  Notes:\n- Bob can still plausibly deny that he knows Alice\n- Bob can still plausibly deny that he participates in the system\n- add some proof of work or similar for spam protection  This is hard against:\n- Leaking users contact lists\n- An adversary with a hypothesis about a connection can learn bobs phone number though  Limitations:\n- New users (Bob) won\u2019t see others directly\n- Existing users (Alice) need to invite Bob\n- Quite some computation and communication overhead\n\u00a0- ~ 500 x 10 messages send\n\u00a0- 2x key pairs to remember for each  The Difficulty Of Private Contact Discovery \nhttps://whispersystems.org/blog/contact-discovery/\nhttps://news.ycombinator.com/item?id=7007554\nhttps://news.ycombinator.com/item?id=11288169\nhttps://news.ycombinator.com/item?id=11289223  Lame solution which is prone to rainbow table attacks. \nhttps://github.com/SilentCircle/contact-discovery", 
             "title": "Contact Sharing"
         }, 
         {
-            "location": "/specifications/chat-api/", 
+            "location": "/proposals/chat-api/", 
             "text": "Chat API\n\n\nCommands\n\n\n!init (hidden)\n\n    - if it exists run on open chat session, only in 1-to-1 chats.\n\n!help\n\n!settings\n\n\nExplicitly calling commands\n\n\nDApps are namespaced with @dappname!command, which can be useful if same commands used by multiple bots are available, alternatively these can be used for commands when bot is not actually in the chat, ie @wallet!send\n\n\nCustom Keyboards\n\n\nParameters use custom keyboards (instead of types, we adapt our types to be keyboards themselves?)  \n\n\nMake our emoji/sticker market with this, otherwise accessible through commands\nie !init command with param that opens up a config\n\n\nMessages\n\n\n\n\nsubscription to message feed\n\n\napi for sending messages, and setting things like \"typing\"\n\n\nnot available in group\n\n\n\n\nPrivacy\n\n\n\n\nby default does not receive all messages in group chat\n\n\nonly commands and in 1-to-1", 
             "title": "Chat API (WIP)"
         }, 
         {
-            "location": "/specifications/chat-api/#chat-api", 
+            "location": "/proposals/chat-api/#chat-api", 
             "text": "", 
             "title": "Chat API"
         }, 
         {
-            "location": "/specifications/chat-api/#commands", 
+            "location": "/proposals/chat-api/#commands", 
             "text": "!init (hidden) \n    - if it exists run on open chat session, only in 1-to-1 chats. \n!help \n!settings", 
             "title": "Commands"
         }, 
         {
-            "location": "/specifications/chat-api/#explicitly-calling-commands", 
+            "location": "/proposals/chat-api/#explicitly-calling-commands", 
             "text": "DApps are namespaced with @dappname!command, which can be useful if same commands used by multiple bots are available, alternatively these can be used for commands when bot is not actually in the chat, ie @wallet!send", 
             "title": "Explicitly calling commands"
         }, 
         {
-            "location": "/specifications/chat-api/#custom-keyboards", 
+            "location": "/proposals/chat-api/#custom-keyboards", 
             "text": "Parameters use custom keyboards (instead of types, we adapt our types to be keyboards themselves?)    Make our emoji/sticker market with this, otherwise accessible through commands\nie !init command with param that opens up a config", 
             "title": "Custom Keyboards"
         }, 
         {
-            "location": "/specifications/chat-api/#messages", 
+            "location": "/proposals/chat-api/#messages", 
             "text": "subscription to message feed  api for sending messages, and setting things like \"typing\"  not available in group", 
             "title": "Messages"
         }, 
         {
-            "location": "/specifications/chat-api/#privacy", 
+            "location": "/proposals/chat-api/#privacy", 
             "text": "by default does not receive all messages in group chat  only commands and in 1-to-1", 
             "title": "Privacy"
         }, 
         {
-            "location": "/specifications/discover/", 
+            "location": "/proposals/discover/", 
             "text": "Discover\n\n\nThis document describes the Discover feature of Status. Ethereum is its community, and with Discover we want to connect other Ethereum users with other Ethereum users - to trade and exchange ideas. Ultimately this will reduce transaction costs and increase the utility of ETH.\n\n\nDiscover is done through a users Status (hence the application name). This status is a 140 char sub-headline to a users profile which can be seen on \nmy profile\n, \nuser profile\n and \ndiscover\n screens.\n\n\nA status is private and not shared with anyone except their immediate contacts, unless a \n#hashtag\n is introduced. These #hashtags are locally searchable on the discover screen.\n\n\nThe Discover application protocol is built ontop of Whisper, possibly utilising our messaging protocol and is implemented in \nstatus-im/status-lib\n\n\nPeriodically the client should request from it's contacts, a package of statuses that is an aggregate compilation of discoverable statuses (created using the specifications below), this package should contain no more than 100-500 statuses and the period in which the client requests the package is after when the user is back online and/or after waiting X hours has elapsed. Whisper penalizes larger payloads so we may have to chunk this. \n140chars \u00d7 4bytes (utf-8) \u00d7 100 contacts = 54kb\n\n\nThe 100 contacts the user decides to return is weighted by;\n- the newest available information (latest status from that user),\n- the most seen contact statuses by other contacts. (that user who has seen the same contact status from all his contacts)\n- and actual interactions with contacts, favor contacts that the user has actually messaged themselves.\n- if contact is online\n\n\nThe Discover screen then takes this aggregate search space \n\n100-500 statuses \u00d7 users in contact list\n and organise them by #hashtags, the hashtags that have more than X contacts are put into the carousel under that #hastag category.\n\n\nBelow it the statuses are listed by most recent.\n\n\nOn tapping one of these messages a chat session is attempted with that user.\n\n\nEach user should cache no more than 1000 statuses", 
             "title": "Discover (WIP)"
         }, 
         {
-            "location": "/specifications/discover/#discover", 
+            "location": "/proposals/discover/#discover", 
             "text": "This document describes the Discover feature of Status. Ethereum is its community, and with Discover we want to connect other Ethereum users with other Ethereum users - to trade and exchange ideas. Ultimately this will reduce transaction costs and increase the utility of ETH.  Discover is done through a users Status (hence the application name). This status is a 140 char sub-headline to a users profile which can be seen on  my profile ,  user profile  and  discover  screens.  A status is private and not shared with anyone except their immediate contacts, unless a  #hashtag  is introduced. These #hashtags are locally searchable on the discover screen.  The Discover application protocol is built ontop of Whisper, possibly utilising our messaging protocol and is implemented in  status-im/status-lib  Periodically the client should request from it's contacts, a package of statuses that is an aggregate compilation of discoverable statuses (created using the specifications below), this package should contain no more than 100-500 statuses and the period in which the client requests the package is after when the user is back online and/or after waiting X hours has elapsed. Whisper penalizes larger payloads so we may have to chunk this.  140chars \u00d7 4bytes (utf-8) \u00d7 100 contacts = 54kb  The 100 contacts the user decides to return is weighted by;\n- the newest available information (latest status from that user),\n- the most seen contact statuses by other contacts. (that user who has seen the same contact status from all his contacts)\n- and actual interactions with contacts, favor contacts that the user has actually messaged themselves.\n- if contact is online  The Discover screen then takes this aggregate search space  100-500 statuses \u00d7 users in contact list  and organise them by #hashtags, the hashtags that have more than X contacts are put into the carousel under that #hastag category.  Below it the statuses are listed by most recent.  On tapping one of these messages a chat session is attempted with that user.  Each user should cache no more than 1000 statuses", 
             "title": "Discover"
         }, 
         {
-            "location": "/specifications/messaging/", 
+            "location": "/proposals/messaging/", 
             "text": "Messaging\n\n\nChat Protocol Test setup (out of date)\n\n\n\n\n\n\nStart app in android\n\n\n\n\n\n\nBuild geth:\n ```\n git clone https://github.com/status-im/go-ethereum\n cd go-ethereum\n git checkout develop\n make geth\n\n\n\n\n\n\n Alternatively on Mac it can be done by\n ```\n brew tap ethereum/ethereum\nbrew install ethereum --devel\n\n\n\n\n\n\nConnect to app geth console\n\n\n\n\n```\n adb forward tcp:8545 tcp:8545\n build/bin/geth attach http://localhost:8545\n\n\n4. Inside console:\n\n ```\nadmin.addPeer(\nenode://e2f28126720452aa82f7d3083e49e6b3945502cb94d9750a15e27ee310eed6991618199f878e5fbc7dfa0e20f0af9554b41f491dc8f1dbae8f0f2d37a3a613aa@139.162.13.89:55555\n)\n\n\n\n\n\n\nAfter 10 seconds you should see the peer in:\n\n\n\n\nadmin.peers", 
             "title": "Status Messaging (WIP)"
         }, 
         {
-            "location": "/specifications/messaging/#messaging", 
+            "location": "/proposals/messaging/#messaging", 
             "text": "", 
             "title": "Messaging"
         }, 
         {
-            "location": "/specifications/messaging/#chat-protocol-test-setup-out-of-date", 
+            "location": "/proposals/messaging/#chat-protocol-test-setup-out-of-date", 
             "text": "Start app in android    Build geth:\n ```\n git clone https://github.com/status-im/go-ethereum\n cd go-ethereum\n git checkout develop\n make geth     Alternatively on Mac it can be done by\n ```\n brew tap ethereum/ethereum\nbrew install ethereum --devel   Connect to app geth console   ```\n adb forward tcp:8545 tcp:8545\n build/bin/geth attach http://localhost:8545  4. Inside console:\n\n ```\nadmin.addPeer( enode://e2f28126720452aa82f7d3083e49e6b3945502cb94d9750a15e27ee310eed6991618199f878e5fbc7dfa0e20f0af9554b41f491dc8f1dbae8f0f2d37a3a613aa@139.162.13.89:55555 )   After 10 seconds you should see the peer in:   admin.peers", 
             "title": "Chat Protocol Test setup (out of date)"
         }, 
         {
-            "location": "/specifications/erc20-exchange/", 
+            "location": "/proposals/erc20-exchange/", 
             "text": "ERC20-to-Fiat Exchange", 
             "title": "Exchange (WIP)"
         }, 
         {
-            "location": "/specifications/erc20-exchange/#erc20-to-fiat-exchange", 
+            "location": "/proposals/erc20-exchange/#erc20-to-fiat-exchange", 
             "text": "", 
             "title": "ERC20-to-Fiat Exchange"
         }, 
         {
-            "location": "/specifications/sticker-market/", 
+            "location": "/proposals/sticker-market/", 
             "text": "Sticker Market", 
             "title": "Sticker Market (WIP)"
         }, 
         {
-            "location": "/specifications/sticker-market/#sticker-market", 
+            "location": "/proposals/sticker-market/#sticker-market", 
             "text": "", 
             "title": "Sticker Market"
         }, 
         {
-            "location": "/specifications/visual-programming/", 
+            "location": "/proposals/visual-programming/", 
             "text": "Visual Programming", 
             "title": "Visual Programming (WIP)"
         }, 
         {
-            "location": "/specifications/visual-programming/#visual-programming", 
+            "location": "/proposals/visual-programming/#visual-programming", 
             "text": "", 
             "title": "Visual Programming"
         }, 
         {
-            "location": "/specifications/moments/", 
+            "location": "/proposals/moments/", 
             "text": "Moments", 
             "title": "Moments (WIP)"
         }, 
         {
-            "location": "/specifications/moments/#moments", 
+            "location": "/proposals/moments/#moments", 
             "text": "", 
             "title": "Moments"
         }, 

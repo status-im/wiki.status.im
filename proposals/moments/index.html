@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://wiki.status.im/specifications/messaging/">
+        <link rel="canonical" href="https://wiki.status.im/proposals/moments/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Status Messaging (WIP) - Status Wiki</title>
+        <title>Moments (WIP) - Status Wiki</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -147,7 +147,7 @@
                         </ul>
                     </li>
                     <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Specifications <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Proposals <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             
 <li >
@@ -162,8 +162,8 @@
     <a href="../discover/">Discover (WIP)</a>
 </li>
                             
-<li class="active">
-    <a href="./">Status Messaging (WIP)</a>
+<li >
+    <a href="../messaging/">Status Messaging (WIP)</a>
 </li>
                             
 <li >
@@ -178,8 +178,8 @@
     <a href="../visual-programming/">Visual Programming (WIP)</a>
 </li>
                             
-<li >
-    <a href="../moments/">Moments (WIP)</a>
+<li class="active">
+    <a href="./">Moments (WIP)</a>
 </li>
                         </ul>
                     </li>
@@ -205,12 +205,12 @@
                     </a>
                 </li>
                     <li >
-                        <a rel="next" href="../discover/">
+                        <a rel="next" href="../visual-programming/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../erc20-exchange/">
+                        <a rel="prev" href="../../licenses/mpl2/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -227,49 +227,12 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#messaging">Messaging</a></li>
-            <li><a href="#chat-protocol-test-setup-out-of-date">Chat Protocol Test setup (out of date)</a></li>
+        <li class="main active"><a href="#moments">Moments</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="messaging">Messaging</h1>
-<h2 id="chat-protocol-test-setup-out-of-date">Chat Protocol Test setup (out of date)</h2>
-<ol>
-<li>
-<p>Start app in android</p>
-</li>
-<li>
-<p>Build geth:
- ```
- git clone https://github.com/status-im/go-ethereum
- cd go-ethereum
- git checkout develop
- make geth</p>
-</li>
-</ol>
-<pre><code> Alternatively on Mac it can be done by
- ```
- brew tap ethereum/ethereum
-brew install ethereum --devel
-</code></pre>
-
-<ol>
-<li>Connect to app geth console</li>
-</ol>
-<p>```
- adb forward tcp:8545 tcp:8545
- build/bin/geth attach http://localhost:8545</p>
-<pre><code>4. Inside console:
-
- ```
-admin.addPeer(&quot;enode://e2f28126720452aa82f7d3083e49e6b3945502cb94d9750a15e27ee310eed6991618199f878e5fbc7dfa0e20f0af9554b41f491dc8f1dbae8f0f2d37a3a613aa@139.162.13.89:55555&quot;)
-</code></pre>
-
-<ol>
-<li>After 10 seconds you should see the peer in:</li>
-</ol>
-<p><code>admin.peers</code></p></div>
+<h1 id="moments">Moments</h1></div>
         </div>
 
         <footer class="col-md-12">
