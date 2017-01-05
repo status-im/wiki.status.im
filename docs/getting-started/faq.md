@@ -80,6 +80,20 @@ We’re currently supporting 30 languages — this includes; English, 官話
 
 If you see a typo, mistranslation or something missing, don't hesitate to let us know!
 
+## What about all these permissions in the app?
+
+Permissions are always a hot topic for apps, we hate the way we’re doing them too. The good news is it’s only like this for alpha and in production we’ll make permission usage on-demand. At the moment there’s many moving parts and a bunch of react-native dependencies (and Instabug) which don’t have code to ask on-demand. Thanks for understanding!
+
+**Contacts, SMS, Telephone** — these are for an optional step of phone contact synchronisation. We don’t use them unless you tap on the phone sync request message.  
+
+**Location** — Currently used for our toy !location command. Our aim is to provide this to DApps For things like sharing location with friends, ordering food, or self-driving cars.  
+
+**Microphone** — In this version, we don’t need it, it’s there because we intended to send audio messages over Whisper, in practice this was a bad idea. We still intend to offer Audio messages in Beta so it’s going to stay. It is also used in Instabug which we use to collect feedback.  
+
+**Storage** — We need a place to put the blockchain data.  
+
+**Camera** — We use this for setting your profile picture and for reading QR codes.  
+
 
 
 
