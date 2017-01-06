@@ -8,6 +8,7 @@ pages:
   - Welcome: index.md
   - Getting Started:
     - Mission & Core Values : 'getting-started/mission-and-core-values.md'
+    - User Guide: 'getting-started/user-guide.md'
     - FAQ: 'getting-started/faq.md'
     - Code of Conduct: 'getting-started/code-of-conduct.md'
     - Building Status: 'contributing/development/building-status.md'
@@ -21,6 +22,7 @@ pages:
     - Testing & Feedback: 'contributing/testing-and-feedback.md'
     - Documenting: 'contributing/documenting.md'
     - Marketing: 'contributing/marketing.md'
+    - Translations: 'contributing/translations.md'
   - Community:
     - Slack: 'community/slack.md'
     - Newsletter: 'community/newsletter.md'
