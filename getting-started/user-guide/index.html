@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://wiki.status.im/getting-started/user-guide/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>User Guide - Status Wiki</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+	
+	<script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-79146816-1', 'wiki.status.im');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../..">Status Wiki</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                    <li >
+                        <a href="../..">Welcome</a>
+                    </li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting Started <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../mission-and-core-values/">Mission & Core Values</a>
+</li>
+                            
+<li class="active">
+    <a href="./">User Guide</a>
+</li>
+                            
+<li >
+    <a href="../faq/">FAQ</a>
+</li>
+                            
+<li >
+    <a href="../code-of-conduct/">Code of Conduct</a>
+</li>
+                            
+<li >
+    <a href="../../contributing/development/building-status/">Building Status</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contributing <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+  <li class="dropdown-submenu">
+    <a href="#">Developers</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../contributing/development/building-status/">Building Status</a>
+</li>
+            
+<li >
+    <a href="../../contributing/development/adding-dapps/">Adding DApps</a>
+</li>
+            
+<li >
+    <a href="../../contributing/development/clojurescript/">Clojurescript</a>
+</li>
+            
+<li >
+    <a href="../../contributing/development/golang/">Golang</a>
+</li>
+    </ul>
+  </li>
+                            
+<li >
+    <a href="../../contributing/ux-and-design/">UX & Design</a>
+</li>
+                            
+<li >
+    <a href="../../contributing/testing-and-feedback/">Testing & Feedback</a>
+</li>
+                            
+<li >
+    <a href="../../contributing/documenting/">Documenting</a>
+</li>
+                            
+<li >
+    <a href="../../contributing/marketing/">Marketing</a>
+</li>
+                            
+<li >
+    <a href="../../contributing/translations/">Translations</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Community <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../community/slack/">Slack</a>
+</li>
+                            
+<li >
+    <a href="../../community/newsletter/">Newsletter</a>
+</li>
+                            
+<li >
+    <a href="../../community/blog/">Blog</a>
+</li>
+                            
+<li >
+    <a href="../../community/tell-a-friend/">Tell a Friend</a>
+</li>
+                            
+<li >
+    <a href="../../community/development/">Development</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Proposals <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../proposals/contact-sharing/">Contact Sharing (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../proposals/chat-api/">Chat API (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../proposals/discover/">Discover (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../proposals/messaging/">Status Messaging (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../proposals/erc20-exchange/">Exchange (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../proposals/sticker-market/">Sticker Market (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../proposals/visual-programming/">Visual Programming (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../proposals/moments/">Moments (WIP)</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">License <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../licenses/mpl2/">MPL2</a>
+</li>
+                            
+<li >
+    <a href="../../licenses/lgpl-v3.0-static/">LGPLv3-static</a>
+</li>
+                        </ul>
+                    </li>
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                    <li >
+                        <a rel="next" href="../mission-and-core-values/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../faq/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/status-im/wiki.status.im/">
+                                <i class="fa fa-github"></i>GitHub
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#user-guide">User Guide</a></li>
+            <li><a href="#setting-it-all-up">Setting It All Up</a></li>
+            <li><a href="#actually-using-the-app">Actually Using the App</a></li>
+            <li><a href="#for-the-adventurous">For the Adventurous</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="user-guide">User Guide</h1>
+<h2 id="setting-it-all-up">Setting It All Up</h2>
+<p>Special thanks to <a href="https://twitter.com/cryptowanderer">@cryptowanderer</a> for contributing this fantastic guide!</p>
+<p>Welcome to Status! This is Ethereum, anywhere. Ethereum everywhere. A world computer in your pocket. It is so many cool and amazing things that is difficult to know where to start. Being entirely too overwhelmed with the awesomeness that is an Ethereum light client running on your mobile phone, I suppose we’ll just begin at the beginning.</p>
+<p>Once you have downloaded the app, installed it and opened it, it should take you into a chat with Console: a dApp that lives inside status and lets you set up your account and control all the important stuff (as well as a bunch of other rad features, which we will get to in good time).</p>
+<p><center><img src="../img/image_0.png" style="width:300px;" /></center></p>
+<p>As you can see, I have already been chatting a fair bit with Console (friends, yay!!). The UI concept here is that when someone sends an action message requesting (in this case) a password, or money, or a confirmation code etc., you can tap the blue block and it will insert the appropriate syntax to respond to that request, followed by your input. </p>
+<p>One other thing to note is the ‘Available’ beneath ‘Console’ in the top left. This means that my phone has synced with the ropsten testnet (unbelievable right?!). I am running android 7.0 and am doing so over wifi. It took just under 40mins for me to sync, though there are varying reports coming in to our slack depending on phone, OS and network differences. Still, ~40min sync time on a mobile is just insane. Thanks Zsolt for the amazing <a href="https://github.com/ethcore/parity/wiki/Light-Ethereum-Subprotocol-(LES)">LES</a>!</p>
+<p><center><img src="../img/image_1.jpg" style="width:300px;" /></center></p>
+<p>You can see that you can optionally give your phone number to help status sync with your existing contacts. This is not mandatory and the app will work fine without it. If you do provide it, please make sure to give your country code (so +27… for me) so that status can send you the confirmation message. Note that if you run into any issues, you can just shake your phone and this should bring up a screen that allows you to submit an error report directly to the status team. You can select from the options what you want to do, but generally it seems best to <code>Report a Problem</code>:</p>
+<p><center><img src="../img/image_2.png" style="width:300px;" /><img src="../img/image_3.png" style="width:300px;" /></center></p>
+<p>You should be able to select a colour to indicate the severity of the issue on the second screen above. I really want to make sure that Jarrad, Carl and the crew are on their toes, so I have gone for red here. Hitting the forward button (top right) should take you to where the magic really happens:</p>
+<p><center><img src="../img/image_4.png" style="width:300px;" /></center></p>
+<p>Please note the <code>Take a screen recording</code> button in the bottom left. This is how the team prefers you to submit bug reports as it is enormously helpful with seeing exactly what went wrong and so providing insight into where to go to fix the issue. You can enter your email, take a video and go ahead and submit. At which point we issue you a massive thank you for being such a stellar alpha tester. Go you!</p>
+<h2 id="actually-using-the-app">Actually Using the App</h2>
+<p>OK, now that we have the setup out the way, we can get into the really fun stuff. Once you have generated your account with Console, you can open both the ropsten testnet faucet and the status test faucet to get some shweet test ether into your account so that you can go out and convince actual people to be your friends too. Please do not open an issue if this doesn’t happen - we can’t convince people to like you (even if you do use the best tech around).</p>
+<p>To open both faucets, tap the hamburger menu with the blue dot to the left of the chat box:</p>
+<p><center><img src="../img/image_5.png" style="width:300px;" /><img src="../img/image_6.png" style="width:300px;" /><img src="../img/image_7.png" style="width:300px;" /></center></p>
+<p>In words, we tap the menu on the left, scroll down and select the faucet option and then select which testnet we want to get ether from. Repeat this twice to open both faucets and you should get a bit more ether a bit more quickly. Don’t worry about the web3 stuff in the first screenshot - we’ll get to that (who said you can’t build suspense in a technical user guide?).</p>
+<p>Seeing as we’re now finished chatting to Console for the moment, we can hit the back button and this will take us into the Chats page:</p>
+<p><center><img src="../img/image_8.png" style="width:300px;" /></center></p>
+<p>Here you can see all the lovely people that you have been chatting to. It’s really straightforward and intuitive, so behave as your normally would in WhatsApp or WeChat etc. Tapping a conversation will take you into it, and you can use the bottom three tabs to navigate through the Chats, Discover and Contacts screen. You can also just swipe right. Just do you.</p>
+<p>There is another important dApp that lives here as well - your wallet. Selecting it should take you to a screen like this:</p>
+<p><center><img src="../img/image_9.png" style="width:300px;" /><img src="../img/image_10.png" style="width:300px;" /></center></p>
+<p>The main screen opens what is essentially an in-app browser that will show your main balance. You can scroll that screen down using the small down arrow at the top in the centre to see the actual transactions in a chat-like interface. As you can see, I am super rich - absolutely rolling in that test ether - and have sent some to Jarrad as mad props for building the app, and received some from Roland as a little test.</p>
+<p>If you navigate back out of the wallet chat and swipe right, or select the Discover tab at the bottom, you will get to the Discover page:</p>
+<p><center><img src="../img/image_11.png" style="width:300px;" /></center></p>
+<p>Here you can see hashtags people are using and discover all the different conversations going on. Swipe right through the cards to see the most popular categories, or scroll down to see the most recent updates. If you want to make a message of your own appear here, you need to open your profile page and edit your status with the hashtag you want to see appear here. Start a meme or hop onto an existing one - it’s all up to you. You can get to your profile page by tapping the little hamburger menu in the very top left of the app:</p>
+<p><center><img src="../img/image_12.png" style="width:300px;" /></center></p>
+<p>Don’t stress about the <code>Settings</code> tab - that will be functional in a later release. Your profile page should look like the below. To edit it, hit the three dots in the top right:</p>
+<p><center><img src="../img/image_13.jpg" style="width:300px;" /><img src="../img/image_14.jpg" style="width:300px;" /></center></p>
+<p>Tap next to your name to edit that, tap your status to edit that and hit the pencil icon by the picture to upload your own. Remember to include that hashtag if you want it to appear on the Discover page.</p>
+<p>Once that is all done and you’ve broadcast a status for all the world to see, swipe right once more (or use the tabs for navigation) and you will get to the Contacts page. Here you will see the dApps that are currently living in status as well as all the wonderful people you have connected with:</p>
+<p><center><img src="../img/image_15.png" style="width:300px;" /></center></p>
+<p>These dApps all work in essentially the same way as the wallet - you can open a chat with them, which will direct you to an in app browser that displays whatever is appropriate for that app. There is a small down arrow at the top which you can scroll down to see any transactions that have occurred between you and the dApp. Directly from within status - signed, sealed and delivered, it all just works. Mind-boggling, I know.</p>
+<p><center><img src="../img/image_16.png" style="width:300px;" /><img src="../img/image_17.png" style="width:300px;" /></center></p>
+<p>If you close your app or otherwise have an issue, when you reopen it, you should be directed to  a screen which looks like the below. Select the account that belongs to you (in the case where you set up more than one) and then put in the appropriate password and you should get back to the chat screen:</p>
+<p><center><img src="../img/image_18.png" style="width:300px;" /></center> <center><img src="../img/image_19.png" style="width:300px;" /></center></p>
+<p>If that doesn’t work for you or your account doesn’t appear like mine, hit the <code>Recover access</code> button at the bottom of the first screen and follow the prompts to input the 12 word passphrase console gave you when you first set stuff up and your password.</p>
+<p>Happy sailing!</p>
+<h2 id="for-the-adventurous">For the Adventurous</h2>
+<p>We’ve covered all the basic functionality as it stands, but there is so much more that you can do with status. Most of this stuff will only become available in the beta release or after, but developers around the world should be getting really excited to start building dApps to live alongside Flight Delays and Maker etc. </p>
+<p>Though it is by no means complete yet, you can do a lot more than just set you account up using Console - it is, after all, a full dApp of its own. Go back to that chat and type <code>web3.</code> (the fullstop is important) and <code>web3.eth.</code>:</p>
+<p><center><img src="../img/image_20.png" style="width:300px;" /><img src="../img/image_21.png" style="width:300px;" /></center></p>
+<p>You should be able to see a whole bunch of suggestions for the sorts of things you can do directly from Console, the most basic of which is <code>web3.eth.blockNumber</code> which will return the current block number on the ropsten testnet. If this doesn’t blow your mind, I’m not sure what will. There are, as I said, still improvements to be made here regarding technical things like retaining state between messages, but it will get there.</p>
+<p>If you want to dive in even further and help develop the app, contribute some code or otherwise get involved in the technical side of things, here are the links you need:</p>
+<p>How to build it: <a href="https://wiki.status.im/contributing/development/building-status/">https://wiki.status.im/contributing/development/building-status/</a></p>
+<p>The latest nightlies: <a href="http://artifacts.status.im:8081/artifactory/nightlies-local/">http://artifacts.status.im:8081/artifactory/nightlies-local/</a></p>
+<p>If you would like to help us with how to build for Linux and Windows, please do feel free - that would be really awesome to get everyone up to the same speed.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
