@@ -1,5 +1,16 @@
 # Chat API 
 
+## Interface Anatomy
+
+This anatomy establishes the different sections of the chat interface and establishes a common verbiage. The main components being:
+
+- Message
+- Input
+- Keyboard
+- Suggestions
+
+![](img/chat-anatomy.png)
+
 ## Commands
 
 !init (hidden)  
