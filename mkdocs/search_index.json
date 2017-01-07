@@ -522,13 +522,18 @@
         }, 
         {
             "location": "/proposals/chat-api/", 
-            "text": "Chat API\n\n\nCommands\n\n\n!init (hidden)\n\n    - if it exists run on open chat session, only in 1-to-1 chats.\n\n!help\n\n!settings\n\n\nExplicitly calling commands\n\n\nDApps are namespaced with @dappname!command, which can be useful if same commands used by multiple bots are available, alternatively these can be used for commands when bot is not actually in the chat, ie @wallet!send\n\n\nCustom Keyboards\n\n\nParameters use custom keyboards (instead of types, we adapt our types to be keyboards themselves?)  \n\n\nMake our emoji/sticker market with this, otherwise accessible through commands\nie !init command with param that opens up a config\n\n\nMessages\n\n\n\n\nsubscription to message feed\n\n\napi for sending messages, and setting things like \"typing\"\n\n\nnot available in group\n\n\n\n\nPrivacy\n\n\n\n\nby default does not receive all messages in group chat\n\n\nonly commands and in 1-to-1", 
+            "text": "Chat API\n\n\nInterface Anatomy\n\n\nThis anatomy establishes the different sections of the chat interface and establishes a common verbiage. The main components being:\n\n\n\n\nMessage\n\n\nInput\n\n\nKeyboard\n\n\nSuggestions\n\n\n\n\n\n\nCommands\n\n\n!init (hidden)\n\n    - if it exists run on open chat session, only in 1-to-1 chats.\n\n!help\n\n!settings\n\n\nExplicitly calling commands\n\n\nDApps are namespaced with @dappname!command, which can be useful if same commands used by multiple bots are available, alternatively these can be used for commands when bot is not actually in the chat, ie @wallet!send\n\n\nCustom Keyboards\n\n\nParameters use custom keyboards (instead of types, we adapt our types to be keyboards themselves?)  \n\n\nMake our emoji/sticker market with this, otherwise accessible through commands\nie !init command with param that opens up a config\n\n\nMessages\n\n\n\n\nsubscription to message feed\n\n\napi for sending messages, and setting things like \"typing\"\n\n\nnot available in group\n\n\n\n\nPrivacy\n\n\n\n\nby default does not receive all messages in group chat\n\n\nonly commands and in 1-to-1", 
             "title": "Chat API (WIP)"
         }, 
         {
             "location": "/proposals/chat-api/#chat-api", 
             "text": "", 
             "title": "Chat API"
+        }, 
+        {
+            "location": "/proposals/chat-api/#interface-anatomy", 
+            "text": "This anatomy establishes the different sections of the chat interface and establishes a common verbiage. The main components being:   Message  Input  Keyboard  Suggestions", 
+            "title": "Interface Anatomy"
         }, 
         {
             "location": "/proposals/chat-api/#commands", 
