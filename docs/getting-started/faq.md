@@ -94,6 +94,10 @@ Permissions are always a hot topic for apps, we hate the way we’re doing them 
 
 **Camera** — We use this for setting your profile picture and for reading QR codes.  
 
+## Where are the nightlies?
+
+Here you go!
+http://artifacts.status.im:8081/artifactory/nightlies-local/
 
 
 
