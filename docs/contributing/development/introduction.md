@@ -63,7 +63,7 @@ re-frame is simple but expressive library for writing Single Page Applications i
 - re-frame [README.md](https://github.com/Day8/re-frame)
 - re-frame [docs](https://github.com/Day8/re-frame/tree/master/docs#introduction)
 - [A Noob's walkthrough of a re-frame Application](http://www.multunus.com/blog/2016/02/noobs-walkthrough-re-frame-app/)
-- [The Angulur Phonecat tutorial in re-frame](https://dhruvp.github.io/2015/03/07/re-frame/)
+- [The Angular Phonecat tutorial in re-frame](https://dhruvp.github.io/2015/03/07/re-frame/)
 
 ## Reagent
 
