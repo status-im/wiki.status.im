@@ -6,7 +6,7 @@ Status is largely written in two languages Clojurescript & Golang and builds on 
 
 ## React Native
 
-Status (formerly known as Syng) has always aspired to have a single, unified codebase for multi-platform development. This is not so easy to achieve, many of the non-web-based solutions out there allow you to have a semi-single codebase but you find yourself creating alot of seperate logic for handling interfaces - Status is 80% frontend code, this present a problem. We tried Xamarin & Java (EthereumJ was the first implementation we got running on Android & iOS -via RoboVM), and we quickly discovered this problem.
+Status (formerly known as Syng) has always aspired to have a single, unified codebase for multi-platform development. This is not so easy to achieve, many of the non-web-based solutions out there allow you to have a semi-single codebase but you find yourself creating alot of seperate logic for handling user interfaces on each platform - Status is 80% frontend code, this present a problem. We tried Xamarin & Java (EthereumJ was the first implementation we got running on Android & iOS -via RoboVM), and we quickly discovered this problem.
 
 Mobile apps built on web-based technologies, such as those done in Cordova are great for short-term projects or mvp, but you will quickly run into performance issues on resource-limited devices, and may require rewrite, in our tests displaying webview DApps in a chat history with iFrames and all the other bells and whistles we wanted turned out to be a futile effort.
 
@@ -31,7 +31,7 @@ To read more quotes on Lisp read [Lisp, made with secret alien technology](http:
 
 [![We lost the documentation on quantum mechanics.  You'll have to decode the regexes yourself.](img/xkcd-224.jpg)](https://xkcd.com/224/ "We lost the documentation on quantum mechanics.  You'll have to decode the regexes yourself.")  
 
-There's alot of resources online about why learning Lisps are so great, for us, we want functional programming, macros, homoiconic code and the flexibility that comes with a simple, unstructured language to think in. The benefits of this become more apparent in later stage development allow us to perform rewrites more easily, isolate many bugs to functions, enforces correct coding and well, I prefer reading it.
+There's alot of resources online about why learning Lisps are so great, for us, it's largely about culture, we like the way Lispers think. We want functional programming, macros, homoiconic code and the flexibility that comes with a simple, unstructured language to think in. The benefits of this become more apparent in later stage development allow us to perform rewrites more easily, isolate many bugs to functions, enforces correct coding and well, I prefer reading it.
 
 Also with [hiccup](https://github.com/weavejester/hiccup), working with React Native markup becomes a dream.
 
@@ -39,7 +39,7 @@ Also with [hiccup](https://github.com/weavejester/hiccup), working with React Na
 
 If you would like to start learning Clojurescript, check out these resources:
 
-- [Clojurescript FAQ for (JavaScript developers)](https://github.com/clojure/clojurescript/wiki/FAQ-(for-JavaScript-developers))
+- [Clojurescript FAQ (for JavaScript developers)](https://github.com/clojure/clojurescript/wiki/FAQ-(for-JavaScript-developers))
 - [Clojurescript Community Resources](http://clojurescript.org/community/resources)
 - [Clojurescript Unraveled Book (Free)](http://funcool.github.io/clojurescript-unraveled/)
 - [/r/clojure](https://www.reddit.com/r/Clojure/) & [/r/clojurescript](https://www.reddit.com/r/Clojurescript/)
