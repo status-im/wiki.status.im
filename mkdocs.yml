@@ -4,6 +4,8 @@ repo_url: https://github.com/status-im/wiki.status.im/
 site_description: 'Everything you need to know about Status, a messenger and browser for Ethereum'
 google_analytics: ['UA-79146816-1', 'wiki.status.im']
 edit_uri: edit/master/docs/
+theme: null
+theme_dir: 'status_theme'
 pages:
   - Welcome: index.md
   - Getting Started:
