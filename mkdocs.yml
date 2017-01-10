@@ -13,13 +13,12 @@ pages:
     - User Guide: 'getting-started/user-guide.md'
     - FAQ: 'getting-started/faq.md'
     - Code of Conduct: 'getting-started/code-of-conduct.md'
-    - Building Status: 'contributing/development/building-status.md'
+    - Developer Introduction: 'contributing/development/introduction.md'
   - Contributing:
     - Developers:
+      - Introduction: 'contributing/development/introduction.md'
       - Building Status: 'contributing/development/building-status.md'
       - Adding DApps: 'contributing/development/adding-dapps.md'
-      - Clojurescript: 'contributing/development/clojurescript.md'
-      - Golang: 'contributing/development/golang.md'
     - UX & Design: 'contributing/ux-and-design.md'
     - Testing & Feedback: 'contributing/testing-and-feedback.md'
     - Documenting: 'contributing/documenting.md'
