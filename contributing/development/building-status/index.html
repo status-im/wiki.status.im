@@ -249,7 +249,7 @@
 </ul>
 <h3 id="dependencies-setup">Dependencies &amp; Setup</h3>
 <pre><code>$ git clone git@github.com:status-im/status-react.git -b master &amp;&amp; cd status-react
-# or 
+# or
 $ git clone git@github.com:status-im/status-react.git -b develop &amp;&amp; cd status-react
 
 $ lein deps &amp;&amp; npm install &amp;&amp; ./re-natal deps
@@ -294,7 +294,7 @@ build/bin/geth attach http://localhost:8545
 <li>Code must be idiomatic Clojure, please refer to the <a href="https://github.com/bbatsov/clojure-style-guide">style guidelines</a> (i.e. use <a href="https://github.com/jonase/eastwood">lein eastwood
 </a> &amp; <a href="https://github.com/jonase/kibit">lein kibit</a>).</li>
 <li>Code must be documented.</li>
-<li>Pull requests need to be based on and opened against the <code>master</code> branch.</li>
+<li>Pull requests need to be based on and opened against the <code>develop</code> branch.</li>
 <li>Commit messages should be prefixed with the root namespace(s) under <code>status-im</code> that they modify.</li>
 <li>e.g. "contacts, ios: add contact stylistic changes"</li>
 </ul>
@@ -314,31 +314,35 @@ build/bin/geth attach http://localhost:8545
 - <code>wip/</code> for longer lived branches
 - <code>junk/</code> for irrelevant/soon-to-be-deleted branches</p>
 <h3 id="pull-requests">Pull Requests</h3>
-<p>Pull Requests should by default commit on the <code>master</code> branch. The <code>master</code> branch is used for history, tags for releases. Each Pull Request must be rebased against <code>master</code> and squashed into a single commit, prefixed with the root namespace(s) under <code>status-im</code> that they modify. e.g.</p>
+<p>Pull Requests should by default use the <code>develop</code> branch as a base. The <code>master</code> branch is kept stable and <code>develop</code> is periodically merged there. Tags are used for releases. Each Pull Request must be rebased against <code>develop</code> and squashed into a single commit, prefixed with the root namespace(s) under <code>status-im</code> that they modify. e.g.</p>
 <blockquote>
 <p>"contacts, ios: add contact stylistic changes"</p>
 </blockquote>
 <h3 id="walkthrough">Walkthrough</h3>
-<p>Start by first pulling down <code>master</code></p>
-<pre><code>$ git checkout master
-$ git fetch origin
-$ git merge master
+<p>Fork the repository on Github's web UI.</p>
+<p>Clone your fork. Add the upstream as a remote.</p>
+<pre><code>$ git clone git@github:&lt;you&gt;/status-react
+$ git remote add upstream git@github:status-im/status-react
 </code></pre>
-<p>Then isolate the bug/feature work you will do into a branch;</p>
-<pre><code>$ git checkout -b bug/missing-contact-#116
+<p>Now you have two remotes: <code>origin</code> pointing to your fork and <code>upstream</code> pointing to the shared repo.</p>
+<pre><code>$ git fetch --all
 </code></pre>
-<p>Keep your branch fresh against master</p>
-<pre><code>$ git fetch origin
-$ git rebase origin/master
+<p>Then isolate the bug/feature work you will do into a topic branch</p>
+<pre><code>$ git checkout -b bug/missing-contact-#116 upstream/develop
+</code></pre>
+<p>Keep your branch fresh against upstream</p>
+<pre><code>$ git fetch upstream
+$ git rebase upstream/develop
 </code></pre>
 <p>If multiple people are working on the same feature branch don't forget to also</p>
-<pre><code>$ git rebase origin bug/missing-contact-#116
+<pre><code>$ git rebase upstream bug/missing-contact-#116
 </code></pre>
-<p>When you are reading to make your pull request;</p>
-<pre><code>$ git push bug/missing-contact-#116
+<p>When you are ready to make your pull request</p>
+<pre><code>$ git push origin
 </code></pre>
 <p>After PR has been reviewed do a final cleanup and squash your commit</p>
-<pre><code>$ git rebase -i origin/master
+<pre><code>$ git rebase -i upstream/develop
+$ git push -f origin
 </code></pre>
 <h2 id="repository-overview">Repository Overview</h2>
 <p>The Status application is divided into 6 core repositories;</p>
