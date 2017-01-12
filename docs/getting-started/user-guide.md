@@ -40,7 +40,7 @@ Seeing as we’re now finished chatting to Console for the moment, we can hit th
 
 <center><img src="../img/image_8.png" style="width:300px;" /></center>
 
-Here you can see all the lovely people that you have been chatting to. It’s really straightforward and intuitive, so behave as your normally would in WhatsApp or WeChat etc. Tapping a conversation will take you into it, and you can use the bottom three tabs to navigate through the Chats, Discover and Contacts screen. You can also just swipe right. Just do you.
+Here you can see all the lovely people that you have been chatting to. It’s really straightforward and intuitive, so behave as you normally would in WhatsApp or WeChat etc. Tapping a conversation will take you into it, and you can use the bottom three tabs to navigate through the Chats, Discover and Contacts screen. You can also just swipe right. Just do you.
 
 There is another important dApp that lives here as well - your wallet. Selecting it should take you to a screen like this:
 
@@ -72,7 +72,7 @@ These dApps all work in essentially the same way as the wallet - you can open a 
 
 If you close your app or otherwise have an issue, when you reopen it, you should be directed to  a screen which looks like the below. Select the account that belongs to you (in the case where you set up more than one) and then put in the appropriate password and you should get back to the chat screen:
 
-<center><img src="../img/image_18.png" style="width:300px;" /></center> <center><img src="../img/image_19.png" style="width:300px;" /></center>
+<center><img src="../img/image_18.png" style="width:300px;" /><img src="../img/image_19.png" style="width:300px;" /></center>
 
 If that doesn’t work for you or your account doesn’t appear like mine, hit the `Recover access` button at the bottom of the first screen and follow the prompts to input the 12 word passphrase console gave you when you first set stuff up and your password.
 
