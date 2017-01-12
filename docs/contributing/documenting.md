@@ -53,7 +53,11 @@ then you can submit a PR to the actual status wiki:
 
 <center><img src="../img/pull-request.png" /></center>
 
-Click the highlighted button near the top right and follow the instructions from there to submit your changes to the status team. Thank you so much for adding to our wonderful, open source, community-driven effort to bring Ethereum to the people!
+Click the highlighted button near the top right and follow the instructions from there to submit your changes to the status team. You should see a screen something like this where you can review all the changes you have made before actually submitting. For the PR, I have uploaded the photos needed for this post, made two grammatical changes to the User Guide and, obviously enough, uploaded this entire `documenting.md` file, all of which I can review easily. 
+
+<center><img src="../img/comparing-pr.png" /></center>
+
+Thank you so much for adding to our wonderful, open source, community-driven effort to bring Ethereum to the people!
 
 # Documentation Guidelines
 
