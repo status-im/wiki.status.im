@@ -221,6 +221,10 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#documenting">Documenting</a></li>
+            <li><a href="#documenting-guide">Documenting Guide</a></li>
+            <li><a href="#getting-set-up">Getting Set Up</a></li>
+            <li><a href="#general-notes-on-what-we-look-for">General Notes on What We Look For</a></li>
+            <li><a href="#documentation-guidelines">Documentation Guidelines</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
@@ -228,8 +232,48 @@
 <h1 id="documenting">Documenting</h1>
 <p>Without clear documentation, new members to the community have no clear instruction on how they can help to make Status better. We truly value contributions that help to improve our documentation; whether that be tutorials for users, additions to the FAQs, or more granular instructions for developers - it all adds up and our community appreciates it :)</p>
 <p>Our Wiki is powered by MKDocs, and is on: <a href="https://github.com/status-im/wiki.status.im">https://github.com/status-im/wiki.status.im</a>, and if you spot any errors, find parts of the documentation confusing, or have some suggestions on how we could have clearer communication we'd love your help, and feel free to let us know via the <a href="http://slack.status.im">Status Slack</a>.</p>
-<p>// TODO Create Documenting Guide</p>
-<p>// TODO Create Documentation Guidelines</p></div>
+<h2 id="documenting-guide">Documenting Guide</h2>
+<p>It's fairly difficult to write a general documentation guide as how you document stuff will depend on what it is you are trying to explain. The most basic stuff to know is that MKDocs uses markdown as it's primary language, although you can also write your guides using inline HTML as well. Please go <a href="http://www.mkdocs.org/user-guide/writing-your-docs/">here</a> for more detailed info on this, as well as a look at how the file structure of our docs works.</p>
+<h2 id="getting-set-up">Getting Set Up</h2>
+<p>You need to have both python and pip set up on your machine to install MKDocs. You can find all the information for how to do that and what versions are required <a href="http://www.mkdocs.org/">here</a>. I had python already intalled on my machine, but needed to get pip:</p>
+<pre><code>sudo easy_install pip
+sudo pip install mkdocs
+</code></pre>
+
+<p>It seemed like using <code>sudo</code> was important otherwise the mkdocs install failed with some nasty stack trace, but that may have been specific to my environment (Mac). Once you have got that all working and  </p>
+<p><code>mkdocs --version</code> </p>
+<p>returns an answer (currently <code>mkdocs, version 0.16.1</code>), then you can clone into the status repo and get going.</p>
+<p><code>git clone https://github.com/status-im/wiki.status.im.git</code> </p>
+<p>(or <code>git clone git@github.com:status-im/wiki.status.im.git</code> if you have your SSH keys set up) followed by </p>
+<pre><code>cd wiki.status.im
+mkdocs serve
+</code></pre>
+
+<p>You should then be able to navigate to http://localhost:8000 or http://127.0.0.1:8000 and see the changes you are making to the wiki as you make them. Magic!</p>
+<h2 id="general-notes-on-what-we-look-for">General Notes on What We Look For</h2>
+<p>Generally speaking, we like a lot of screenshots and less language as this helps us to guide people all over the world who may not all speak the same languages. Take a look at our <a href="http://wiki.status.im/getting-started/user-guide/">User Guide</a> for a rough outline of what we mean by balancing your text with screenshots and other helpful images. </p>
+<p>As you can see from our <a href="https://github.com/status-im/wiki.status.im">github repo</a> all of the different documents are kept in the <code>docs</code> directory. Click through to there to find the section and then the specific document you are wanting to add to or edit, or make a new file for documentation that you feel is missing. </p>
+<p><center><img src="../img/status-wiki.png" /></center></p>
+<p>In the top level repo, you can also see an <code>mkdocs.yml</code> file, which is what controls how and where each document appears. If you are adding a new document, you will need to speak to Jarrad, Carl or another team member to figure out where it belongs, but either way you will need to edit this file in order for it to appear. It is definitely best to communicate with the core team before diving this deep though.</p>
+<p>As you can see, I have uploaded a bunch of images into this post (which is largely about encouraging you to use lots of images in your own documentation and explainers). The images are all kept in the <code>img</code> directory in each folder within the <code>docs</code> directory. You cannot upload straight to these <code>img</code> folders as that requires push access to the whole repo, but you can make your own fork of <code>wiki.status.im</code> and upload the images there to be merged by the team once you have completed your awesome work. To do all this, navigate to the folder you are working in and click the <code>Fork</code> option in the very top right. This will start a new fork of the wiki in your own repo, where you can upload the photos and then later push back to status to be merged.</p>
+<p><center><img src="../img/img-location.png" /></center></p>
+<p>Once you have forked it and selected where it should go in your profile, you can then add images easily by either dragging and dropping or uploading directly from your machine.</p>
+<p><center><img src="../img/forking-repo.png" /></center></p>
+<p>You can select the first radio button option to commit the uploaded images you need directly onto your own master branch. From there, once you are sure that all the changes you have made are the ones you want to make and look good on the wiki via that neat trick with</p>
+<p><code>mkdocs serve</code></p>
+<p>then you can submit a PR to the actual status wiki:</p>
+<p><center><img src="../img/pull-request.png" /></center></p>
+<p>Click the highlighted button near the top right and follow the instructions from there to submit your changes to the status team. You should see a screen something like this where you can review all the changes you have made before actually submitting. For the PR, I have uploaded the photos needed for this post, made two grammatical changes to the User Guide and, obviously enough, uploaded this entire <code>documenting.md</code> file, all of which I can review easily. </p>
+<p><center><img src="../img/comparing-pr.png" /></center></p>
+<p>Thank you so much for adding to our wonderful, open source, community-driven effort to bring Ethereum to the people!</p>
+<h2 id="documentation-guidelines">Documentation Guidelines</h2>
+<p>These will evolve as the project does, but really depends on what specific type of documentation you are looking to help out with. For technical documentation, examples and lots of code is what we are primarily looking for - a in the first set up section of this article. For instance, in order to add an image here, you can either use inline html (my preferred option because it is easier to positiona dn style) or the normal markdown way of doing things. The images above are inserted like so:</p>
+<p><code>&lt;center&gt;&lt;img src="../img/status-wiki.png" /&gt;&lt;/center&gt;</code> </p>
+<p>and style tags etc can be added really easily:</p>
+<p><code>&lt;center&gt;&lt;img src="../img/status-wiki.png" style="width:300px" /&gt;&lt;/center&gt;</code></p>
+<p>or you can just do it in normal markdown:</p>
+<p><code>[![We lost the documentation on quantum mechanics.  You'll have to decode the regexes yourself.](img/xkcd-224.jpg)](https://xkcd.com/224/ "We lost the documentation on quantum mechanics.  You'll have to decode the regexes yourself.")</code></p>
+<p>If you are writing documentation that is end-user-facing, rather than aimed at the technical folks in our community, then the less code and text  and the more pretty images with directions scrawled across them the better.</p></div>
         </div>
 
         <footer class="col-md-12">
