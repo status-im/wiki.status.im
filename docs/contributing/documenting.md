@@ -4,11 +4,11 @@ Without clear documentation, new members to the community have no clear instruct
 
 Our Wiki is powered by MKDocs, and is on: [https://github.com/status-im/wiki.status.im](https://github.com/status-im/wiki.status.im), and if you spot any errors, find parts of the documentation confusing, or have some suggestions on how we could have clearer communication we'd love your help, and feel free to let us know via the [Status Slack](http://slack.status.im).
 
-# Documenting Guide  
+## Documenting Guide  
 
 It's fairly difficult to write a general documentation guide as how you document stuff will depend on what it is you are trying to explain. The most basic stuff to know is that MKDocs uses markdown as it's primary language, although you can also write your guides using inline HTML as well. Please go [here](http://www.mkdocs.org/user-guide/writing-your-docs/) for more detailed info on this, as well as a look at how the file structure of our docs works.
 
-# Getting Set Up
+## Getting Set Up
 
 You need to have both python and pip set up on your machine to install MKDocs. You can find all the information for how to do that and what versions are required [here](http://www.mkdocs.org/). I had python already intalled on my machine, but needed to get pip:
 
@@ -34,7 +34,7 @@ mkdocs serve
 
 You should then be able to navigate to http://localhost:8000 or http://127.0.0.1:8000 and see the changes you are making to the wiki as you make them. Magic!
 
-# General Notes on What We Look For
+## General Notes on What We Look For
 
 Generally speaking, we like a lot of screenshots and less language as this helps us to guide people all over the world who may not all speak the same languages. Take a look at our [User Guide](http://wiki.status.im/getting-started/user-guide/) for a rough outline of what we mean by balancing your text with screenshots and other helpful images. 
 
@@ -66,7 +66,7 @@ Click the highlighted button near the top right and follow the instructions from
 
 Thank you so much for adding to our wonderful, open source, community-driven effort to bring Ethereum to the people!
 
-# Documentation Guidelines
+## Documentation Guidelines
 
 These will evolve as the project does, but really depends on what specific type of documentation you are looking to help out with. For technical documentation, examples and lots of code is what we are primarily looking for - a in the first set up section of this article. For instance, in order to add an image here, you can either use inline html (my preferred option because it is easier to positiona dn style) or the normal markdown way of doing things. The images above are inserted like so:
 
