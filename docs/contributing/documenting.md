@@ -68,7 +68,7 @@ Thank you so much for adding to our wonderful, open source, community-driven eff
 
 ## Documentation Guidelines
 
-These will evolve as the project does, but really depends on what specific type of documentation you are looking to help out with. For technical documentation, examples and lots of code is what we are primarily looking for - a in the first set up section of this article. For instance, in order to add an image here, you can either use inline html (my preferred option because it is easier to positiona dn style) or the normal markdown way of doing things. The images above are inserted like so:
+These will evolve as the project does, but really depends on what specific type of documentation you are looking to help out with. For technical documentation, examples and lots of code is what we are primarily looking for; by way of example see the first set up section of this article. For instance, in order to add an image here, you can either use inline html (my preferred option because it is easier to positiona dn style) or the normal markdown way of doing things. The images above are inserted like so:
 
 `<center><img src="../img/status-wiki.png" /></center>` 
 
