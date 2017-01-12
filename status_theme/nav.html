@@ -44,7 +44,7 @@
                 {%- block repo %}
                   {%- if config.repo_url %}
                       <li class="repo-link">
-                          <a href="{{ config.repo_url }}">
+                          <a href="{{ config.repo_url }}" target="_blank">
                               {%- if config.repo_name == 'GitHub' %}
                                   <i class="fa fa-github"></i>
                               {%- elif config.repo_name == 'Bitbucket' -%}

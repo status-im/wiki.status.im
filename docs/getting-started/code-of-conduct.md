@@ -43,7 +43,7 @@ We all lead by example, in debate and in action. We encourage new participants t
 
 ### Delegation from the top
 
-Responsibility for the project starts with the "benevolent dictator", who delegates specific responsibilities and the corresponding authority to a series of teams, councils and individuals, starting with the Community Council ("CC"). That Council or its delegated representative will arbitrate in any dispute.
+We are exploring the alternative governence models that Ethereum can facilitate, but for the time being responsibility for the project starts with the "benevolent dictator", who delegates specific responsibilities and the corresponding authority to a series of teams, councils and individuals, starting with the Community Council ("CC"). That Council or its delegated representative will arbitrate in any dispute.
 
 We are a meritocracy; we delegate decision making, governance and leadership from senior bodies to the most able and engaged candidates.
 
