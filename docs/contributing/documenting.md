@@ -10,7 +10,14 @@ It's fairly difficult to write a general documentation guide as how you document
 
 # Getting Set Up
 
-You need to have both python and pip set up on your machine to install MKDocs. You can find all the information for how to do that and what versions are required [here](http://www.mkdocs.org/). Once you have got that all working and  
+You need to have both python and pip set up on your machine to install MKDocs. You can find all the information for how to do that and what versions are required [here](http://www.mkdocs.org/). I had python already intalled on my machine, but needed to get pip:
+
+```
+sudo easy_install pip
+sudo pip install mkdocs
+```
+
+It seemed like using `sudo` was important otherwise the mkdocs install failed with some nasty stack trace, but that may have been specific to my environment (Mac). Once you have got that all working and  
 
 `mkdocs --version` 
 
