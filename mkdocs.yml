@@ -1,9 +1,11 @@
 site_name: Status Wiki
 site_url: https://wiki.status.im
 repo_url: https://github.com/status-im/wiki.status.im/
-site_description: 'Everything you need to know about Status, a messenger and browser for Ethereum'
+site_description: 'Everything you need to know about Status, a messenger and browser built for Ethereum. Join our growing community and help decentralize the web, together.'
 google_analytics: ['UA-79146816-1', 'wiki.status.im']
 edit_uri: edit/master/docs/
+theme: null
+theme_dir: 'status_theme'
 pages:
   - Welcome: index.md
   - Getting Started:
@@ -20,14 +22,14 @@ pages:
     - UX & Design: 'contributing/ux-and-design.md'
     - Testing & Feedback: 'contributing/testing-and-feedback.md'
     - Documenting: 'contributing/documenting.md'
-    - Marketing: 'contributing/marketing.md'
+    - Community Outreach: 'contributing/outreach.md'
     - Translations: 'contributing/translations.md'
   - Community:
     - Slack: 'community/slack.md'
     - Newsletter: 'community/newsletter.md'
     - Blog: 'community/blog.md'
+    - Community: 'community/development.md'
     - Tell a Friend: 'community/tell-a-friend.md'
-    - Development: 'community/development.md'
     # - Transcripts: # Slack
 
   - Proposals:

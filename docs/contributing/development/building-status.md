@@ -21,7 +21,7 @@ This guide is written with OS X in mind.
 
 ### Dependencies & Setup
     $ git clone git@github.com:status-im/status-react.git -b master && cd status-react
-    # or 
+    # or
     $ git clone git@github.com:status-im/status-react.git -b develop && cd status-react
 
     $ lein deps && npm install && ./re-natal deps
@@ -69,7 +69,7 @@ Please make sure your contributions adhere to our coding guidelines:
  * Code must be idiomatic Clojure, please refer to the [style guidelines](https://github.com/bbatsov/clojure-style-guide) (i.e. use [lein eastwood
 ](https://github.com/jonase/eastwood) & [lein kibit](https://github.com/jonase/kibit)).
  * Code must be documented.
- * Pull requests need to be based on and opened against the `master` branch.
+ * Pull requests need to be based on and opened against the `develop` branch.
  * Commit messages should be prefixed with the root namespace(s) under `status-im` that they modify.
    * e.g. "contacts, ios: add contact stylistic changes"
 
@@ -98,38 +98,44 @@ The following categories are;
 
 ### Pull Requests
 
-Pull Requests should by default commit on the `master` branch. The `master` branch is used for history, tags for releases. Each Pull Request must be rebased against `master` and squashed into a single commit, prefixed with the root namespace(s) under `status-im` that they modify. e.g.
+Pull Requests should by default use the `develop` branch as a base. The `master` branch is kept stable and `develop` is periodically merged there. Tags are used for releases. Each Pull Request must be rebased against `develop` and squashed into a single commit, prefixed with the root namespace(s) under `status-im` that they modify. e.g.
 > "contacts, ios: add contact stylistic changes"
 
 
 ### Walkthrough
 
-Start by first pulling down `master`
+Fork the repository on Github's web UI.
 
-    $ git checkout master
-    $ git fetch origin
-    $ git merge master
+Clone your fork. Add the upstream as a remote.
 
-Then isolate the bug/feature work you will do into a branch;
+    $ git clone git@github:<you>/status-react
+    $ git remote add upstream git@github:status-im/status-react
 
-    $ git checkout -b bug/missing-contact-#116
+Now you have two remotes: `origin` pointing to your fork and `upstream` pointing to the shared repo.
 
-Keep your branch fresh against master
+    $ git fetch --all
 
-    $ git fetch origin
-    $ git rebase origin/master
+Then isolate the bug/feature work you will do into a topic branch
+
+    $ git checkout -b bug/missing-contact-#116 upstream/develop
+
+Keep your branch fresh against upstream
+
+    $ git fetch upstream
+    $ git rebase upstream/develop
 
 If multiple people are working on the same feature branch don't forget to also
 
-    $ git rebase origin bug/missing-contact-#116
+    $ git rebase upstream bug/missing-contact-#116
 
-When you are reading to make your pull request;
+When you are ready to make your pull request
 
-    $ git push bug/missing-contact-#116
+    $ git push origin
 
 After PR has been reviewed do a final cleanup and squash your commit
 
-    $ git rebase -i origin/master
+    $ git rebase -i upstream/develop
+    $ git push -f origin
 
 ## Repository Overview
 

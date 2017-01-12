@@ -1,0 +1,117 @@
+
+a {
+    color: #6370CA;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #2D398B;
+    text-decoration: none;
+}
+
+.navbar {
+  background: #4957B8;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+}
+
+.navbar .navbar-nav>li>a, .navbar-brand {
+  text-shadow: none;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  background: #3C489C
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+  background: #2D398B
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  background: #333F96
+}
+
+.bs-sidebar.well {
+  padding: 0;
+  min-height: 20px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.bs-sidebar.well a {
+  color: #70808D;
+}
+
+ul.nav .main {
+  font-weight: normal;
+}
+
+.bs-sidebar .nav > li > a:hover,
+.bs-sidebar .nav > li > a:focus {
+    text-decoration: none;
+    border-right: none;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    color: #49555f;
+}
+
+.bs-sidebar .nav > .active > a,
+.bs-sidebar .nav > .active:hover > a,
+.bs-sidebar .nav > .active:focus > a {
+    font-weight: normal;;
+    background-color: transparent;
+    border-left: 2px solid;
+    border-right: none;
+    color: #6370CA;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-collapse {
+    max-height: 340px;
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    border-top: 0;
+    box-shadow: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.navbar-nav .fa-github {
+  margin: 0 8px 0 0;
+}
+
+.navbar-brand {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 0 10px 0 0;
+  background-image: url(../img/status-logo@2x.png);
+  background-size: 36px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 992px) {
+
+  .nav>li.repo-link,
+  .nav>li.search-link {
+    display: none;
+  }
+
+}

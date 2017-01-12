@@ -1,7 +1,7 @@
 # Testing
 
-Shake your phone and submit bug report
-
+Shake your phone and submit bug report.
+Please try to be as descripive as possible.
 
 
 ## For Developers
