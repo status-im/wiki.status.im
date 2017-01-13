@@ -33,6 +33,7 @@ pages:
     # - Transcripts: # Slack
 
   - Proposals:
+    - Commiteth (WIP): 'proposals/commiteth.md'
     - Contact Sharing (WIP): 'proposals/contact-sharing.md'
     - Chat API (WIP): 'proposals/chat-api.md'
     - Discover (WIP): 'proposals/discover.md'
