@@ -1,6 +1,6 @@
 # Status - a Mobile Ethereum OS
 
-Status is a free and open source mobile client targeting Android & iOS built, entirely on [Ethereum](https://ethereum.org/) technologies.
+Status is a free (libre) and open source mobile client targeting Android & iOS built, entirely on [Ethereum](https://ethereum.org/) technologies.
 
 Thanks to the new protocols Ethereum has introduced, there's a whole new ecosystem of applications being developed that are completely decentralised (also known as DApps), and Status aims to provide a user interface to access them. These decentralized applications remove the need for middlemen and centralised servers, providing a clear path forward towards an internet where users get to own their own data, and an economy built on permissionless, open protocols.
 

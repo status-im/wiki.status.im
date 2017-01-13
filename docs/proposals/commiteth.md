@@ -2,6 +2,10 @@
 
 Commiteth is a Github Bounty Bot that allows 
 
+
+should provide badge for README.md
+
+
 so the idea was that maintainers would add their repos the to bot, the bot would then crawl issues with "bounty" tag,
 
 [9:47]  

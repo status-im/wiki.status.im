@@ -2,7 +2,7 @@
 
 Special thanks to [@cryptowanderer](https://twitter.com/cryptowanderer) for contributing this fantastic guide!
 
-Thank you for taking the time to help out with our fledgling open source project. Any initiative like this depends primarily on the community that forms around it, so by contributing any of your knowledge or skills, even if it’s just one line, you are playing an active role in forming the sort of decentralized, robust peer network which might have a hope of securing a more equitable future for all of us.
+Thank you for taking the time to help out with our fledgling free (libre) open source project. Any initiative like this depends primarily on the community that forms around it, so by contributing any of your knowledge or skills, even if it’s just one line, you are playing an active role in forming the sort of decentralized, robust peer network which might have a hope of securing a more equitable future for all of us.
 
 Obviously, the first and most important thing to know about contributing in any way to the wonderful status.im is where to go to find all the stuff. That one is easy to answer: [click here](https://github.com/status-im/status-react/tree/develop/src/status_im/translations).
 

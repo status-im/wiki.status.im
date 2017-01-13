@@ -64,7 +64,7 @@ Click the highlighted button near the top right and follow the instructions from
 
 <center><img src="../img/comparing-pr.png" /></center>
 
-Thank you so much for adding to our wonderful, open source, community-driven effort to bring Ethereum to the people!
+Thank you so much for adding to our wonderful, free (libre) open source, community-driven effort to bring Ethereum to the people!
 
 ## Documentation Guidelines
 
