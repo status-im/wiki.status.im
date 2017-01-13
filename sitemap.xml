@@ -120,6 +120,12 @@
     
         
     <url>
+     <loc>https://wiki.status.im/proposals/commiteth/</loc>
+     <lastmod>2017-01-13</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>https://wiki.status.im/proposals/contact-sharing/</loc>
      <lastmod>2017-01-13</lastmod>
      <changefreq>daily</changefreq>
