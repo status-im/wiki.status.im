@@ -16,7 +16,7 @@ This guide is written with OS X in mind.
 - [Genymotion](https://www.genymotion.com) (optional, you may use an Android Virtual Device or real device)
 - [Setup Android Development Environment / Simulator](https://facebook.github.io/react-native/docs/android-setup.html)
 - GIT over SSH, please add public key to Github
-- [Maven](https://maven.apache.org/install.html)
+- [Maven](https://maven.apache.org/install.html) `brew install maven`
 - [Cocoapods](https://cocoapods.org) `sudo gem install cocoapods`
 
 ### Dependencies & Setup
