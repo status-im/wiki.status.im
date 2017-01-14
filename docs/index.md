@@ -67,12 +67,12 @@ Currently the fastest way to get your hands on a binary is to join our Early Acc
 ## Core Contributors
 // TODO mugshots
 
-- Jarrad ([@jarradh](https://github.com/jarradh)) - Cofounder and Thought Leader.
-- Carl ([@carlbennetts](https://github.com/carlbennetts)) - Cofounder and Communications & Marketing.
-- Roman ([@rasom](https://github.com/rasom)) - Clojure and project lead.
-- Alexander ([@alwx](https://github.com/alwx)) - Clojure ninja!
-- Victor ([@farazdagi](https://github.com/farazdagi)) - Golang one-man-army.
-- Andrei ([@andmironov](https://github.com/andmironov)) - Visual design and user experience conjurer.
+- Jarrad ([@jarradh](https://github.com/jarradh)) - Cofounder and Thought Leader.  
+- Carl ([@carlbennetts](https://github.com/carlbennetts)) - Cofounder and Communications & Marketing.  
+- Roman ([@rasom](https://github.com/rasom)) - Clojure and project lead.  
+- Alexander ([@alwx](https://github.com/alwx)) - Clojure ninja!  
+- Victor ([@farazdagi](https://github.com/farazdagi)) - Golang one-man-army.  
+- Andrei ([@andmironov](https://github.com/andmironov)) - Visual design and user experience conjurer.  
 
 Special thanks to [@adrian-tiberius](https://github.com/adrian-tiberius).
 Without the dedication of these fine gentleman, Status would not exist.

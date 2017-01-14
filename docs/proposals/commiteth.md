@@ -2,7 +2,7 @@
 
 Commiteth aims to incentivise development on open source projects hosted on Github.
 
-[commiteth.com](http://commiteth.com)
+[commiteth.com](http://commiteth.com)  
 [github.com/status-im/commiteth](https://github.com/status-im/commiteth)
 
 ## How does it work?
