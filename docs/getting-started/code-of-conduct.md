@@ -1,5 +1,7 @@
 # Code of Conduct
 
+This page outlines how you should govern yourself when in our community. If you would like more practical tips and suggestions please read on [how to grow our Community](../community/how-to-grow-our-community.md).
+
 ## Community
 
 Status is about showing humanity to one another: the word itself captures the spirit of being human.
@@ -11,6 +13,9 @@ We gain strength from diversity, and actively seek participation from those who 
 The Code of Conduct governs how we behave in public or in private whenever the project will be judged by our actions. We expect it to be honoured by everyone who represents the project officially or informally, claims affiliation with the project, or participates directly.
 
 We strive to:
+
+- **Reciprocate**   
+Nothing is more important than to show appreciation for every and anyones contributions, big or small. We show reciprocation by saying thank-you, contributing ourselves or paying it forward.
 
 - **Be considerate**   
 Our work will be used by other people, and we in turn will depend on the work of others. Any decision we take will affect users and colleagues, and we should consider them when making decisions.
