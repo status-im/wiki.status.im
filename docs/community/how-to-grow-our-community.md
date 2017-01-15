@@ -1,6 +1,14 @@
+
+## Getting started
+
+- at the moment much of the community communication takes place on slack.   A first step to getting involved can be as simple as joining [status-im.slack](status-im.slack.com) and saying “hi”.
+
+- take a look through the #channels on the slack and join ones that interests you.
+
 # Grow our Community
 
-This is a list of practical tips and suggestions on how you can help to grow and strengthen our community. Also please read first our [Mission and Core Values](../getting-started/mission-and-core-values.md) and ensure you follow our [Code of Conduct](../getting-started/code-of-conduct.md), as these are closely aligned.
+This is a list of practical tips and suggestions on how you can take part in, help to strengthen and grow our community. 
+If you haven’t done so yet, please read our [Mission and Core Values](../getting-started/mission-and-core-values.md) and ensure you follow our [Code of Conduct](../getting-started/code-of-conduct.md), as these are closely aligned.
 
 ## Gratitude & Reciprocity
 
@@ -14,15 +22,15 @@ This is a list of practical tips and suggestions on how you can help to grow and
 
 ## Highlighting Needs
 
-- Think on how we can make the list of needed contributions more easily visible. The better we do this the more accessible tasks become to people in our community who can provide solutions.
+- Share your ideas on how we can make the list of tasks and needed contributions more easily visible. The more accessible and manageable tasks become to the community the better.
 
-- Simple requests will work better for individual people, long complex ones will require a handful of people to do, encourage and help create bands of people to accomplish those.
+- Simple requests can be addressed by individual people, long complex tasks may require a handful of people to complete, so encourage and help create bands of people to accomplish those.
 
-- If you know someone who would be great for a task, let them know! Don't pressure them if they are too busy.
+- If you know someone who would be great for a task, let them know! Don't pressure them if they are too busy.   
 
 - If you are prominent in the community it is your duty to more frequently ask people if they are available for tasks.
 
-- Find people specific and highly challenging goals that suits them. Make them accountable in a friendly, non-pushy manner.
+- Offer people specific and highly challenging goals that suits them. Make them accountable in a friendly, non-pushy manner.
 
 - Do your best to make tasks as clear as possible, work to create clear goals, give clear feedback, and challenges that exercise people’s skills to their limits.
 
@@ -30,9 +38,14 @@ This is a list of practical tips and suggestions on how you can help to grow and
 
 ## Community Structure
 
-- See how we can improve our tools for finding and tracking work that needs to be done, the easier it is for everyone to see what needs to be done, the easier it is to contribute - and let everyone know your ideas!
+- How we can improve our tools for finding and tracking work that needs to be done?  The easier it is for everyone to see what needs to be done, the easier it is to contribute – If you have a suggestion then let everyone know your ideas!
 
-- Create chatrooms around certain topics of people, just like we have #dev-status, #dapp-chat, #lll [Slack](http://slack.status.im) channels.
+- Explore the [Slack](http://slack.status.im) channels, where we have #dev-status, #dapp-chat, #lll etc.
+    1. If you think there is a need for a channel (but your not sure) then drop in to #channel_manager and make a proposal.  If you are sure then go ahead and create the channel following these tips
+    *  Make sure that the channel name is easy to understand
+    *  The description should help others make a quick decision which channels they need to join.
+    *  Invite other people on the slack to join the channel  (people may not notice it otherwise)
+    2. When you get to know people in the community who have interests or skills then let them know about or invite them to join channels that play to their strengths.
 
 - Always communicate the benefits of contribution, it will positively impact everyone in the community and increase the amount of people who will care and hopefully contribute.
 
@@ -79,3 +92,5 @@ This is a list of practical tips and suggestions on how you can help to grow and
 - Look at ways other successful communities are working, see if we can find similarities or ways we can be better and talk about it.
 
 - If you see any publicity and endorsements on Status, let people know!
+
+
