@@ -20,7 +20,7 @@ This is a list of practical tips and suggestions on how you can help to grow and
 
 - If you know someone who would be great for a task, let them know! Don't pressure them if they are too busy.
 
-- If you are prominant in the community it is your duty to more frequently ask people if they are available for tasks.
+- If you are prominent in the community it is your duty to more frequently ask people if they are available for tasks.
 
 - Find people specific and highly challenging goals that suits them. Make them accountable in a friendly, non-pushy manner.
 
