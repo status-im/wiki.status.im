@@ -24,9 +24,9 @@ This is a list of practical tips and suggestions on how you can help to grow and
 
 - Find people specific and highly challenging goals that suits them. Make them accountable in a friendly, non-pushy manner.
 
-- Do your best to make tasks as clear a spossible, work to create clear goals, give clear feedback, and challenges that exercise people’s skills to their limits.
+- Do your best to make tasks as clear as possible, work to create clear goals, give clear feedback, and challenges that exercise people’s skills to their limits.
 
-- Any rewards should not be based on tasks but rather on consistent performance. Rewards should not be consistent but rather impromptu.
+- Any rewards should not be based on tasks but rather on consistent performance. Rewards should be impromptu.
 
 ## Community Structure
 
@@ -34,7 +34,7 @@ This is a list of practical tips and suggestions on how you can help to grow and
 
 - Create chatrooms around certain topics of people, just like we have #dev-status, #dapp-chat, #lll [Slack](http://slack.status.im) channels.
 
-- Always communicate the benefits of contribution, it will impact everyone in the community and increase the amount of people who will care and hopefully contirbute.
+- Always communicate the benefits of contribution, it will positively impact everyone in the community and increase the amount of people who will care and hopefully contribute.
 
 ## Culture
 
@@ -66,11 +66,7 @@ This is a list of practical tips and suggestions on how you can help to grow and
 
 - Adding a task-contingent reward (for doing or finishing a task, regardless of performance) to an already interesting task causes people to be less interested in the task. The effect is larget for monetary rewards than for prizes, status rewards and charitable donations.
 
-- Small tangible rewards are likely to reduce contributions for intrinsically interesting tasks; larger rewards are likely to 
-
-- When a community is small and growing quickly, displaying percentage growth creates a more favorable signal of growth than display absolute numbers.
-
-# Conversation
+## Conversation
 
 - Going off-topic is okay! If you have something you share that you think aligns with the general interests of the community, share it! Just make sure you do so in #status [Slack](http://slack.status.im) channel.
 
