@@ -54,10 +54,6 @@ If you haven’t done so yet, please read our [Mission and Core Values](../getti
 - Make an effort to become familiar with anyone who is contributing to the project, and get to know them over time.
 
 
-## Community Structure
-
-- If a team gets too large, think of ways it can be split into smaller groups.
-
 
 ### Gratitude & Reciprocity
 
@@ -99,6 +95,4 @@ If you haven’t done so yet, please read our [Mission and Core Values](../getti
 
 
 
-## Appearance
 
-- Try to maintain a professional appearance, whether that is profile pictures or site design, this makes us more attractive.
