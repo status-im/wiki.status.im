@@ -13,9 +13,7 @@ If you haven’t done so yet, please read our [Mission and Core Values](../getti
 
 - When you get to know people in the community who have interests or skills then let them know about or invite them to join the channels that play to their strengths.
 
-- If you think there is a need for a channel (but your not sure) then drop in to #channel_manager and make a proposal:-
-        *  Make sure that the channel name is easy to understand
-        *  The description should help others make a quick decision which channels they need to join.
+- If you think there is a need for a channel (but you're unsure) then please drop in to #channel-manager and make a proposal: **Make sure that the channel name is easy to understand**. The description should help others make a quick decision which channels they should join.
 
 
 ## Highlighting & Managing Needs
@@ -55,7 +53,7 @@ If you haven’t done so yet, please read our [Mission and Core Values](../getti
 
 
 
-### Gratitude & Reciprocity
+## Gratitude & Reciprocity
 
 - Think of ways you can encourage people to commit to contributing to the community on a long term basis. Whether that's taking an interest in someone, highlighting a task they might find interesting or even reminding them how we appreciate their accomplishments. In doing so we can raise everyone’s willingness to keep this project alive. 
 
