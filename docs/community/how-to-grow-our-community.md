@@ -5,11 +5,11 @@ This is a list of practical tips and suggestions on how you can take part in, he
 If you haven’t done so yet, please read our [Mission and Core Values](../getting-started/mission-and-core-values.md) and ensure you follow our [Code of Conduct](../getting-started/code-of-conduct.md), as these are closely aligned.
 
 
-## Get involved with the status.im community
+## How to Get Involved
 
-- at the moment much of the community communication takes place on slack.   A first step to getting involved can be as simple as joining [status-im.slack](status-im.slack.com) and saying “hi”.
+- At the moment much of the community communication takes place on slack. A first step to getting involved can be as simple as joining [our Slack](status-im.slack.com) and saying “hi” (we're friendly people!).
 
-- Take a look around the [Slack](http://slack.status.im) channels, where you will find #dev-status, #dapp-chat, #lll etc.
+- Take a look around the Slack channels, where you will find #dev-status, #dapp-chat, #lll etc.
 
 - When you get to know people in the community who have interests or skills then let them know about or invite them to join the channels that play to their strengths.
 
@@ -18,7 +18,7 @@ If you haven’t done so yet, please read our [Mission and Core Values](../getti
         *  The description should help others make a quick decision which channels they need to join.
 
 
-## Highlighting / Managing Needs
+## Highlighting & Managing Needs
 
 - Share your ideas on how we can make the list of tasks and needed contributions more easily visible. The more accessible and manageable tasks become to the community the better.
 
