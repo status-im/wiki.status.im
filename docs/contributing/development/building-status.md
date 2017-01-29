@@ -108,8 +108,8 @@ Fork the repository on Github's web UI.
 
 Clone your fork. Add the upstream as a remote.
 
-    $ git clone git@github.com:<you>/status-react
-    $ git remote add upstream git@github.com:status-im/status-react
+    $ git clone git@github.com:<you>/status-react.git
+    $ git remote add upstream git@github.com:status-im/status-react.git
 
 Now you have two remotes: `origin` pointing to your fork and `upstream` pointing to the shared repo.
 
