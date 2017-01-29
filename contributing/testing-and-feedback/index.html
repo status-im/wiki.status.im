@@ -238,14 +238,22 @@
 <p>Shake your phone and submit bug report.
 Please try to be as descripive as possible.</p>
 <h2 id="for-developers">For Developers</h2>
-<p>To run appium tests:</p>
+<h3 id="ui-appium-tests">UI (Appium) tests</h3>
+<p>To run the tests:</p>
 <ol>
-<li>install appium <code>npm install -g appium</code></li>
-<li>start appium server in new tab <code>appium &amp;</code></li>
-<li>start application on emulator or real device</li>
-<li>run tests <code>lein test</code></li>
+<li>Install appium: run <code>npm install -g appium</code></li>
+<li>Start application on emulator or real device (<a href="https://wiki.status.im/contributing/development/building-status/#build-and-test">more details here</a>)</li>
+<li>Start appium server in new tab: run <code>appium --session-override</code></li>
+<li>Run <code>lein test</code></li>
 </ol>
-<p>To run unit tests execute:</p>
+<p>Hints / Gotchas:</p>
+<ul>
+<li>Confirmed working using Appium version 1.6.1.</li>
+<li>To find an element easily in the tests, use the <code>:accessibility-label</code> property in the respective Reagent component.</li>
+<li>When querying an element by its inner text, be sure to use the whole text that the element is supposed to contain (it won't match just a part of the text).</li>
+</ul>
+<h3 id="unit-tests">Unit tests</h3>
+<p>To run the unit tests execute:</p>
 <p><code>lein doo node test once</code>   <br />
      or<br />
 <code>lein doo node test</code></p>
