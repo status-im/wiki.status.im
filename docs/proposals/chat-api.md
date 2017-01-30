@@ -51,3 +51,9 @@ Once a command handler is invoked it is passed the current text / data payload o
 ## Deployment & Testing
 
 Console should have some `/debug` mode that allows the user to plugin their phone in and hot-load javascript/webpage to make testing web-based dapps or bots easily from desktop. Ideally it should have integration with [Truffle](http://truffleframework.com/) & [Embark](https://github.com/iurimatias/embark-framework) and pay respect to [EIP190](https://github.com/ethereum/EIPs/issues/190)
+
+## Open Questions
+
+Is there an issue of resources  and conversation around Otto VM jails?
+Should it runs per dapp per chat context? or per DApp and then an object in each per chat context?
+
