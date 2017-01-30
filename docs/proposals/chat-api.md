@@ -54,6 +54,6 @@ Console should have some `/debug` mode that allows the user to plugin their phon
 
 ## Open Questions
 
-Is there an issue of resources  and conversation around Otto VM jails?
+Is there an issue of resources  and conservation around Otto VM jails?
 Should it runs per dapp per chat context? or per DApp and then an object in each per chat context?
 
