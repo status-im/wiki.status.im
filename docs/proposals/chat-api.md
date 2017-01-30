@@ -14,7 +14,7 @@ This anatomy establishes the different sections of the chat interface and establ
 ## Accessing a bot
 
 `/global` (hidden)
-Universal command for the bot, allows the bot command to be referenced in any chat via `@botname`.
+Universal command for the bot, allows the bot command to be referenced in any chat via `@botname`. If this exists it should appear in the command list as another section at the bottom. 
 
 `/init` (hidden)  
 Run on open chat session, only in 1-to-1 chats.  
