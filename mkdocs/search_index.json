@@ -742,7 +742,7 @@
         }, 
         {
             "location": "/proposals/chat-api/", 
-            "text": "Chat API\n\n\nInterface Anatomy\n\n\nThis anatomy establishes the different sections of the chat interface and establishes a common verbiage. The main components being:\n\n\n\n\nMessage\n\n\nInput\n\n\nKeyboard\n\n\nSuggestions\n\n\n\n\n\n\nCommands\n\n\n!init (hidden)\n\n    - if it exists run on open chat session, only in 1-to-1 chats.\n\n!help\n\n!settings\n\n\nExplicitly calling commands\n\n\nDApps are namespaced with @dappname!command, which can be useful if same commands used by multiple bots are available, alternatively these can be used for commands when bot is not actually in the chat, ie @wallet!send\n\n\nCustom Keyboards\n\n\nParameters use custom keyboards (instead of types, we adapt our types to be keyboards themselves?)  \n\n\nMake our emoji/sticker market with this, otherwise accessible through commands\nie !init command with param that opens up a config\n\n\nMessages\n\n\n\n\nsubscription to message feed\n\n\napi for sending messages, and setting things like \"typing\"\n\n\nnot available in group\n\n\n\n\nPrivacy\n\n\n\n\nby default does not receive all messages in group chat\n\n\nonly commands and in 1-to-1", 
+            "text": "Chat API\n\n\nInterface Anatomy\n\n\nThis anatomy establishes the different sections of the chat interface and establishes a common verbiage. The main components being:\n\n\n\n\nMessage\n\n\nInput\n\n\nKeyboard\n\n\nSuggestions\n\n\n\n\n\n\nAccessing a bot\n\n\n/global\n (hidden)\nUniversal command for the bot, allows the bot command to be referenced in any chat via \n@botname\n.\n\n\n/init\n (hidden)\n\nRun on open chat session, only in 1-to-1 chats.  \n\n\n/\ncommand\n bots can register a command handler of any ASCII title, which then Status repeats\n\n\n@botname/command\n if there is multiple bots in a chat context, then the \n@botname\n can be used to make the distinction (or alternatively a suggestions/commands list should appear to help with the distinction)\n\n\nBot Message\n a bot can send a message that can only be read by another instance of itself in chat history. This message can send markup to draw and contain data. It is activated by a user tapping on it.\n\n\nA message parsed from chat history\n on 1-to-1 chats, any message the user send can be read by the bot and can activate code via \nstatus.on('chat-update', function () { ... } );\n handler.\n\n\nBot Messages\n\n\nA Bot Message can contain it's own markup and a data payload, this message can be transmitted to the chat context. If it is interactable then the interaction (what we currently call response handler) handles the message when tapped. \n\n\nIf the user does not have the bot installed, then we display a custom keyboard that shows the bot name, its reviews/ reputation and a \"Install / Add to Contacts\" button, which the user can either cancel or install and continue with response flow.\n\n\nCommand Handlers\n\n\nOnce a command handler is invoked it is passed the current text / data payload of the message, and is required to return the paramaters (and their placeholder information). The return of the handler must include \n- \nmarkup\n or a \nstatus component(data)\n for the suggestions area \n- \nmarkup\n or a \nstatus component(data)\n for the the keyboard\n- an error object\n- the revised text / data payload.\n\n\nPrivacy\n\n\n\n\na bot can only be interacted with via commands or messages via in 1-to-1 chats\n\n\na bot can only see messages from itself and the current user in group chats.", 
             "title": "Chat API (WIP)"
         }, 
         {
@@ -756,28 +756,23 @@
             "title": "Interface Anatomy"
         }, 
         {
-            "location": "/proposals/chat-api/#commands", 
-            "text": "!init (hidden) \n    - if it exists run on open chat session, only in 1-to-1 chats. \n!help \n!settings", 
-            "title": "Commands"
+            "location": "/proposals/chat-api/#accessing-a-bot", 
+            "text": "/global  (hidden)\nUniversal command for the bot, allows the bot command to be referenced in any chat via  @botname .  /init  (hidden) \nRun on open chat session, only in 1-to-1 chats.    / command  bots can register a command handler of any ASCII title, which then Status repeats  @botname/command  if there is multiple bots in a chat context, then the  @botname  can be used to make the distinction (or alternatively a suggestions/commands list should appear to help with the distinction)  Bot Message  a bot can send a message that can only be read by another instance of itself in chat history. This message can send markup to draw and contain data. It is activated by a user tapping on it.  A message parsed from chat history  on 1-to-1 chats, any message the user send can be read by the bot and can activate code via  status.on('chat-update', function () { ... } );  handler.", 
+            "title": "Accessing a bot"
         }, 
         {
-            "location": "/proposals/chat-api/#explicitly-calling-commands", 
-            "text": "DApps are namespaced with @dappname!command, which can be useful if same commands used by multiple bots are available, alternatively these can be used for commands when bot is not actually in the chat, ie @wallet!send", 
-            "title": "Explicitly calling commands"
+            "location": "/proposals/chat-api/#bot-messages", 
+            "text": "A Bot Message can contain it's own markup and a data payload, this message can be transmitted to the chat context. If it is interactable then the interaction (what we currently call response handler) handles the message when tapped.   If the user does not have the bot installed, then we display a custom keyboard that shows the bot name, its reviews/ reputation and a \"Install / Add to Contacts\" button, which the user can either cancel or install and continue with response flow.", 
+            "title": "Bot Messages"
         }, 
         {
-            "location": "/proposals/chat-api/#custom-keyboards", 
-            "text": "Parameters use custom keyboards (instead of types, we adapt our types to be keyboards themselves?)    Make our emoji/sticker market with this, otherwise accessible through commands\nie !init command with param that opens up a config", 
-            "title": "Custom Keyboards"
-        }, 
-        {
-            "location": "/proposals/chat-api/#messages", 
-            "text": "subscription to message feed  api for sending messages, and setting things like \"typing\"  not available in group", 
-            "title": "Messages"
+            "location": "/proposals/chat-api/#command-handlers", 
+            "text": "Once a command handler is invoked it is passed the current text / data payload of the message, and is required to return the paramaters (and their placeholder information). The return of the handler must include \n-  markup  or a  status component(data)  for the suggestions area \n-  markup  or a  status component(data)  for the the keyboard\n- an error object\n- the revised text / data payload.", 
+            "title": "Command Handlers"
         }, 
         {
             "location": "/proposals/chat-api/#privacy", 
-            "text": "by default does not receive all messages in group chat  only commands and in 1-to-1", 
+            "text": "a bot can only be interacted with via commands or messages via in 1-to-1 chats  a bot can only see messages from itself and the current user in group chats.", 
             "title": "Privacy"
         }, 
         {
