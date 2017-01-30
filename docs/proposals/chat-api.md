@@ -46,3 +46,8 @@ Once a command handler is invoked it is passed the current text / data payload o
 
 - a bot can only be interacted with via commands or messages via in 1-to-1 chats
 - a bot can only see messages from itself and the current user in group chats.
+
+
+## Deployment & Testing
+
+Console should have some `/debug` mode that allows the user to plugin their phone in and hot-load javascript/webpage to make testing web-based dapps or bots easily from desktop. Ideally it should have integration with [Truffle](http://truffleframework.com/) & [Embark](https://github.com/iurimatias/embark-framework) and pay respect to [EIP190](https://github.com/ethereum/EIPs/issues/190)
