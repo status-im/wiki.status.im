@@ -14,14 +14,13 @@ We've love for you to join our community, and be a part of this exciting journey
 [![Getting started with Status](https://i.imgur.com/C0aZZEL.jpg)](https://www.youtube.com/watch?v=oDCSEmS9c3o "Getting started with Status")
 
 ## Why?
-
-We believe in a medium of pure free trade, economies with fair, permissionless access and a world without intermediaries. We want to create policies that can exist between friends or scale globally, and the ability to communicate securely without being inhibited by legacy systems.   
-
-We want to take control of our digital lives, and take responsibility for our own data, the way we conduct ourselves privately and promote this way of life to a mass audience.
-
-We want deep insights into our own economies so we can make informed, data-driven decisions on how to make our lives better. The Ethereum blockchain, Smart Contracts, Swarm and Whisper provides us with a clear path forward.  
+**We believe in a medium of free interaction, economies with permissionless fair-access and a world without parasitic intermediaries. **
+- We want to create protocols and policies that can scale, from small interactions between friends and groups to truly global communication. At the heart of our belief is the ability for individuals to communicate securely without being inhibited by legacy systems or antiquated beliefs. 
+- We want to empower everyone to take control of their digital lives and responsibility for their own data. We want the way we conduct ourselves privately and publicly to recommend itself to a mass audience; and for the tools we build and the way we use them to improve the lives of everyone.
+- We want deep insights into our societies and our own economies so we can make informed, data-driven decisions on what truly makes lives better. The Ethereum blockchain, distributed aplications, Swarm and Whisper provide us with a clear path forward.
 
 If this interests you, **help us make Status a reality** - anyone can contribute and we need everyone at any skill level to participate.
+
 
 ## How to Contribute?
 
