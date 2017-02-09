@@ -247,10 +247,11 @@ Please try to be as descripive as possible.</p>
 <p>To run the tests:</p>
 <ol>
 <li>Install appium: run <code>npm install -g appium</code></li>
-<li>Start application on emulator or real device (<a href="https://wiki.status.im/contributing/development/building-status/#build-and-test">more details here</a>)</li>
-<li>Start appium server in new tab: run <code>appium --session-override</code></li>
-<li>Run <code>lein test</code></li>
+<li>Start application on emulator or real device (<a href="https://wiki.status.im/contributing/development/building-status/#build-and-test">more details here</a>).</li>
 </ol>
+<p><strong>Important:</strong> use the <em>android-test</em> build (run <code>BUILD_IDS="android-test" lein repl</code>). Testing in iOS is not supported yet.
+3. Start appium server in new tab: run <code>appium --session-override</code>
+4. Run <code>lein test</code></p>
 <p>Hints / Gotchas:</p>
 <ul>
 <li>Confirmed working using Appium version 1.6.1.</li>

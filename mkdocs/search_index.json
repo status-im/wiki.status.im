@@ -527,7 +527,7 @@
         }, 
         {
             "location": "/contributing/testing-and-feedback/", 
-            "text": "Testing\n\n\nShake your phone and submit bug report.\nPlease try to be as descripive as possible.\n\n\nFor Developers\n\n\nUI (Appium) tests\n\n\nTo run the tests:\n\n\n\n\nInstall appium: run \nnpm install -g appium\n\n\nStart application on emulator or real device (\nmore details here\n)\n\n\nStart appium server in new tab: run \nappium --session-override\n\n\nRun \nlein test\n\n\n\n\nHints / Gotchas:\n\n\n\n\nConfirmed working using Appium version 1.6.1.\n\n\nTo find an element easily in the tests, use the \n:accessibility-label\n property in the respective Reagent component.\n\n\nWhen querying an element by its inner text, be sure to use the whole text that the element is supposed to contain (it won't match just a part of the text).\n\n\n\n\nUnit tests\n\n\nTo run the unit tests execute:\n\n\nlein doo node test once\n   \n\n     or\n\n\nlein doo node test\n\n\nSecond command will watch files inside \nsrc\n and \ntest\n folders and rerun on changes.", 
+            "text": "Testing\n\n\nShake your phone and submit bug report.\nPlease try to be as descripive as possible.\n\n\nFor Developers\n\n\nUI (Appium) tests\n\n\nTo run the tests:\n\n\n\n\nInstall appium: run \nnpm install -g appium\n\n\nStart application on emulator or real device (\nmore details here\n).\n\n\n\n\nImportant:\n use the \nandroid-test\n build (run \nBUILD_IDS=\"android-test\" lein repl\n). Testing in iOS is not supported yet.\n3. Start appium server in new tab: run \nappium --session-override\n\n4. Run \nlein test\n\n\nHints / Gotchas:\n\n\n\n\nConfirmed working using Appium version 1.6.1.\n\n\nTo find an element easily in the tests, use the \n:accessibility-label\n property in the respective Reagent component.\n\n\nWhen querying an element by its inner text, be sure to use the whole text that the element is supposed to contain (it won't match just a part of the text).\n\n\n\n\nUnit tests\n\n\nTo run the unit tests execute:\n\n\nlein doo node test once\n   \n\n     or\n\n\nlein doo node test\n\n\nSecond command will watch files inside \nsrc\n and \ntest\n folders and rerun on changes.", 
             "title": "Testing & Feedback"
         }, 
         {
@@ -542,7 +542,7 @@
         }, 
         {
             "location": "/contributing/testing-and-feedback/#ui-appium-tests", 
-            "text": "To run the tests:   Install appium: run  npm install -g appium  Start application on emulator or real device ( more details here )  Start appium server in new tab: run  appium --session-override  Run  lein test   Hints / Gotchas:   Confirmed working using Appium version 1.6.1.  To find an element easily in the tests, use the  :accessibility-label  property in the respective Reagent component.  When querying an element by its inner text, be sure to use the whole text that the element is supposed to contain (it won't match just a part of the text).", 
+            "text": "To run the tests:   Install appium: run  npm install -g appium  Start application on emulator or real device ( more details here ).   Important:  use the  android-test  build (run  BUILD_IDS=\"android-test\" lein repl ). Testing in iOS is not supported yet.\n3. Start appium server in new tab: run  appium --session-override \n4. Run  lein test  Hints / Gotchas:   Confirmed working using Appium version 1.6.1.  To find an element easily in the tests, use the  :accessibility-label  property in the respective Reagent component.  When querying an element by its inner text, be sure to use the whole text that the element is supposed to contain (it won't match just a part of the text).", 
             "title": "UI (Appium) tests"
         }, 
         {
@@ -582,27 +582,27 @@
         }, 
         {
             "location": "/contributing/outreach/", 
-            "text": "Community Outreach \n Marketing\n\n\nAny communications efforts are welcomed, and it's necessary that any contributions that represent Status are closely aligned of our \nMission \n Core Values\n. Brand messaging needs to be consistent, honest, transparant and accurately reflect what the project aims to achieve.\n\n\nStatus is not yet ready for mass-adoption, and a clearly defined a user acquisition strategy will be outlined here at a later date. For the time being, contributors interested helping with community outreach should focus on helping to produce meaningful content and spreading the word amongst other blockchain enthusiasts.\n\n\nGet Involved\n\n\nJoin the \nStatus Slack\n and head over to the \n#outreach\n channel to share what you had in mind, and bounce ideas.\n\n\nGuest Posts\n\n\nEnjoy writing about Ethereum? Come write an article that will be featured on the Status blog.\n\n\nInterviews\n\n\nContributed to Status or the Ethereum ecosystem? Help us spread the word by being part of an interviews series published on the blog and across social media.\n\n\nQuality Assurance\n\n\nA brand is a delicate thing, and any content contributions require acceptance from within our community before publication. Text content must be stylistically and structually well-produced with no grammatical errors. We'd be happy to help with editing and proof-reading :)", 
+            "text": "Community Outreach \n Marketing\n\n\nAny communications efforts are welcomed, and it's necessary that any contributions that represent Status are closely aligned of our \nMission \n Core Values\n. Brand messaging needs to be consistent, honest, transparent and accurately reflect what the project aims to achieve.\n\n\nStatus is not yet ready for mass-adoption, and a clearly defined a user acquisition strategy will be outlined here at a later date. For the time being, contributors interested helping with community outreach should focus on helping to produce meaningful content and spreading the word amongst other blockchain enthusiasts. Some practical tips and suggestions on how you can take part in and help to strengthen our community can be found at the \nGrowing our Community\n page.\n\n\nGet Involved\n\n\nJoin the \nStatus Slack\n and head over to the \n#community-building\n channel to share what you had in mind, and bounce ideas.\n\n\nGuest Posts\n\n\nEnjoy writing about Ethereum? Come write an article that will be featured on the \nStatus blog\n.\n\n\nInterviews\n\n\nContributed to Status or the Ethereum ecosystem? Help us spread the word by being part of an interviews series published on the \nblog\n and across social media platforms, like \nTwitter\n, \nReddit\n and \nFacebook\n.\n\n\nQuality Assurance\n\n\nA brand is a delicate thing, and any content contributions require acceptance from within our community before publication. Text content must be stylistically and structually well-produced with no grammatical errors. We'd be happy to help with editing and proof-reading :)", 
             "title": "Outreach"
         }, 
         {
             "location": "/contributing/outreach/#community-outreach-marketing", 
-            "text": "Any communications efforts are welcomed, and it's necessary that any contributions that represent Status are closely aligned of our  Mission   Core Values . Brand messaging needs to be consistent, honest, transparant and accurately reflect what the project aims to achieve.  Status is not yet ready for mass-adoption, and a clearly defined a user acquisition strategy will be outlined here at a later date. For the time being, contributors interested helping with community outreach should focus on helping to produce meaningful content and spreading the word amongst other blockchain enthusiasts.", 
+            "text": "Any communications efforts are welcomed, and it's necessary that any contributions that represent Status are closely aligned of our  Mission   Core Values . Brand messaging needs to be consistent, honest, transparent and accurately reflect what the project aims to achieve.  Status is not yet ready for mass-adoption, and a clearly defined a user acquisition strategy will be outlined here at a later date. For the time being, contributors interested helping with community outreach should focus on helping to produce meaningful content and spreading the word amongst other blockchain enthusiasts. Some practical tips and suggestions on how you can take part in and help to strengthen our community can be found at the  Growing our Community  page.", 
             "title": "Community Outreach &amp; Marketing"
         }, 
         {
             "location": "/contributing/outreach/#get-involved", 
-            "text": "Join the  Status Slack  and head over to the  #outreach  channel to share what you had in mind, and bounce ideas.", 
+            "text": "Join the  Status Slack  and head over to the  #community-building  channel to share what you had in mind, and bounce ideas.", 
             "title": "Get Involved"
         }, 
         {
             "location": "/contributing/outreach/#guest-posts", 
-            "text": "Enjoy writing about Ethereum? Come write an article that will be featured on the Status blog.", 
+            "text": "Enjoy writing about Ethereum? Come write an article that will be featured on the  Status blog .", 
             "title": "Guest Posts"
         }, 
         {
             "location": "/contributing/outreach/#interviews", 
-            "text": "Contributed to Status or the Ethereum ecosystem? Help us spread the word by being part of an interviews series published on the blog and across social media.", 
+            "text": "Contributed to Status or the Ethereum ecosystem? Help us spread the word by being part of an interviews series published on the  blog  and across social media platforms, like  Twitter ,  Reddit  and  Facebook .", 
             "title": "Interviews"
         }, 
         {
