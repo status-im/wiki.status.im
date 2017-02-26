@@ -1,95 +1,65 @@
 # Code of Conduct
 
-This page outlines how you should govern yourself when in our community. If you would like more practical tips and suggestions please read on [how to grow our Community](../community/how-to-grow-our-community.md).
+This page outlines how you should govern yourself when participating in the Status community. For more practical tips and suggestions on how to help the project and contribute, please refer to either of these guides, [How to grow our Community](../community/how-to-grow-our-community.md) or [Introduction for developers](../docs/contributing/development/introduction.md).  
+
+The Code of Conduct serves to establish guidelines on how to conduct your behaviour. We are all responsible for maintaining and developing this shared environment.  
+We want to have a common productive, collaborative and socially responsible space. We hope that all our community members share our views and nurture this spirit and culture in their dealings with the Status community.  
+
 
 ## Community
+Status is about showing respect and humanity for one another: the word itself captures the spirit of social esteem in a human community.
 
-Status is about showing humanity to one another: the word itself captures the spirit of being human.
+We want to grow productive and agile place that can welcome new ideas in a complex field. We wish to improve every process in every development cycle and foster collaboration between groups with very different needs, interests and skills.
 
-We want a productive, happy and agile community that can welcome new ideas in a complex field, improve every process every year, and foster collaboration between groups with very different needs, interests and skills.
+We gain strength from diversity, and actively seek participation from those who enhance it. This Code of Conduct exists to ensure that diverse groups collaborate to mutual advantage and enjoyment.  
 
-We gain strength from diversity, and actively seek participation from those who enhance it. This code of conduct exists to ensure that diverse groups collaborate to mutual advantage and enjoyment. We will challenge prejudice that could jeopardise the participation of any person in the project.
+This Code of Conduct governs how we behave in public or in private whenever the project will be judged by our actions. We expect it to be honoured by everyone who represents the project officially or informally, claims affiliation with the project, or participates directly.
 
-The Code of Conduct governs how we behave in public or in private whenever the project will be judged by our actions. We expect it to be honoured by everyone who represents the project officially or informally, claims affiliation with the project, or participates directly.
 
-We strive to:
+## We strive to: 
 
 - **Reciprocate**   
-Nothing is more important than to show appreciation for every and anyones contributions, big or small. We show reciprocation by saying thank-you, contributing ourselves or paying it forward.
+Nothing is more important than to show appreciation for every and anyones contributions, no matter if big or small. We show reciprocation by saying thank-you, contributing ourselves or paying it forward.
 
 - **Be considerate**   
-Our work will be used by other people, and we in turn will depend on the work of others. Any decision we take will affect users and colleagues, and we should consider them when making decisions.
+Our work will be used by other people, and we in turn depend on the work of others. Any decision we take will affect users and colleagues, and we should consider them when making decisions.  
+
+	When somebody leaves or disengages from the project, we ask that they do so in a way that minimises disruption to the project. They should tell people they are leaving and take the proper steps to ensure that others can pick up where they left off.
+
+- **Feel free to ask**  
+If there's something you don't know, do ask, questions are encouraged. Nobody is expected to be perfect in this community. Many newcomers just want to get acquinted with the project, so asking questions early avoids many problems later. The project is fast paced and ever evolving, so even people that have been around a long time might have questions.   
+
+	Those who are asked or answer a general question should be responsive and helpful, directing people to the appropriate forums or channels is good, but answering the question is more important.
 
 - **Be respectful**  
-Disagreement is no excuse for poor manners. We work together to resolve conflict, assume good intentions and do our best to act in an empathic fashion. We don't allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.
+Disagreement is normal, they can be social or about technical details, but it is no excuse for poor manners. We work together to resolve conflict, assume good intentions and do our best to act in an empathic fashion. Allowing frustration to turn into personal attacks is not acceptable.  
 
-- **Take responsibility for our words and our actions**  
-We can all make mistakes; when we do, we take responsibility for them. If someone has been harmed or offended, we listen carefully and respectfully, and work to right the wrong.
+	A community where people feel uncomfortable or threatened is not a productive one, so we will challenge prejudice or hostility that could jeopardise the participation of any person in the project.
+
+- **Take responsibility**  
+We can all make mistakes; when we do, we take responsibility for them. If someone has been harmed or offended, we listen carefully and respectfully, and work together to resolve the problem, those involved in the project are expected to resolve disagreements constructively.  
+
+	The participants in the project should be able to accept and give constructive criticism, be it positive or negative, this is how we learn to work better.  
 
 - **Be collaborative**  
-What we produce is a complex whole made of many parts, it is the sum of many dreams. Collaboration between teams that each have their own goal and vision is essential; for the whole to be more than the sum of its parts, each part must make an effort to understand the whole.
+What we together produce is a *complex whole,* made of *many parts* and is the sum of many dreams. Collaboration between teams that each have their own goal and vision is essential. To be efficient and effective, and for the whole to be more than the sum of its parts, each team must make an effort to understand the system as a whole.  
 
-    Collaboration reduces redundancy and improves the quality of our work. Internally and externally, we celebrate good collaboration. Wherever possible, we work closely with upstream projects and others in the free software community to coordinate our efforts. We prefer to work transparently and involve interested parties as early as possible.
-    
-- **Value decisiveness, clarity and consensus**  
-Disagreements, social and technical, are normal, but we do not allow them to persist and fester leaving others uncertain of the agreed direction.
+	Wherever possible, we work closely with projects in the same space and others in the Ethereum community to coordinate our efforts. We prefer to work transparently and involve interested parties as early as possible.   Collaboration at all levels improves the quality of our work and we value it both internally and externally.  
 
-    We expect participants in the project to resolve disagreements constructively. When they cannot, we escalate the matter to structures with designated leaders to arbitrate and provide clarity and direction.
-    
-- **Ask for help when unsure**
-Nobody is expected to be perfect in this community. Asking questions early avoids many problems later, so questions are encouraged, though they may be directed to the appropriate forum. Those who are asked should be responsive and helpful.
+- **Discuss & communicate**  
+Our community values discussion, information and decisiveness. We all lead by example, both in discussion and in action.  
+We want to encourage new participants to feel empowered to take action, to experiment when they feel like their innovation could improve the project and at times to lead.  
 
-- **Step down considerately**  
-When somebody leaves or disengages from the project, we ask that they do so in a way that minimises disruption to the project. They should tell people they are leaving and take the proper steps to ensure that others can pick up where they left off.
+	Sometimes not all of the data is available to everyone or a consensus on how to act can't be reached, but a decision must still be made. Not every participant will always agree on everything, but once a decision is made, it should be respected, accepted and work continued to achieve the common goal. 
 
-## Leadership, authority and responsibility
+- **Give credit where credit is due**  
+Some members may be more visible than others, but good ones use their visibility to highlight the great work of others.
 
-We all lead by example, in debate and in action. We encourage new participants to feel empowered to lead, to take action, and to experiment when they feel innovation could improve the project. Leadership can be exercised by anyone simply by taking action, there is no need to wait for recognition when the opportunity to lead presents itself.
+**We invite any- and everybody to participate in any aspect of the project. Our community is open and any responsibility can be carried by any contributor who demonstrates the required commitment, capacity and competence.**
 
-### Delegation from the top
 
-We are exploring the alternative governence models that Ethereum can facilitate, but for the time being responsibility for the project starts with the "benevolent dictator", who delegates specific responsibilities and the corresponding authority to a series of teams, councils and individuals, starting with the Community Council ("CC"). That Council or its delegated representative will arbitrate in any dispute.
 
-We are a meritocracy; we delegate decision making, governance and leadership from senior bodies to the most able and engaged candidates.
+####License
+Status.im is a **Free Software** project and the individuals and communities around it are its custodians.  We choose not to exclude others from using, understanding, modifying and distributing our work and in doing so we put our trust in one another to act in the best interests of the wider human community that Status.im is designed to serve.  This licence holds the developers to account,  in the knowledge that the software is a common trust and that it is a *privilege*, a *responsibility* to continue to develop it.
 
-### Support for delegation is measured
-
-Nominations to the boards and councils are at the discretion of the Community Council, however the Community Council will seek the input of the community before confirming appointments.
-
-Leadership is not an award, right, or title; it is a privilege, a responsibility and a mandate. A leader will only retain their authority as long as they retain the support of those who delegated that authority to them.
-
-### We value discussion, data and decisiveness
-
-We gather opinions, data and commitments from concerned parties before taking a decision. We expect leaders to help teams come to a decision in a reasonable time, to seek guidance or be willing to take the decision themselves when consensus is lacking, and to take responsibility for implementation.
-
-The poorest decision of all is no decision: clarity of direction has value in itself. Sometimes all the data are not available, or consensus is elusive. A decision must still be made. There is no guarantee of a perfect decision every time - we prefer to err, learn, and err less in future than to postpone action indefinitely.
-
-We recognise that the project works better when we trust the teams closest to a problem to make the decision for the project. If we learn of a decision that we disagree with, we can engage the relevant team to find common ground, and failing that, we have a governance structure that can review the decision. Ultimately, if a decision has been taken by the people responsible for it, and is supported by the project governance, it will stand. None of us expects to agree with every decision, and we value highly the willingness to stand by the project and help it deliver even on the occasions when we ourselves may prefer a different route.
-
-### Open meritocracy
-
-We invite anybody, from any company, to participate in any aspect of the project. Our community is open, and any responsibility can be carried by any contributor who demonstrates the required capacity and competence.
-
-### Teamwork
-
-A leader's foremost goal is the success of the team.
-
-"A virtuoso is judged by their actions; a leader is judged by the actions of their team." A leader knows when to act and when to step back. They know when to delegate work, and when to take it upon themselves.
-
-### Credit
-
-A good leader does not seek the limelight, but celebrates team members for the work they do. Leaders may be more visible than members of the team, good ones use that visibility to highlight the great work of others.
-
-### Courage and considerateness
-
-Leadership occasionally requires bold decisions that will not be widely understood, consensual or popular. We value the courage to take such decisions, because they enable the project as a whole to move forward faster than we could if we required complete consensus. Nevertheless, boldness demands considerateness; take bold decisions, but do so mindful of the challenges they present for others, and work to soften the impact of those decisions on them. Communicating changes and their reasoning clearly and early on is as important as the implementation of the change itself.
-
-### Conflicts of interest
-
-We expect leaders to be aware when they are conflicted due to employment or other projects they are involved in, and abstain or delegate decisions that may be seen to be self-interested. We expect that everyone who participates in the project does so with the goal of making life better for its users.
-
-When in doubt, ask for a second opinion. Perceived conflicts of interest are important to address; as a leader, act to ensure that decisions are credible even if they must occasionally be unpopular, difficult or favourable to the interests of one group over another.
-
-This Code is not exhaustive or complete. It is not a rulebook; it serves to distil our common understanding of a collaborative, shared environment and goals. We expect it to be followed in spirit as much as in the letter.
-
-The Status Code of Conduct is licensed under the Creative Commons Attribution-Share Alike 3.0 license and has been appropriated from the Ubuntu Code of Conduct v2.0. You may re-use it for your own project, and modify it as you wish, just please allow others to use your modifications and give credit to the Status Project!
+The Status Code of Conduct is licensed under the Creative Commons Attribution-Share Alike 3.0 license and has been adapted from the Ubuntu Code of Conduct v2.0. You may re-use it for your own project, and modify it as you wish, just please allow others to use your modifications and give credit to Ubuntu and the Status Projects!
