@@ -265,7 +265,7 @@
 # or
 $ git clone git@github.com:status-im/status-react.git -b develop &amp;&amp; cd status-react
 
-$ lein deps &amp;&amp; npm install &amp;&amp; ./re-natal deps
+$ lein deps &amp;&amp; npm install &amp;&amp; ./re-natal deps &amp;&amp; lein generate-externs
 $ mvn -f modules/react-native-status/ios/RCTStatus dependency:unpack
 $ cd ios &amp;&amp; pod install &amp;&amp; cd ..
 </code></pre>
