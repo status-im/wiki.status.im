@@ -26,7 +26,7 @@ To achieve our mission we intend to employ a strategy that contains three core c
 
 ### Technology
 
-- The Status app itself is (currently) targeted at mobile devices running Android and iOS, and is built using Clojure.js, React and Golang.
+- Status is built using ClojureScript, React and Golang. It includes a geth node on your device that uses the Light Ethereum Subprotocol (LES) to validate and sync with the blockchain. It uses Whisper (shh) as its messaging client and aims to integrate Swarm for storage.
 
 - To sync with and validate the ethereum blockchain on a mobile device, Status deploys a geth node using the Light Ethereum Subprotocol (LES).
 

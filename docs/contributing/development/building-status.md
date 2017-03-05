@@ -24,7 +24,7 @@ This guide is written with OS X in mind.
     # or
     $ git clone git@github.com:status-im/status-react.git -b develop && cd status-react
 
-    $ lein deps && npm install && ./re-natal deps
+    $ lein deps && npm install && ./re-natal deps && lein generate-externs
     $ mvn -f modules/react-native-status/ios/RCTStatus dependency:unpack
     $ cd ios && pod install && cd ..
 
