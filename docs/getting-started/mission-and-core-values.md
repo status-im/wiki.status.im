@@ -1,49 +1,85 @@
 # Mission & Core Values
 
-**Join us in putting Ethereum on every mobile device on the planet.**
+On mobile devices today more time is spent in messenger apps than in any other type of application.  Mobile devices will be, and in many cases already are, where people do most if not all of their personal computing.  Status is an encrypted and decentralised messaging application that frees users both from third party surveillance and from the mining of the meta data in their social graph.  
+More than an instant messenger, Status is a platform that allows anyone with a capable smart phone to use decentralized applications (DApps) right from their mobile device.  
 
-## Beliefs
+**Join us in putting ethereum on every mobile device on the planet.**
 
-It is our belief that messenger apps are on the path to becoming gateways to our economies and social lives, they have the highest retention rates on user acquisition and more time is spent in messenger apps than any others. Successful messaging apps lend themselves to mass adoption and, combined with a strong open source community, we believe Status can solve a real problem with the on-boarding of people onto the blockchain; our favourite being Ethereum.  
-
-Blockchains, more specifically *public Blockchains*, have the potential to restructure the very fabric of our society. We believe Ethereum provides the clearest path forward towards an internet where users get to own their own data, and economies are built on open protocols. We imagine a future where decentralized applications make central intermediaries and centralised servers largely redundant. We can pave the way towards **conversational crypto-commerce**.  
 
 ## The Mission
 
-Our mission is to facilitate the transition to a more open internet. Status strives to lower the barriers to interacting with Ethereum, and to provide an onramp to the Web 3.0 for the average smartphone user - whilst at the same time fostering an inclusive and diverse open source community.
+- To ease the transition to a more open mobile internet.
 
-We intend to employ a strategy that contains three core components: *Technology*, *Community* & *User Aquisition*.
+- To help anyone, anywhere interact with ethereum, and make Web 3 available for the average smart phone user.
+
+- Status fosters links with the wider ethereum DApp community and showcases what the ecosystem has to offer.
+
+To achieve our mission we intend to employ a strategy that contains three core components:- 
+
+*Technology*,
+    + Application
+    + Blockchain
+*Community* 
+    + Developer
+    + Users 
+*User Acquisition* / *Mass Adoption*.
 
 ### Technology
 
 - Status is built using ClojureScript, React and Golang. It includes a geth node on your device that uses the Light Ethereum Subprotocol (LES) to validate and sync with the blockchain. It uses Whisper (shh) as its messaging client and aims to integrate Swarm for storage.
 
-- We build systems where the goal is not to dominate and control, but to provide tools and applications that facilitate the better angels of our nature, rather than feeding the purely consumerist habits we have become so used to believing have no alternative.  
+- To sync with and validate the ethereum blockchain on a mobile device, Status deploys a geth node using the Light Ethereum Subprotocol (LES).
 
-- We actively experiment with and deploy the latest technologies in the ongoing drive to provide a slick user experience while not compromising on the security or sovereignity of any user's data.
+- Status’ messaging are transmitted using the Whisper (shh) protocol.
 
-- We offer an intuitve entry point into decentralized, encrypted, peer-ro-peer networks that is maintained by a large and diverse group of open-source developers.
+- Status aims to integrate Swarm for storage.
+  
 
-- We approach all contributions with an open mind and respect the opinions of our fellow developers. We aim to foster an environment conducive to easy, intuitive and consistent learning and one that fosters innovation at all levels.
+### Developer / Contributor Community
 
-- We aim to help as many people to learn and contribute to the community's effort and always aim to encourage those more new to the paradigm of massively concurrent peer-to-peer networks than we are.
+- We aim to help anyone who is keen to learn about and/or contribute to the community's effort.
 
-### Community
+- As a community we strive to welcome and encourage those who are (as we so recently were,) new to the paradigm of massively concurrent permissionless peer-to-peer networks.
 
-working with dapp develoeprs
 
-### User Aquisition
+- We approach all contributions with an open mind and a respect for the opinions of our fellow developers.
 
-marketing campaigns for dapp developers, user aquisition for mass adoption
+- The Status Development community actively explores and experiments with the latest ethereum technologies in the ongoing drive to provide the best possible user experience.
+
+- We aim to foster an environment conducive to easy, intuitive and consistent learning and one that fosters innovation at all levels.
+
+### User Community / Aquisition
+
+- Status will not compromise the sovereignty and security of user data.
+
+- We offer an intuitive entry point into decentralized, encrypted, peer-to-peer networks that is maintained by a large and diverse group of developers.
+
+#### Marketing campaigns 
+    + DApp developers, 
+    + User acquisition for mass adoption
+
+
+
+## Beliefs 
+
+- Status.im believes in an open internet. Built, not only on open protocols, but upon Free/Libre software where the costs (fanancial or otherwise) of participation are negligible for **all**. 
+
+- Status is founded on the belief that communication is at the heart of human social (and economic) life; and that society thrives through direct interaction rather than from intermediation.  Status can pave the way towards **conversational crypto-commerce.** 
+
+- We believe that systems like ethereum have the potential to improve the very fabric of our society.  Status.im should solve the problem of giving **ordinary people** across the globe easy access to the power and promise of Ethereum and Web3.  
+
+- Status.im is passionate about Distributed and Decentralised technology in general, and about the advantages of ethereum’s *public Blockchain* in particular.  
+
+- We believe that people should directly control the use of their own personal data, and the history of their social interactions.  We imagine the benefits to **all** of a future where distributed and decentralized applications make proprietary intermediaries and centralised services (which exploit there users) obsolete.  
+
+- Communication, decision making and control should be clear and transparent to everyone in the community.
+
+- Our work is driven by a belief that Ethereum and public blockchains can yield great benefits to society, and access to DApps and Ethereum should be made available to **anyone**, anywhere.
 
 ## Core Values
 
-- Free (libre) and open source software.
-
 - Reciprocity, open-mindedness, respect and encouragement.
 
-- Our work is driven by a belief that Ethereum and public blockchains can yield great benefits to society, and access to DApps and Ethereum should be made available to anyone, anywhere.
+- The systems we're creating must be open, permissionless, award fair access and Distribute Decentralise and Democratise power.
 
-- The systems we're creating must be open, permissionless, award fair access and democratise power.
-
-- Communication should be clear and transparent to everyone in the community.
+- Status is licenced as Free Libre & Open Source software, which allow **anyone** to run the software for **any purpose** as well as to **study**, **Modify**, and **distribute** the software and any adapted versions.
