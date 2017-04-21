@@ -48,14 +48,14 @@ This guide is written with OS X in mind.
     # new tab, run react native packager
     $ react-native start
 
+    # FOR ANDROID
     # new tab, enable communication to react-native and figwheel
-    # for android
     $ adb reverse tcp:8081 tcp:8081
     $ adb reverse tcp:3449 tcp:3449
     $ react-native run-android
 
-    # for ios
-    # ATTENTION: We will shorlty be upgrading to React Native 0.4x
+    # FOR IOS
+    # Attention: We will shortly be upgrading to React Native 0.4x
     # Until then you need to be running Xcode 8.2.1 or lower to build for ios
     $ react-native run-ios
 
