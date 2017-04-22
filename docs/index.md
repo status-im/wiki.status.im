@@ -59,7 +59,7 @@ Help us spread the word! Tell a friend *right now*, infact tell **everyone** - y
 
 ## Give me Binaries!
 
-Currently the fastest way to get your hands on a binary is to join our Early Access by submitting your email on our [Home Page](https://status.im), or by [building it yourself](contributing/development/building-status.md). We'll be continually rolling out new invites for early supporters of the project, before a public-release once Status is in a more stable state.
+Currently the fastest way to get your hands on a binary is to join our Early Access by submitting your email on our [Home Page](https://status.im), or by [building it yourself](contributing/development/building-status.md). We'll be continually rolling out new invites for early supporters of the project, before a public-release once Status is in a more stable state. Nightly builds for Android can be found on our [Artifactory](http://artifacts.status.im:8081/artifactory/nightlies-local/).
 
 // TODO GPlay, TestFlight Instructions & FDroid
 
