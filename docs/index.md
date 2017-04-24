@@ -15,7 +15,7 @@ We've love for you to join our community, and be a part of this exciting journey
 
 ## Why?
 **We believe in a medium of free interaction, economies with permissionless fair-access and a world without parasitic intermediaries. **
-- We want to create protocols and policies that can scale, from small interactions between friends and groups to truly global communication. At the heart of our belief is the ability for individuals to communicate securely without being inhibited by legacy systems or antiquated beliefs. 
+- We want to create protocols and policies that can scale, from small interactions between friends and groups to truly global communication. At the heart of our belief is the ability for individuals to communicate securely without being inhibited by legacy systems or antiquated beliefs.
 - We want to empower everyone to take control of their digital lives and responsibility for their own data. We want the way we conduct ourselves privately and publicly to recommend itself to a mass audience; and for the tools we build and the way we use them to improve the lives of everyone.
 - We want deep insights into our societies and our own economies so we can make informed, data-driven decisions on what truly makes lives better. The Ethereum blockchain, distributed aplications, Swarm and Whisper provide us with a clear path forward.
 
@@ -63,14 +63,20 @@ Currently the fastest way to get your hands on a binary is to join our Early Acc
 
 // TODO GPlay, TestFlight Instructions & FDroid
 
+## The Roadmap
+
+Here is our current roadmap, note that the version numbers in this roadmap might not correlate with features as we are switching to a 'rolling release' cycle much like the Linux kernel, instead of feature based releases.
+
+[<img src="contributing/img/Status_Roadmap.jpg" />](contributing/img/Status_Roadmap.jpg)
+
 ## Core Contributors
 
 <img src="https://github.com/status-im/status-site/raw/master/src/img/new-site/jarrad.png" width="80px"></img>
 Jarrad ([@jarradh](https://github.com/jarradh)) - Cofounder and Thought Leader.
- 
+
 <img src="https://github.com/status-im/status-site/raw/master/src/img/new-site/carl.png" width="80px"></img>
 Carl ([@carlbennetts](https://github.com/carlbennetts)) - Cofounder and Communications & Marketing.
- 
+
 <img src="https://github.com/status-im/status-site/raw/master/src/img/new-site/roman.png" width="80px"></img>
 Roman ([@rasom](https://github.com/rasom)) - Clojure and project lead.
 
@@ -94,7 +100,7 @@ Without the dedication of these fine gentleman, Status would not exist.
 
 ## Contact us
 
-Feel free to email us at [support@status.im](mailto:support@status.im) or better yet, [join our Slack](http://slack.status.im). 
+Feel free to email us at [support@status.im](mailto:support@status.im) or better yet, [join our Slack](http://slack.status.im).
 
 Got a feature request or suggestion, download Status and shake your phone, failing that search our [Github Issues](http://github.com/status-im/status-react/issues).
 
