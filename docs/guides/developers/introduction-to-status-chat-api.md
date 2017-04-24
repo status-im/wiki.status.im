@@ -27,7 +27,7 @@ If you decide to use the Truffle or Embark DApp development frameworks, they hav
 
 ![](../img/introduction-to-status-chat-api_02.png)
 ![commands.js locations on a Mac: Embark on the left, Truffle on the right](../img/introduction-to-status-chat-api_03.png)  
-*commands.js locations on a Mac: Embark on the left, Truffle on the right*
+*commands.js locations on a Mac: Embark on the top, Truffle on the bottom*
 
 The file itself will be the same whether you develop with Truffle, with Embark, or a different framework or no framework. You just need to place the file at the right location to make it available during development and after your DApp goes live.
 
