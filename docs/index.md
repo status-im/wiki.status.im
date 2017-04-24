@@ -95,8 +95,14 @@ Victor ([@farazdagi](https://github.com/farazdagi)) - Golang one-man-army.
 <img src="https://github.com/status-im/status-site/raw/master/src/img/new-site/andrei.png" width="80px"></img>
 Andrei ([@andmironov](https://github.com/andmironov)) - Visual design and user experience conjurer.
 
+<img src="contributing/img/anna.jpg" width="80px"></img>
+Anna ([@annadanchenko](https://github.com/annadanchenko)) - Head of QA.
+
+<img src="contributing/img/tatu.jpg" width="80px"></img>
+Tatu ([@smokyish](https://github.com/smokyish)) - Community Manager.
+
 Special thanks to [@adrian-tiberius](https://github.com/adrian-tiberius).
-Without the dedication of these fine gentleman, Status would not exist.
+Without the dedication of these fine gentlemen and lady, Status would not exist.
 
 ## Contact us
 
