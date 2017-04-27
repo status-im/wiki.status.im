@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://wiki.status.im/guides/developers/background-for-developers/">
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Background for DApp Developers - Status Wiki</title>
+        <link href="../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../../css/highlight.css">
+        <link rel="stylesheet" href="../../../css/custom.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+	<script src="../../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../../js/highlight.pack.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-79146816-1', 'wiki.status.im');
+            ga('send', 'pageview');
+        </script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../../.."></a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                    <li >
+                        <a href="../../..">Welcome</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Getting Started <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../../getting-started/mission-and-core-values/">Mission & Core Values</a>
+</li>
+                            
+<li >
+    <a href="../../../getting-started/user-guide/">User Guide</a>
+</li>
+                            
+<li >
+    <a href="../../../getting-started/faq/">FAQ</a>
+</li>
+                            
+<li >
+    <a href="../../../getting-started/code-of-conduct/">Code of Conduct</a>
+</li>
+                            
+<li >
+    <a href="../../../contributing/development/introduction/">Developer Introduction</a>
+</li>
+                            
+<li >
+    <a href="../../../community/how-to-grow-our-community/">Grow our Community</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contributing <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+  <li class="dropdown-submenu">
+    <a href="#">Developers</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../contributing/development/introduction/">Introduction</a>
+</li>
+            
+<li >
+    <a href="../../../contributing/development/building-status/">Building Status</a>
+</li>
+            
+<li >
+    <a href="../../../contributing/development/adding-dapps/">Adding DApps</a>
+</li>
+    </ul>
+  </li>
+                            
+<li >
+    <a href="../../../contributing/design-guidelines/">Design Guidelines</a>
+</li>
+                            
+<li >
+    <a href="../../../contributing/testing-and-feedback/">Testing & Feedback</a>
+</li>
+                            
+<li >
+    <a href="../../../contributing/documenting/">Documenting</a>
+</li>
+                            
+<li >
+    <a href="../../../contributing/outreach/">Outreach</a>
+</li>
+                            
+<li >
+    <a href="../../../contributing/translations/">Translations</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Community <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../../community/how-to-grow-our-community/">Grow our Community</a>
+</li>
+                            
+<li >
+    <a href="../../../community/slack/">Slack</a>
+</li>
+                            
+<li >
+    <a href="../../../community/newsletter/">Newsletter</a>
+</li>
+                            
+<li >
+    <a href="../../../community/blog/">Blog</a>
+</li>
+                            
+<li >
+    <a href="../../../community/tell-a-friend/">Tell a Friend</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guides <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+  <li class="dropdown-submenu">
+    <a href="#">For Users</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../getting-started/user-guide/">User Guide</a>
+</li>
+            
+<li >
+    <a href="../../../community/how-to-grow-our-community/">Grow our Community</a>
+</li>
+    </ul>
+  </li>
+                            
+  <li class="dropdown-submenu">
+    <a href="#">For Developers</a>
+    <ul class="dropdown-menu">
+            
+<li >
+    <a href="../../../contributing/development/introduction/">Developer Introduction</a>
+</li>
+            
+<li >
+    <a href="../../../contributing/development/building-status/">Building Status</a>
+</li>
+            
+<li class="active">
+    <a href="./">Background for DApp Developers</a>
+</li>
+            
+<li >
+    <a href="../starting-a-dapp-on-status-with-frameworks/">Starting a DApp on Status with Truffle and Embark</a>
+</li>
+            
+<li >
+    <a href="../introduction-to-status-chat-api/">Introduction to the Status Chat API</a>
+</li>
+    </ul>
+  </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Proposals <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../../proposals/commiteth/">Commiteth (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../../proposals/contact-sharing/">Contact Sharing (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../../proposals/chat-api/">Chat API (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../../proposals/discover/">Discover (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../../proposals/messaging/">Status Messaging (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../../proposals/erc20-exchange/">Exchange (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../../proposals/sticker-market/">Sticker Market (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../../proposals/visual-programming/">Visual Programming (WIP)</a>
+</li>
+                            
+<li >
+    <a href="../../../proposals/moments/">Moments (WIP)</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">License <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../../licenses/mpl2/">MPL2</a>
+</li>
+                            
+<li >
+    <a href="../../../licenses/lgpl-v3.0-static/">LGPLv3-static</a>
+</li>
+                        </ul>
+                    </li>
+                      <li class="repo-link">
+                          <a href="https://github.com/status-im/wiki.status.im/" target="_blank">
+                                  <i class="fa fa-github"></i>GitHub
+                          </a>
+                      </li>
+                  <li class="search-link">
+                      <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                          <i class="fa fa-search"></i>
+                      </a>
+                  </li>
+                </ul>
+
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#background-for-dapp-developers">Background for DApp Developers</a></li>
+            <li><a href="#whats-a-decentralized-app">What’s a decentralized app?</a></li>
+            <li><a href="#okay-how-would-my-users-access-this-app">Okay, how would my users access this app?</a></li>
+            <li><a href="#wait-so-whos-storing-my-app">Wait, so who’s storing my app?</a></li>
+            <li><a href="#and-i-have-to-set-up-an-ethereum-node-to-access-the-backend">And I have to set up an Ethereum node to access the backend?</a></li>
+            <li><a href="#doesnt-that-mean-the-front-end-isnt-decentralized-is-there-a-decentralized-way-to-host-my-front-end-code">Doesn’t that mean the front end isn’t decentralized? Is there a decentralized way to host my front end code?</a></li>
+            <li><a href="#hope-this-helps">Hope this helps!</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+
+<div style="text-align: right;">
+<a href="https://github.com/status-im/wiki.status.im/edit/master/docs/guides/developers/background-for-developers.md">Edit this page</a>
+</div>
+
+<h2 id="background-for-dapp-developers">Background for DApp Developers</h2>
+<p>More and more developers without much blockchain experience are now starting to develop Decentralized Apps, DApps, on Ethereum. And that’s exactly what we want! With more developers with a broad range of experiences and backgrounds, we’ll have a richer ecosystem of DApps for users and a better Web 3.0.</p>
+<p>However, many developers then come with <a href="https://www.quora.com/How-is-an-ethereum-dapp-hosted">questions which arise logically</a> from their other development experience — but questions which long-time blockchain users might not think of. In this article, we just want to give some background information to clear up some of these questions. If any of your questions aren’t answered, please come raise them on the Status <a href="http://slack.status.im">Slack</a>, and we might be able to address them in future articles.</p>
+<h3 id="whats-a-decentralized-app"><a href="http://ethereum.stackexchange.com/questions/383/what-is-a-dapp">What’s a decentralized app?</a></h3>
+<p>One way to think of a blockchain is as a decentralized database. When you run a node in the blockchain, you’re hosting a local copy of this database. When this aspect of the blockchain became clear, developers naturally began to think of uses for the database other than validating transactions (as on Bitcoin).</p>
+<p>In Ethereum, much of the business logic of your application, as well as transaction history, gets stored on the blockchain. For instance, if you made a fantasy football DApp, you’d <a href="https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4">create a smart contract</a>, an address on the blockchain that can send and receive funds programmatically. You’d program your DApp to send and receive funds only in certain ways and under certain conditions. You’d allow your users to send funds to this smart contract to place their bets,  and the smart contract would lock the funds in place until the football scores were available from a trusted source, and then pay out to the winner.</p>
+<p>Already, in a very important sense, your app is decentralized! No central server stores your users’ data, and no central server makes the decisions about routing and handling money. All this happens on the blockchain, as Ethereum runs the code in your smart contract.</p>
+<h3 id="okay-how-would-my-users-access-this-app">Okay, how would my users access this app?</h3>
+<p>So now the backend of your app is decentralized. But what about your frontend — HTML, JavaScript, CSS? And how can your users access this backend?</p>
+<p>Here’s what used to happen. You’d get a server, on DigitalOcean for instance. You’d download some implementation of the Ethereum network — a client like geth (Go-Ethereum) — so that your server can connect to and make calls to the Ethereum blockchain. You’d build your frontend any way you normally build your front end: React, Meteor, heck you can go all Web 1.0 with just HTML and minimal JS if you want. You serve that frontend on your server by making it available at a port and configuring your DNS to point to that address, the way you normally do.</p>
+<p>Then, using the <a href="https://github.com/ethereum/web3.js/">Web3.js library</a>, your app would make calls to the geth network running on your server. Just as any web app sends info to, or gets info from, a database, your application will call your smart contract. In this way, your users access your app like any other web page, and your server accesses the decentralized part of your app.</p>
+<h3 id="wait-so-whos-storing-my-app">Wait, so who’s storing my app?</h3>
+<p>Well. If you just write a simple smart contract, Mist Wallet will also allow you to publish it to the Ethereum network (by compiling it to Ethereum Virtual Machine code, and then making it live on the network). In the future, Status will also allow you to publish to the Ethereum network from your mobile phone.</p>
+<p>But neither Mist nor Status is storing the business logic of your app. That lives on the blockchain, and is served and stored peer-to-peer. Spookily, it’s everywhere and nowhere!</p>
+<h3 id="and-i-have-to-set-up-an-ethereum-node-to-access-the-backend">And I have to set up an Ethereum node to access the backend?</h3>
+<p>To save you the trouble of setting up an Ethereum node, the fine folks at Ethereum and ConsenSys have come up with two solutions, and Status now provides a third mobile-based solution. The <a href="https://blog.ethereum.org/2016/07/12/build-server-less-applications-mist/">Mist browser</a>, the MetaMask plugin for Chrome, and the <a href="http://status.im">Status mobile app</a> all handle making the calls to the Ethereum network. You still use Web.js to program your app, but you don’t have to run a local geth node. As a result, if your users are using Mist, MetaMask, or Status, you can provide your app like a normal web page, and your users access it like a normal web page.</p>
+<h3 id="doesnt-that-mean-the-front-end-isnt-decentralized-is-there-a-decentralized-way-to-host-my-front-end-code">Doesn’t that mean the front end isn’t decentralized? Is there a decentralized way to host my front end code?</h3>
+<p>As you astutely point out, the front end is not decentralized at this point in your app development. Some DApps, like <a href="https://medium.com/@ericxtang/an-ethereum-dapp-case-study-f4dd7c1cbe7a">Aragon, are hosting</a> the front end both in a centralized and a decentralized way, so you actually can do both at the same time.</p>
+<p>To make your front end decentralized as well, you’ll need to <a href="https://medium.com/@codeAMT/how-to-launch-swarm-for-dapp-testing-8003e55380e2">use Swarm</a> or <a href="http://ipfs.io">IPFS</a>. These are distributed file servers. Swarm is actually one of the <a href="http://ethereum.stackexchange.com/questions/375/what-is-swarm-and-what-is-it-used-for">core Ethereum technologies</a>, while IPFS is an <a href="https://en.wikipedia.org/wiki/InterPlanetary_File_System">independent file system</a>. To use a distributed file server, your website needs to be packaged as a single file.</p>
+<p>Fortunately, as you probably know, the latest and greatest in web application technology is Single Page Application (SPA) architecture. Examples include <a href="https://github.com/ethereum/wiki/wiki/Dapp-using-Meteor">Meteor</a>, which plays very well with Reactive approaches to programming a complex webapp. As a result, you can build your web page, then package it up into a single file, and then publish it to Swarm or IPFS. This process still isn’t as easy or seamless as it should be and will be soon.</p>
+<p>Your users will access your DApp with “www” if you host it on a centralized server (such as DigitalOcean or Amazon S3 or whatever), and with “bzz://” for Swarm, or “file://” for IPFS.</p>
+<p>If you publish your front end in a decentralized way, your DApp really is full-stack decentralized, with both front and back ends being served from peer-to-peer networks. There are <a href="https://blog.ethereum.org/2014/08/18/building-decentralized-web/">many reasons</a> to prefer developing with such an architecture, including safety, in some cases speed, and resilience to network attacks or downtime.</p>
+<h3 id="hope-this-helps">Hope this helps!</h3>
+<p>Because there aren’t many explicit discussions of web-app vs. DApp hosting and architecture, we just wanted to provide some background information which will aid in understanding future, more practical, tutorials.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>var base_url = '../../..';</script>
+        <script data-main="../../../mkdocs/js/search.js" src="../../../mkdocs/js/require.js"></script>
+        <script src="../../../js/base.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
