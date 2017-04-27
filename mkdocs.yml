@@ -32,6 +32,17 @@ pages:
     - Blog: 'community/blog.md'
     - Tell a Friend: 'community/tell-a-friend.md'
     # - Transcripts: # Slack
+  - Guides:
+    - For Users:
+      - User Guide: 'getting-started/user-guide.md'
+      - Grow our Community: 'community/how-to-grow-our-community.md'
+    - For Developers:
+      - Developer Introduction: 'contributing/development/introduction.md'
+      - Building Status: 'contributing/development/building-status.md'
+      - Background for DApp Developers: 'guides/developers/background-for-developers.md'
+      - Starting a DApp on Status with Truffle and Embark: 'guides/developers/starting-a-dapp-on-status-with-frameworks.md'
+      - Introduction to the Status Chat API: 'guides/developers/introduction-to-status-chat-api.md'
+
 
   - Proposals:
     - Commiteth (WIP): 'proposals/commiteth.md'
