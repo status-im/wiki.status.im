@@ -17,7 +17,7 @@ This guide is written with OS X in mind.
 - [Setup Android Development Environment / Simulator](https://facebook.github.io/react-native/docs/android-setup.html)
 - GIT over SSH, please add public key to Github
 - [Maven](https://maven.apache.org/install.html) `brew install maven`
-- [Ruby](https://www.ruby-lang.org/en/) `brew install ruby`
+- For Windows, [Ruby](https://www.ruby-lang.org/en/) `choco install ruby`
 - [Cocoapods](https://cocoapods.org) `sudo gem install cocoapods`.
 
 #### Windows-specific Setup Notes
