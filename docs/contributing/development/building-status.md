@@ -7,12 +7,12 @@ This guide is written with OS X in mind.
 ## Build and Test
 
 ### Requirements
-- [Homebrew](http://brew.sh/) + `brew update` (optional, for OS X)
+- [Homebrew](http://brew.sh/) + `brew update` (optional, for OS X) + `brew tap caskroom/cask`
 - [Node & NPM](https://nodejs.org/en/) `brew install node watchman`
 - [Lein](http://leiningen.org) `brew install leiningen`
 - [react-native](https://facebook.github.io/react-native/docs/getting-started.html) `npm install -g react-native-cli`
 - [Latest JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) `brew cask install java`
-- Android SDK with build tools version 23.0.1 [Mac] `brew install android-sdk` or [Windows/Linux](https://developer.android.com/sdk/installing/index.html)
+- Android SDK with build tools version 23.0.1 [Mac] `brew cask install android-sdk` or [Windows/Linux](https://developer.android.com/sdk/installing/index.html)
 - [Genymotion](https://www.genymotion.com) (optional, you may use an Android Virtual Device or real device)
 - [Setup Android Development Environment / Simulator](https://facebook.github.io/react-native/docs/android-setup.html)
 - GIT over SSH, please add public key to Github
