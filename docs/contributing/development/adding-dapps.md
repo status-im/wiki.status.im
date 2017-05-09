@@ -27,7 +27,8 @@ During the Alpha we are accepting example DApps as default contacts, to add your
         "dapp-url":
         {
             "en": "http://link-to-your-dapp.com"
-        }
+        },
+        "groups": ["dapps"]
     }
 ]
 ```
