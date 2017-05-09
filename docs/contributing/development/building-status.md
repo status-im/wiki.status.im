@@ -7,7 +7,8 @@ This guide is written with OS X in mind.
 ## Build and Test
 
 ### Requirements
-- [Homebrew](http://brew.sh/) + `brew update` (optional, for OS X) + `brew tap caskroom/cask`
+
+- [Homebrew](http://brew.sh/) + `brew update` (optional, for OS X) + `brew tap caskroom/cask`. For Windows use [Chocolatey](https://chocolatey.org/).
 - [Node & NPM](https://nodejs.org/en/) `brew install node watchman`
 - [Lein](http://leiningen.org) `brew install leiningen`
 - [react-native](https://facebook.github.io/react-native/docs/getting-started.html) `npm install -g react-native-cli`
@@ -17,7 +18,23 @@ This guide is written with OS X in mind.
 - [Setup Android Development Environment / Simulator](https://facebook.github.io/react-native/docs/android-setup.html)
 - GIT over SSH, please add public key to Github
 - [Maven](https://maven.apache.org/install.html) `brew install maven`
-- [Cocoapods](https://cocoapods.org) `sudo gem install cocoapods`
+- For Windows, [Ruby](https://www.ruby-lang.org/en/) `choco install ruby`
+- [Cocoapods](https://cocoapods.org) `sudo gem install cocoapods`.
+
+#### Windows-specific Setup Notes
+Setting up a development instance in Windows requires some tweaks. Consider the following before attempting the following sections:
+- Make sure you run everything in a elevated command prompt (Right-click a link to Cmd.exe or Cygwin and click 'Run as Administrator')
+- Do not use the ./re-natal symlink. Write your own `re-natal.sh` script that uses full relative paths, give it execution permissions with `chmod +x`, and use it instead. Script:
+```
+#!/usr/bin/env node
+
+require('coffee-script/register');
+require('./node_modules/re-natal/index.js');
+```
+- In the root `package.json` edit `"./postinstall.sh"` to `"postinstall.sh"`
+- Any `npm install` commands (except for `npm install -g` global commands) should be done as follows, to avoid windows symlink problems: `npm install --no-bin-links`
+- Do not use Cygwin for `npm install` commands, use cmd.exe.
+- React-native is not bug-free. If you run into an error like `error: bundling: UnableToResolveError: Unable to resolve module...`, the guaranteed solution is to manually edit the `require()` statements to the full relative path. E.g. `(crypt = require('crypto'))` becomes `(crypt = require('../../../../node_modules/crypto/package.json'))`.
 
 ### Dependencies & Setup
     $ git clone git@github.com:status-im/status-react.git -b master && cd status-react
@@ -35,6 +52,7 @@ This guide is written with OS X in mind.
     # for iOS, build in Xcode
 
 ### Building Status for Development
+    $ lein prod-build
 
     $ ./re-natal use-android-device <device> # (genymotion, real or avd)
     # or
