@@ -293,17 +293,34 @@
 <h2 id="build-and-test">Build and Test</h2>
 <h3 id="requirements">Requirements</h3>
 <ul>
-<li><a href="http://brew.sh/">Homebrew</a> + <code>brew update</code> (optional, for OS X)</li>
+<li><a href="http://brew.sh/">Homebrew</a> + <code>brew update</code> (optional, for OS X) + <code>brew tap caskroom/cask</code>. For Windows use <a href="https://chocolatey.org/">Chocolatey</a>.</li>
 <li><a href="https://nodejs.org/en/">Node &amp; NPM</a> <code>brew install node watchman</code></li>
 <li><a href="http://leiningen.org">Lein</a> <code>brew install leiningen</code></li>
 <li><a href="https://facebook.github.io/react-native/docs/getting-started.html">react-native</a> <code>npm install -g react-native-cli</code></li>
 <li><a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">Latest JDK</a> <code>brew cask install java</code></li>
-<li>Android SDK with build tools version 23.0.1 [Mac] <code>brew install android-sdk</code> or <a href="https://developer.android.com/sdk/installing/index.html">Windows/Linux</a></li>
+<li>Android SDK with build tools version 23.0.1 [Mac] <code>brew cask install android-sdk</code> or <a href="https://developer.android.com/sdk/installing/index.html">Windows/Linux</a></li>
 <li><a href="https://www.genymotion.com">Genymotion</a> (optional, you may use an Android Virtual Device or real device)</li>
 <li><a href="https://facebook.github.io/react-native/docs/android-setup.html">Setup Android Development Environment / Simulator</a></li>
 <li>GIT over SSH, please add public key to Github</li>
 <li><a href="https://maven.apache.org/install.html">Maven</a> <code>brew install maven</code></li>
-<li><a href="https://cocoapods.org">Cocoapods</a> <code>sudo gem install cocoapods</code></li>
+<li>For Windows, <a href="https://www.ruby-lang.org/en/">Ruby</a> <code>choco install ruby</code></li>
+<li><a href="https://cocoapods.org">Cocoapods</a> <code>sudo gem install cocoapods</code>.</li>
+</ul>
+<h4 id="windows-specific-setup-notes">Windows-specific Setup Notes</h4>
+<p>Setting up a development instance in Windows requires some tweaks. Consider the following before attempting the following sections:
+- Make sure you run everything in a elevated command prompt (Right-click a link to Cmd.exe or Cygwin and click 'Run as Administrator')
+- Do not use the ./re-natal symlink. Write your own <code>re-natal.sh</code> script that uses full relative paths, give it execution permissions with <code>chmod +x</code>, and use it instead. Script:</p>
+<pre><code>#!/usr/bin/env node
+
+require('coffee-script/register');
+require('./node_modules/re-natal/index.js');
+</code></pre>
+
+<ul>
+<li>In the root <code>package.json</code> edit <code>"./postinstall.sh"</code> to <code>"postinstall.sh"</code></li>
+<li>Any <code>npm install</code> commands (except for <code>npm install -g</code> global commands) should be done as follows, to avoid windows symlink problems: <code>npm install --no-bin-links</code></li>
+<li>Do not use Cygwin for <code>npm install</code> commands, use cmd.exe.</li>
+<li>React-native is not bug-free. If you run into an error like <code>error: bundling: UnableToResolveError: Unable to resolve module...</code>, the guaranteed solution is to manually edit the <code>require()</code> statements to the full relative path. E.g. <code>(crypt = require('crypto'))</code> becomes <code>(crypt = require('../../../../node_modules/crypto/package.json'))</code>.</li>
 </ul>
 <h3 id="dependencies-setup">Dependencies &amp; Setup</h3>
 <pre><code>$ git clone git@github.com:status-im/status-react.git -b master &amp;&amp; cd status-react
@@ -321,7 +338,9 @@ $ react-native run-android --variant=release
 # for iOS, build in Xcode
 </code></pre>
 <h3 id="building-status-for-development">Building Status for Development</h3>
-<pre><code>$ ./re-natal use-android-device &lt;device&gt; # (genymotion, real or avd)
+<pre><code>$ lein prod-build
+
+$ ./re-natal use-android-device &lt;device&gt; # (genymotion, real or avd)
 # or
 $ ./re-natal use-ios-device &lt;device&gt; # (simulator or real)
 
