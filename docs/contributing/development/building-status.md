@@ -23,6 +23,7 @@ This guide is written with OS X in mind.
 
 #### Windows-specific Setup Notes
 Setting up a development instance in Windows requires some tweaks. Consider the following before attempting the following sections:
+
 - Make sure you run everything in a elevated command prompt (Right-click a link to Cmd.exe or Cygwin and click 'Run as Administrator')
 - Do not use the ./re-natal symlink. Write your own `re-natal.sh` script that uses full relative paths, give it execution permissions with `chmod +x`, and use it instead. Script:
 ```
