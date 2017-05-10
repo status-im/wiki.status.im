@@ -307,9 +307,11 @@
 <li><a href="https://cocoapods.org">Cocoapods</a> <code>sudo gem install cocoapods</code>.</li>
 </ul>
 <h4 id="windows-specific-setup-notes">Windows-specific Setup Notes</h4>
-<p>Setting up a development instance in Windows requires some tweaks. Consider the following before attempting the following sections:
-- Make sure you run everything in a elevated command prompt (Right-click a link to Cmd.exe or Cygwin and click 'Run as Administrator')
-- Do not use the ./re-natal symlink. Write your own <code>re-natal.sh</code> script that uses full relative paths, give it execution permissions with <code>chmod +x</code>, and use it instead. Script:</p>
+<p>Setting up a development instance in Windows requires some tweaks. Consider the following before attempting the following sections:</p>
+<ul>
+<li>Make sure you run everything in a elevated command prompt (Right-click a link to Cmd.exe or Cygwin and click 'Run as Administrator')</li>
+<li>Do not use the ./re-natal symlink. Write your own <code>re-natal.sh</code> script that uses full relative paths, give it execution permissions with <code>chmod +x</code>, and use it instead. Script:</li>
+</ul>
 <pre><code>#!/usr/bin/env node
 
 require('coffee-script/register');
