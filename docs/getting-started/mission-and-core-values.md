@@ -62,7 +62,7 @@ To achieve our mission we intend to employ a strategy that contains three core c
 
 ## Beliefs 
 
-- Status.im believes in an open internet. Built, not only on open protocols, but upon Free/Libre software where the costs (fanancial or otherwise) of participation are negligible for **all**. 
+- Status.im believes in an open internet. Built, not only on open protocols, but upon Free/Libre software where the costs (financial or otherwise) of participation are negligible for **all**. 
 
 - Status is founded on the belief that communication is at the heart of human social (and economic) life; and that society thrives through direct interaction rather than from intermediation.  Status can pave the way towards **conversational crypto-commerce.** 
 
@@ -70,7 +70,7 @@ To achieve our mission we intend to employ a strategy that contains three core c
 
 - Status.im is passionate about Distributed and Decentralised technology in general, and about the advantages of ethereum’s *public Blockchain* in particular.  
 
-- We believe that people should directly control the use of their own personal data, and the history of their social interactions.  We imagine the benefits to **all** of a future where distributed and decentralized applications make proprietary intermediaries and centralised services (which exploit there users) obsolete.  
+- We believe that people should directly control the use of their own personal data, and the history of their social interactions.  We imagine the benefits to **all** of a future where distributed and decentralized applications make proprietary intermediaries and centralised services (which exploit their users) obsolete.  
 
 - Communication, decision making and control should be clear and transparent to everyone in the community.
 
@@ -80,6 +80,6 @@ To achieve our mission we intend to employ a strategy that contains three core c
 
 - Reciprocity, open-mindedness, respect and encouragement.
 
-- The systems we're creating must be open, permissionless, award fair access and Distribute Decentralise and Democratise power.
+- The systems we're creating must be open, permissionless, award fair access and Distribute, Decentralise, and Democratise power.
 
 - Status is licenced as Free Libre & Open Source software, which allow **anyone** to run the software for **any purpose** as well as to **study**, **Modify**, and **distribute** the software and any adapted versions.
