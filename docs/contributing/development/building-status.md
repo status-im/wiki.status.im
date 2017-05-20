@@ -42,7 +42,7 @@ require('./node_modules/re-natal/index.js');
     # or
     $ git clone git@github.com:status-im/status-react.git -b develop && cd status-react
 
-    $ lein deps && npm install && ./re-natal deps && lein generate-externs
+    $ lein deps && npm install && ./re-natal deps && lein generate-externs && ./re-natal use-figwheel && lein re-frisk use-re-natal && ./re-natal enable-source-maps
     $ mvn -f modules/react-native-status/ios/RCTStatus dependency:unpack
     $ cd ios && pod install && cd ..
 
@@ -68,9 +68,10 @@ require('./node_modules/re-natal/index.js');
     $ react-native start
 
     # FOR ANDROID
-    # new tab, enable communication to react-native and figwheel
+    # new tab, enable communication to react-native, figwheel and re-frisk debugging
     $ adb reverse tcp:8081 tcp:8081
     $ adb reverse tcp:3449 tcp:3449
+    $ adb reverse tcp:4567 tcp:4567
     $ react-native run-android
 
     # FOR IOS
