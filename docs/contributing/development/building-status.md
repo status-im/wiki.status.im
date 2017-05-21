@@ -75,8 +75,6 @@ require('./node_modules/re-natal/index.js');
     $ react-native run-android
 
     # FOR IOS
-    # Attention: We will shortly be upgrading to React Native 0.4x
-    # Until then you need to be running Xcode 8.2.1 or lower to build for ios
     $ react-native run-ios
 
 ## Access Geth on Device
