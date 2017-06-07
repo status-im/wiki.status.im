@@ -6,7 +6,7 @@ When Carl & Jarrad looked at how to achieve mass adoption for a client. We looke
 
 Instant Messengers have the highest retention rates, that is when you purchase an install, they become sticky and typically users won't immediately uninstall. 
 
-The average user lifetime sky rockets once their friends are involved. When you start thinking about this as a user base and how to connect that with Ethereum, things like payments and applications built ontop of Ethereum integrated into a converstional interface starts becoming like a clear path forward.
+The average user lifetime sky rockets once their friends are involved. When you start thinking about this as a user base and how to connect that with Ethereum, things like payments and applications built on top of Ethereum integrated into a converstional interface starts becoming like a clear path forward.
 
 Ultimately we're building a hybrid browser and messenger for us to have the best chance to cast the widest net and focus on user acquisition, staying agnostic and as close as possible to the principles Ethereum embodies.
 
