@@ -39,7 +39,7 @@ If you haven’t done so yet, please read our [Mission and Core Values](../getti
 
 - People are more willing to contribute to their community when they see that others are contributing too, and that their own contributions are useful and valued.
 
-- Always communicate the benefits of contribution, it will positively impact everyone in the community and increase the numner of people who will care, and perhaps contribute.
+- Always communicate the benefits of contribution, it will positively impact everyone in the community and increase the number of people who will care, and perhaps contribute.
 
 - Development will take as long as it has to. While we all recognise this, we encourage clear goals, aligned with "soft deadlines" which will help encourage and focus contribution.
 
@@ -47,7 +47,7 @@ If you haven’t done so yet, please read our [Mission and Core Values](../getti
 
 - Remember, we're all good at different things and in different ways; even the best of us make mistakes.
 
-- Never be silent about positive feedback!  If things are going well, let people know! Good feelings will enhance peoples motivation.
+- Never be silent about positive feedback!  If things are going well, let people know! Good feelings will enhance people's motivation.
 
 - Make an effort to become familiar with anyone who is contributing to the project, and get to know them over time.
 
@@ -61,7 +61,7 @@ If you haven’t done so yet, please read our [Mission and Core Values](../getti
 
 - Free Software communities like ours thrive on reciprocity. When you contribute to the community you encourage other people to contribute too!  The way you contribute will help to shape the culture of the entire community, as the contributions you make influence the contributions of others.
 
-- Offer more frequent feedback on tasks & contributions that have a definate goal.
+- Offer more frequent feedback on tasks & contributions that have a definite goal.
 
 - Give constructive feedback on people’s performance, and if they like competition - encourage friendly competition with others.
 
