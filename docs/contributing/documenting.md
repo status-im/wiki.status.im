@@ -10,7 +10,7 @@ It's fairly difficult to write a general documentation guide as how you document
 
 ## Getting Set Up
 
-You need to have both python and pip set up on your machine to install MKDocs. You can find all the information for how to do that and what versions are required [here](http://www.mkdocs.org/). I had python already intalled on my machine, but needed to get pip:
+You need to have both python and pip set up on your machine to install MKDocs. You can find all the information for how to do that and what versions are required [here](http://www.mkdocs.org/). I had python already installed on my machine, but needed to get pip:
 
 ```
 sudo easy_install pip
@@ -68,7 +68,7 @@ Thank you so much for adding to our wonderful, free (libre) open source, communi
 
 ## Documentation Guidelines
 
-These will evolve as the project does, but really depends on what specific type of documentation you are looking to help out with. For technical documentation, examples and lots of code is what we are primarily looking for; by way of example see the first set up section of this article. For instance, in order to add an image here, you can either use inline html (my preferred option because it is easier to positiona dn style) or the normal markdown way of doing things. The images above are inserted like so:
+These will evolve as the project does, but really depends on what specific type of documentation you are looking to help out with. For technical documentation, examples and lots of code is what we are primarily looking for; by way of example see the first set up section of this article. For instance, in order to add an image here, you can either use inline html (my preferred option because it is easier to position and style) or the normal markdown way of doing things. The images above are inserted like so:
 
 `<center><img src="../img/status-wiki.png" /></center>` 
 
@@ -80,4 +80,4 @@ or you can just do it in normal markdown:
 
 `[![We lost the documentation on quantum mechanics.  You'll have to decode the regexes yourself.](img/xkcd-224.jpg)](https://xkcd.com/224/ "We lost the documentation on quantum mechanics.  You'll have to decode the regexes yourself.")`
 
-If you are writing documentation that is end-user-facing, rather than aimed at the technical folks in our community, then the less code and text  and the more pretty images with directions scrawled across them the better.
+If you are writing documentation that is end-user-facing, rather than aimed at the technical folks in our community, then the less code and text and the more pretty images with directions scrawled across them the better.
