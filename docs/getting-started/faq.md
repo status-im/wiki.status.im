@@ -4,15 +4,15 @@
 
 ### What is Status?
 
-„Status is an open source messaging platform and mobile interface to interact with decentralized applications that run on the Ethereum Network.” (quoted from [Whitepaper](https://status.im/whitepaper.pdf))
+Status is an open source messaging platform and mobile interface to interact with decentralized applications that run on the Ethereum Network.
 
-### What does Status want to solve?
+### Which Problem does Status want to solve?
 
-Status wants to solve the problem that we (the users) have different identities all over the internet. It criticized that we have spreaded to many personal information all over various platforms. Status wants to create a digital hub where we can use various services based on the Ethereum Network.
+In legacy social networks all parties (owner, advertiser, and user) operate with vastly different goals mind and their model fails to provide means by which their incentives can coexist and be aligned.
 
-### How does Status wants to solve this problem?
+### How does Status want to solve this?
 
-Status is an Ethereum based platform. You can say that Status is a digital hub for apps based on the Ethereum blockchain.
+By flattening the existing roles in social networks users posses a real stake in the network they participate in. Incentives of all parties are aligned and naturally promote behaviours that benefit all participants.
 
 ### Why a Messenger?
 
@@ -20,17 +20,9 @@ When Carl & Jarrad looked at how to achieve mass adoption for a client. We looke
 
 Instant Messengers have the highest retention rates, that is when you purchase an install, they become sticky and typically users won't immediately uninstall.
 
-The average user lifetime sky rockets once their friends are involved. When you start thinking about this as a user base and how to connect that with Ethereum, things like payments and applications built ontop of Ethereum integrated into a converstional interface starts becoming like a clear path forward.
+The average user lifetime sky rockets once their friends are involved. When you start thinking about this as a user base and how to connect that with Ethereum, things like payments and applications built on top of Ethereum integrated into a conversational interface starts becoming like a clear path forward.
 
 Ultimately we're building a hybrid browser and messenger for us to have the best chance to cast the widest net and focus on user acquisition, staying agnostic and as close as possible to the principles Ethereum embodies.
-
-### What is Ethereum?
-
-Ethereum is a decentralized database which stores information about past transactions and smart contracts between users of the Ethereum blockchain. Ethereum stores the data on a globaly spreaded peer to peer network. For more information about Ethereum, check out. [https://www.ethereum.org](https://www.ethereum.org)
-
-### Who owns Status?
-
-Status is owned by the company Status Research & Development GmbH based in Switzerland and by its contributors who buy SNT (Status Network Token)
 
 ### When did you start coding and how you are funded?
 
@@ -40,11 +32,13 @@ EthereumJ has different goals, its developers intended for server use and had no
 
 Our current approach allows us to get bleeding edge tech and stability of geth whilst maintaining a single codebase.
 
-### Is there a video?
+### Are there any videos?
 
-Take a look at this on from Status:
+Here are a two introductory videos. More can be found on the [Status Youtube](https://www.youtube.com/statusim) channel.
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/Je7yErjEVt4/0.jpg)](http://www.youtube.com/watch?v=Je7yErjEVt4)
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/-BVpm8cPLUU/0.jpg)](http://www.youtube.com/watch?v=-BVpm8cPLUU)
 
 
 ## Contribution
@@ -53,21 +47,10 @@ Take a look at this on from Status:
 
 [http://contribute.status.im](http://contribute.status.im)
 
-### I am new to Ethereum & Blockchain. I would like to contribute to the project, where would you suggest I start?
-
-To get up to speed with Ethereum, here are a few resources to get you started:
-
-[Ethdocs.org](http://www.ethdocs.org/en/latest/),
-[Ethereum.org](http://ethereum101.org/),
-[Ethereum Stack Exchange](http://ethereum.stackexchange.com/), and
-[Ethereum on Youtube](https://www.youtube.com/user/ethereumproject/playlists)
-
-For Status - please take a look under the [Contributing Section](../index.md#how-to-contribute), and ask us about it [on Slack](https://status.im) (we're friendly people!)
-
 
 ## Development
 
-### Is it possible to install Status & how can I test?
+### Is it possible to install Status & how can I test it?
 
 At the moment you have to [build it yourself](../contributing/development/building-status.md), we are just fixing some bugs before first alpha release to the early access subscribers which signed up on our website [https://status.im](https://status.im) - alternatively there are some binaries floating around the Slack now.
 
@@ -98,11 +81,7 @@ Status includes `go-ethereum` and connects directly to the Ethereum network. All
 
 ### What is the DApp Directory?
 
-The DApp Directory can be compared to an App Store where you can search for applications based on the Ethereum blockchain.
-
-### What DApps can I use within Status?
-
-On the website it is said that „uPort, Gnosis, Oasis Exchange, Ethlance, Aragon, Etherisc and Ujo” can be used.
+Much like the Apple App Store or the Google Play Store, the Status DApp directory will provide a way to navigate by category and rating, enabling users to find and install exactly what they are looking for.
 
 ### Does Status support DApps that have their own web page ?
 
@@ -123,7 +102,7 @@ That said, looking beyond the alpha, we'll have developer tooling, and a way for
 
 ### Is it going to be for Android only?
 
-No, we support Android & iOS.
+No, we support both Android & iOS.
 
 ### It is said that the Status App is in the Alpha phase. How can I test it?
 
@@ -135,7 +114,7 @@ Yes there is. Take a look here: [https://test.status.im](https://test.status.im)
 
 ### Is there an Apple Alpha?
 
-Yes there is but unfortunately there are no slots for the Alpha due to a limited amount of codes.
+Yes there is but unfortunately there are no more slots left for the Alpha due to a limited amount of codes. However, you can [build it yourself](../contributing/development/building-status.md) and run in the simulator or on your iPhone (Apple Developer Account required). Another way is to use [Genymotion](https://www.genymotion.com/), an Android emulator that runs on OSX.
 
 ### When can we expect to see the Beta?
 The first release of our alpha was at the very beginning of Q1 2017, beta will come end of Q1 or early Q2 2017 with developer tooling, bug fixes & the ability for DApps to integrate within a chat context.
@@ -167,13 +146,13 @@ If you see a typo, mistranslation or something missing, don't hesitate to let us
 
 ## SGT Token
 
-### What are SGT?
+### What are SGT used for?
 
 Status Genesis Tokens are a way to say thank you to community contributors. SGT can be redeemed for SNT after the Contribution Period has been finalised.
 
 ### How can I buy SGT Token?
 
-You can not buy SGT token, they are given for contributions
+You can not buy SGT token, they are given for community contributions
 
 ### How can I earn SGT Token?
 
@@ -181,15 +160,17 @@ Until June 17th we’ll be allocating SGT to those who can prove they have helpe
 
 ## SNT Token
 
-### What are SNT Token?
+### What are SNT Token used for?
 
-Status Network Token are used for network mechanics and governance.
+The Status Network Token is Status' ERP-20 compatible utility token. It is required for certain features of the client: select and receive push notifications, register and hold usernames via the Ethereum Name Service. In general SNT enable users to steer the direction of development and influence how the network evolves over time.
 
 ### How can I buy SNT
 
 There will be a Contributing Periode starting on June 17th 2017 at 2pm GMT (UTC+0), which will end on 1st July 2017 at 2pm GMT (UTC+0) or before when some goals are achieved. [http://contribute.status.im](http://contribute.status.im/)
 
-### What will be the exchange rate for SNT token?
+After that SNT will be traded on exchanges.
+
+### What will be the initial exchange rate for SNT token?
 
 10,000 SNT per 1 ETH
 
@@ -199,37 +180,31 @@ You will be able to buy a minimum of 0.01 ETH which will be 100 SNT.
 
 ### What do I need to buy SNT?
 
-You need an Ethereum wallet and ETH to buy SNT and receive it. **Do not use Exchanges!** You can check out [MyEtherWallet](https://www.myetherwallet.com) or [Mist](https://www.ethereum.org) by the Ethereum network
+You need an Ethereum wallet and ETH to buy SNT and receive it. **Do not use Exchanges to send ETH!** You can check out [MyEtherWallet](https://www.myetherwallet.com) or [Mist](https://www.ethereum.org) by the Ethereum network
 
-### Is SNT an ERP-20 token?
+### Can US residents buy SNT Token?
 
-Yes.
+US residents can not participate due to US law restrictions outside of our influence.
 
-### Can US resident buy SNT Token?
-
-No.
-
-## Nice to know
-
-[Status](https://status.im/)
-
-[Status FAQ](https://wiki.status.im/getting-started/faq/#faq)
-
-[Status Blog](https://blog.status.im/)
-
-[Status Slack](http://slack.status.im/)
+## Links
 
 [Facebook](https://www.facebook.com/ethstatus)
-
-[Twitter](https://twitter.com/ethstatus)
 
 [Github](https://github.com/status-im)
 
 [Reddit](https://www.reddit.com/r/statusim/)
 
-[Youtube](https://www.youtube.com/statusim)
+[Status Blog](https://blog.status.im/)
 
-[Wiki](https://wiki.status.im/)
+[Status FAQ](https://wiki.status.im/getting-started/faq/#faq)
+
+[Status Slack](http://slack.status.im/)
+
+[Status](https://status.im/)
+
+[Twitter](https://twitter.com/ethstatus)
+
+[Youtube](https://www.youtube.com/statusim)
 
 ## Where are the nightlies?
 
