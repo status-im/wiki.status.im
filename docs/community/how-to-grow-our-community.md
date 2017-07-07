@@ -39,7 +39,7 @@ If you haven’t done so yet, please read our [Mission and Core Values](../getti
 
 - People are more willing to contribute to their community when they see that others are contributing too, and that their own contributions are useful and valued.
 
-- Always communicate the benefits of contribution, it will positively impact everyone in the community and increase the numner of people who will care, and perhaps contribute.
+- Always communicate the benefits of contribution, it will positively impact everyone in the community and increase the number of people who will care, and perhaps contribute.
 
 - Development will take as long as it has to. While we all recognise this, we encourage clear goals, aligned with "soft deadlines" which will help encourage and focus contribution.
 
