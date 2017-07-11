@@ -14,7 +14,7 @@ We've love for you to join our community, and be a part of this exciting journey
 [![Getting started with Status](https://i.imgur.com/C0aZZEL.jpg)](https://www.youtube.com/watch?v=oDCSEmS9c3o "Getting started with Status")
 
 ## Why?
-**We believe in a medium of free interaction, economies with permissionless fair-access and a world without parasitic intermediaries.**
+**We believe in a medium of free interaction, economies with permissionless fair-access and a world without parasitic intermediaries. **
 - We want to create protocols and policies that can scale, from small interactions between friends and groups to truly global communication. At the heart of our belief is the ability for individuals to communicate securely without being inhibited by legacy systems or antiquated beliefs.
 - We want to empower everyone to take control of their digital lives and responsibility for their own data. We want the way we conduct ourselves privately and publicly to recommend itself to a mass audience; and for the tools we build and the way we use them to improve the lives of everyone.
 - We want deep insights into our societies and our own economies so we can make informed, data-driven decisions on what truly makes lives better. The Ethereum blockchain, distributed applications, Swarm and Whisper provide us with a clear path forward.
