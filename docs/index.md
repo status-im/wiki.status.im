@@ -8,7 +8,7 @@ It is our belief that messengers are evolving into a new type of OS, and are bec
 
 Status runs `go-ethereum` directly from your mobile device, providing a mobile Ethereum node in your pocket!
 
-We've love for you to join our community, and be a part of this exciting journey.
+We'd love for you to join our community, and be a part of this exciting journey.
 
 
 [![Getting started with Status](https://i.imgur.com/C0aZZEL.jpg)](https://www.youtube.com/watch?v=oDCSEmS9c3o "Getting started with Status")
