@@ -98,8 +98,8 @@ Andrei ([@andmironov](https://github.com/andmironov)) - Visual design and user e
 <img src="contributing/img/anna.jpg" width="80px"></img>
 Anna ([@annadanchenko](https://github.com/annadanchenko)) - Head of QA.
 
-<img src="contributing/img/tatu.jpg" width="80px"></img>
-Tatu ([@smokyish](https://github.com/smokyish)) - Community Manager.
+<img src="contributing/img/chrish.png" width="80px"></img>
+Chris ([@pablanopete](https://github.com/pablanopete)) - Community Manager.
 
 Special thanks to [@adrian-tiberius](https://github.com/adrian-tiberius).
 Without the dedication of these fine gentlemen and lady, Status would not exist.
