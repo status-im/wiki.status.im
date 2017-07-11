@@ -47,7 +47,7 @@ If you haven’t done so yet, please read our [Mission and Core Values](../getti
 
 - Remember, we're all good at different things and in different ways; even the best of us make mistakes.
 
-- Never be silent about positive feedback!  If things are going well, let people know! Good feelings will enhance peoples motivation.
+- Never be silent about positive feedback!  If things are going well, let people know! Good feelings will enhance people's motivation.
 
 - Make an effort to become familiar with anyone who is contributing to the project, and get to know them over time.
 
@@ -61,7 +61,7 @@ If you haven’t done so yet, please read our [Mission and Core Values](../getti
 
 - Free Software communities like ours thrive on reciprocity. When you contribute to the community you encourage other people to contribute too!  The way you contribute will help to shape the culture of the entire community, as the contributions you make influence the contributions of others.
 
-- Offer more frequent feedback on tasks & contributions that have a definate goal.
+- Offer more frequent feedback on tasks & contributions that have a definite goal.
 
 - Give constructive feedback on people’s performance, and if they like competition - encourage friendly competition with others.
 
