@@ -47,7 +47,7 @@ require('./node_modules/re-natal/index.js');
     $ cd ios && pod install && cd ..
 
 ### Building Status for Release
-    # fill in store file properties in android/gradle.properties (https://facebook.github.io/react-native/docs/signed-apk-android.html)
+    # fill in store file properties in android/gradle.properties
     $ lein prod-build
     $ react-native run-android --variant=release
     # for iOS, build in Xcode
