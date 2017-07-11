@@ -295,7 +295,7 @@ $ mvn -f modules/react-native-status/ios/RCTStatus dependency:unpack
 $ cd ios &amp;&amp; pod install &amp;&amp; cd ..
 </code></pre>
 <h3 id="building-status-for-release">Building Status for Release</h3>
-<pre><code># fill in store file properties in android/gradle.properties
+<pre><code># fill in store file properties in android/gradle.properties (https://facebook.github.io/react-native/docs/signed-apk-android.html)
 $ lein prod-build
 $ react-native run-android --variant=release
 # for iOS, build in Xcode
