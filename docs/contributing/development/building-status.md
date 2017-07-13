@@ -86,7 +86,7 @@ require('./node_modules/re-natal/index.js');
 
 ### Building app from Xcode: EXC_BAD_ACCESS error
 
-Stop the build, quit the app and restart build.
+Stop the build and restart the app.
 
 ### Building app from Xcode: Linker error
 
