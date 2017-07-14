@@ -647,7 +647,7 @@
         }, 
         {
             "location": "/community/slack/", 
-            "text": "Slack\n\n\nThe Status Community uses Slack (and GitHub) to communicate with one another (we hope we will switch to Status for this at some point in the future!). Anyone is welcome to join, regardless of your location or experience with Ethereum, providing you:\n\n\na) Adhere to the \nThe Community Code of Conduct\n.\n\n\nb) Feel \nThe Status Mission \n Core Values\n is a worthy objective.\n\n\nJoin our slack here: \nhttp://slack.status.im\n.\n\n\nChannels\n\n\nTo help provide clear communication for the community, we ask that you use the appropriate channel. Every channel has a clearly labelled purpose, and we recommend you start by introducing yourself in the \n#status\n channel (we're friendly people!).", 
+            "text": "Slack\n\n\nThe Status Community uses Slack (and GitHub) to communicate with one another (we hope we will switch to Status for this at some point in the future!). Anyone is welcome to join, regardless of your location or experience with Ethereum, providing you:\n\n\na) Adhere to the \nThe Community Code of Conduct\n.\n\n\nb) Feel \nThe Status Mission \n Core Values\n is a worthy objective.\n\n\nJoin our slack here: \nhttp://slack.status.im\n.\n\n\nChannels\n\n\nTo help provide clear communication for the community, we ask that you use the appropriate channel. Every channel has a clearly labelled purpose, and we recommend you start by introducing yourself in the \n#general\n or \n#newbies\n channel (we're friendly people!).", 
             "title": "Slack"
         }, 
         {
@@ -657,7 +657,7 @@
         }, 
         {
             "location": "/community/slack/#channels", 
-            "text": "To help provide clear communication for the community, we ask that you use the appropriate channel. Every channel has a clearly labelled purpose, and we recommend you start by introducing yourself in the  #status  channel (we're friendly people!).", 
+            "text": "To help provide clear communication for the community, we ask that you use the appropriate channel. Every channel has a clearly labelled purpose, and we recommend you start by introducing yourself in the  #general  or  #newbies  channel (we're friendly people!).", 
             "title": "Channels"
         }, 
         {
