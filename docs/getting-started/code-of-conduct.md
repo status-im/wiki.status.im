@@ -1,6 +1,6 @@
 # Code of Conduct
 
-This page outlines how you should govern yourself when participating in the Status community. For more practical tips and suggestions on how to help the project and contribute, please refer to either of these guides, [How to grow our Community](../community/how-to-grow-our-community.md) or [Introduction for developers](../docs/contributing/development/introduction.md).  
+This page outlines how you should govern yourself when participating in the Status community. For more practical tips and suggestions on how to help the project and contribute, please refer to either of these guides, [How to grow our Community](../community/how-to-grow-our-community.md) or [Introduction for developers](contributing/development/introduction.md).  
 
 The Code of Conduct serves to establish guidelines on how to conduct your behaviour. We are all responsible for maintaining and developing this shared environment.  
 We want to have a common productive, collaborative and socially responsible space. We hope that all our community members share our views and nurture this spirit and culture in their dealings with the Status community.  
