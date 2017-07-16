@@ -49,7 +49,7 @@ It's bug hunting season! Status is currently in Alpha and there are sure to be a
 Status is a visual interface to make permanent changes on the Blockchain. It handles crypto-tokens that have real value and allows 3rd party code execution. Security is paramount to its success. You are given permission to break Status as hard as you can, as long as you share your findings with the community!
 
 - **Design & User Experience**  
-It's all about that visual appeal! We want cryptocurrencies to be easy and fun to use, and you know ugly software does not help adoption. [Check out our designs](https://TODO) and show us how to make them better!
+It's all about that sex appeal! We want cryptocurrencies to be easy and fun to use, and you know ugly software does not help adoption. [Check out our designs](https://TODO) and show us how to make them better!
 
 - **Translations**  
 Our goal is to make Status available to everyone. We currently support ~30 languages within the app. If you see a weird translation, or would like to help us add a new translations, [read our Translation Guide](contributing/translations.md). Our website is currently only available in English, but if you wouldd like to help us make this multi-lingual it would be greatly appreciated. Please ask us about it [on Slack](http://slack.status.im).
