@@ -17,9 +17,9 @@ We'd love for you to join our community, and be a part of this exciting journey.
 **We believe in a medium of free interaction, economies with permissionless fair-access and a world without parasitic intermediaries. **
 - We want to create protocols and policies that can scale, from small interactions between friends and groups to truly global communication. At the heart of our belief is the ability for individuals to communicate securely without being inhibited by legacy systems or antiquated beliefs.
 - We want to empower everyone to take control of their digital lives and responsibility for their own data. We want the way we conduct ourselves privately and publicly to recommend itself to a mass audience; and for the tools we build and the way we use them to improve the lives of everyone.
-- We want deep insights into our societies and our own economies so we can make informed, data-driven decisions on what truly makes lives better. The Ethereum blockchain, distributed applications, Swarm and Whisper provide us with a clear path forward.
+- We want deep insights into our societies and our own economies so we can make informed, data-driven decisions on what truly makes lives better. The Ethereum blockchain distributed applications, [Swarm](http://swarm-gateways.net/bzz:/theswarm.eth/) and [Whisper](https://github.com/ethereum/wiki/wiki/Whisper), provide us with a clear path forward.
 
-If this interests you, **help us make Status a reality** - anyone can contribute and we need everyone at any skill level to participate.
+If this interests you, **help us make Status a reality** - We welcome anyone to contribute and we need everyone at any skill level to participate.
 
 
 ## How to Contribute?
@@ -43,7 +43,7 @@ Content is King; keeping [our blog](https://blog.status.im) up to date and infor
 In this day and age attention is limited, we need all the help we can get to find people who are interested in Status, whether that be through paid user acquisition, public relations or community outreach, check out our [Outreach' Guide](contributing/outreach.md) to see how you can spread the word and grow our community.
 
 - **Testers**  
-It's bug hunting season! Status is currently in Alpha and there are sure to be a bunch of education, [grab your fresh copy of Status](http://TODO) and shake your phone to submit bug reports, or start browsing our [Github Issues](http://github.com/status-im/status-react/issues). Every bug you find brings Status closer to stable, usable software for everyone to enjoy!
+It's bug hunting season! Status is currently in Alpha and there are sure to be a bunch of education, [grab your fresh copy of Status](http://status.im) and shake your phone to submit bug reports, or start browsing our [Github Issues](http://github.com/status-im/status-react/issues). Every bug you find brings Status closer to stable, usable software for everyone to enjoy!
 
 - **Security**  
 Status is a visual interface to make permanent changes on the Blockchain, it handles crypto-tokens that have real value and allows 3rd party code execution. Security is paramount to its success. You are given permission to break Status as hard as you can, as long as you share your findings with the community!
@@ -52,7 +52,7 @@ Status is a visual interface to make permanent changes on the Blockchain, it han
 It's all about that sex appeal, we want cryptocurrencies to be easy and fun to use, ugly software doesn't help adoption. [Check out our designs](https://TODO) and show us how to make them better!
 
 - **Translations**  
-Our goal is to make Status available to everyone. We current support ~30 languages within the app, but if you see something weird in the translations or would like to help us add a new translations, [read our Translation Guide](contributing/translations.md). Our website is currently only available in English, and if you'd like to help us make this multi-lingual it's be greatly appreciated, please ask us about it [on Slack](http://slack.status.im).
+Our goal is to make Status available to everyone. We currently support ~30 languages within the app, but if you see something weird in the translations or would like to help us add a new translation, [read our Translation Guide](contributing/translations.md). Our website is currently only available in English and Chinese, if you'd like to help us make this multi-lingual it's be greatly appreciated, please ask us about it [on Slack](http://slack.status.im).
 
 - **Evangelism**  
 Help us spread the word! Tell a friend *right now*, in fact tell **everyone** - yell from a mountain if you have to, every person counts!
@@ -102,7 +102,7 @@ Anna ([@annadanchenko](https://github.com/annadanchenko)) - Head of QA.
 Chris ([@pablanopete](https://github.com/pablanopete)) - Community Manager.
 
 Special thanks to [@adrian-tiberius](https://github.com/adrian-tiberius).
-Without the dedication of these fine gentlemen and lady, Status would not exist.
+Without the dedication of these fine folk, Status would not exist.
 
 ## Contact us
 
