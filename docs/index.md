@@ -58,10 +58,13 @@ Our goal is to make Status available to everyone. We currently support ~30 langu
 Help us spread the word! Tell a friend *right now*, in fact tell **everyone** - yell from a mountain if you have to, every person counts!
 
 ## Give me Binaries!
+**Remember: During the alpha, both the PlayStore (Android) and TestFlight (iOS) versions are on Ropsten Testnet.**
+**DO NOT send your ETH to your Status app during the Apha!**  
+  
+You can download the Android version by joining the [test group on the Play Store](http://test.status.im),  or by [building it yourself](contributing/development/building-status.md). Nightly builds for Android can be found on our [Artifactory](http://artifacts.status.im:8081/artifactory/nightlies-local/).  
+As Apple sets a limit of 2000 alpha testers, there are currently no invites available. Join our Early Access by submitting your email on our [Home Page](https://status.im) and stay tuned for news and updates!
 
-Currently the fastest way to get your hands on a binary is to join our Early Access by submitting your email on our [Home Page](https://status.im), or by [building it yourself](contributing/development/building-status.md). We'll be continually rolling out new invites for early supporters of the project, before a public-release once Status is in a more stable state. Nightly builds for Android can be found on our [Artifactory](http://artifacts.status.im:8081/artifactory/nightlies-local/).
-
-// TODO GPlay, TestFlight Instructions & FDroid
+//TODO FDroid
 
 ## The Roadmap
 
