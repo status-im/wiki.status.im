@@ -4,7 +4,7 @@ This document is the entry point for developers of Status. This guide is for any
 
 This guide is written with OS X in mind.
 
-## Build and Test
+## Build and Run
 
 ### Requirements
 

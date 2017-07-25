@@ -19,6 +19,7 @@ pages:
     - Developers:
       - Introduction: 'contributing/development/introduction.md'
       - Building Status: 'contributing/development/building-status.md'
+      - Running Tests: 'contributing/development/running-tests.md'
       - Adding DApps: 'contributing/development/adding-dapps.md'
     - Design Guidelines: 'contributing/design-guidelines.md'
     - Testing & Feedback: 'contributing/testing-and-feedback.md'
