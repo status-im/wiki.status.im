@@ -10,7 +10,7 @@ We have two separate test bundles:
 Both commands execute tests only once. If you're developing tests and want to re-run them each time you change something in code (inside `src` and `test` folders), you can run the following commands:
 
 * `lein with-profile test doo node test`
-* `lein with-profile protocol doo node
+* `lein with-profile protocol doo node test`
 
 ### UI tests
 
