@@ -359,10 +359,11 @@ build/bin/geth attach http://localhost:8545
 - <code>wip/</code> for longer lived branches
 - <code>junk/</code> for irrelevant/soon-to-be-deleted branches</p>
 <h3 id="pull-requests">Pull Requests</h3>
-<p>Pull Requests should by default use the <code>develop</code> branch as a base. The <code>master</code> branch is kept stable and <code>develop</code> is periodically merged there. Tags are used for releases. Each Pull Request must be rebased against <code>develop</code> and squashed into a single commit, prefixed with the root namespace(s) under <code>status-im</code> that they modify. e.g.</p>
-<blockquote>
-<p>"contacts, ios: add contact stylistic changes"</p>
-</blockquote>
+<p>Pull Requests should by default use the <code>develop</code> branch as a base. The <code>master</code> branch is kept stable and <code>develop</code> is periodically merged there. Tags are used for releases. Each Pull Request must be rebased against <code>develop</code> and squashed into a single commit.</p>
+<h3 id="commit-messages">Commit messages</h3>
+<p>Commit message should help understand why (and what) has been fixed. Add a summary as first line if the message is too long.
+When fixing bugs the first line should be prefixed with <code>[FIX #123]</code>.</p>
+<p>As a good practice message starts with capitalized verb in the imperative mood.</p>
 <h3 id="walkthrough">Walkthrough</h3>
 <p>Fork the repository on Github's web UI.</p>
 <p>Clone your fork. Add the upstream as a remote.</p>
