@@ -118,9 +118,14 @@ The following categories are;
 
 ### Pull Requests
 
-Pull Requests should by default use the `develop` branch as a base. The `master` branch is kept stable and `develop` is periodically merged there. Tags are used for releases. Each Pull Request must be rebased against `develop` and squashed into a single commit, prefixed with the root namespace(s) under `status-im` that they modify. e.g.
-> "contacts, ios: add contact stylistic changes"
+Pull Requests should by default use the `develop` branch as a base. The `master` branch is kept stable and `develop` is periodically merged there. Tags are used for releases. Each Pull Request must be rebased against `develop` and squashed into a single commit.
 
+### Commit messages
+
+Commit message should help understand why (and what) has been fixed. Add a summary as first line if the message is too long.
+When fixing bugs the first line should be prefixed with `[FIX #123]`.
+
+As a good practice message starts with capitalized verb in the imperative mood.
 
 ### Walkthrough
 
