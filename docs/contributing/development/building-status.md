@@ -82,6 +82,18 @@ require('./node_modules/re-natal/index.js');
     adb forward tcp:8545 tcp:8545
     build/bin/geth attach http://localhost:8545
 
+## Troubleshooting
+
+### Building app from Xcode: EXC_BAD_ACCESS error
+
+Stop the build and restart the app.
+
+### Building app from Xcode: Linker error
+
+    StatusIm > Apple Mach-O Linker (id) Error > Linker command failed with exit code 1 (use -v to see invocation)
+    
+ Open `ios/StatusIm.xcworkspace/`, not the project file.
+
 ## Contributing
 
 Please make sure your contributions adhere to our coding guidelines:
