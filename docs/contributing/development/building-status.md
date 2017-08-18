@@ -40,7 +40,7 @@ require('./node_modules/re-natal/index.js');
 ### Dependencies & Setup
     $ git clone git@github.com:status-im/status-react.git -b master && cd status-react
     # or
-    $ git clone git@github.com:status-im/status-react.git -b develop && cd status-react
+    $ git clone git@github.com:status-im/status-react.git -b master && cd status-react && git checkout -b develop
 
     $ lein deps && npm install && ./re-natal deps && ./re-natal use-figwheel && lein re-frisk use-re-natal && ./re-natal enable-source-maps
     $ mvn -f modules/react-native-status/ios/RCTStatus dependency:unpack
