@@ -42,7 +42,7 @@ require('./node_modules/re-natal/index.js');
     # or
     $ git clone git@github.com:status-im/status-react.git -b develop && cd status-react
 
-    $ lein deps && npm install && ./re-natal deps && lein generate-externs && ./re-natal use-figwheel && lein re-frisk use-re-natal && ./re-natal enable-source-maps
+    $ lein deps && npm install && ./re-natal deps && ./re-natal use-figwheel && lein re-frisk use-re-natal && ./re-natal enable-source-maps
     $ mvn -f modules/react-native-status/ios/RCTStatus dependency:unpack
     $ cd ios && pod install && cd ..
 
@@ -171,6 +171,3 @@ The Status application is divided into 6 core repositories;
 - [go-ethereum](https://github.com/status-im/go-ethereum) - our branch of `go-ethereum` which contains our custom modifications in `go-ethereum/status-develop`
 
 - [status-go](https://github.com/status-im/status-go) - represents our binding to the `go-ethereum` lib and exposes methods to `status-react` to Java / Objective C.
-- [status-lib](https://github.com/status-im/status-lib) - implements our application protocols for chatbots, has been absorbed into `status-react` until application protocol settles
-- [react-native-status](https://github.com/status-im/react-native-status) - the intent behind this repo was to seperate Java/Objective C code into a react native module, it may be absorbed into `status-react` in future
-- [status-server](https://github.com/status-im/status-server) - is our intermediary server primarily used for contact discovery.
