@@ -294,7 +294,7 @@ require('./node_modules/re-natal/index.js');
 # or
 $ git clone git@github.com:status-im/status-react.git -b develop &amp;&amp; cd status-react
 
-$ lein deps &amp;&amp; npm install &amp;&amp; ./re-natal deps &amp;&amp; lein generate-externs &amp;&amp; ./re-natal use-figwheel &amp;&amp; lein re-frisk use-re-natal &amp;&amp; ./re-natal enable-source-maps
+$ lein deps &amp;&amp; npm install &amp;&amp; ./re-natal deps &amp;&amp; ./re-natal use-figwheel &amp;&amp; lein re-frisk use-re-natal &amp;&amp; ./re-natal enable-source-maps
 $ mvn -f modules/react-native-status/ios/RCTStatus dependency:unpack
 $ cd ios &amp;&amp; pod install &amp;&amp; cd ..
 </code></pre>
@@ -402,9 +402,6 @@ $ git push -f origin
 <li>
 <p><a href="https://github.com/status-im/status-go">status-go</a> - represents our binding to the <code>go-ethereum</code> lib and exposes methods to <code>status-react</code> to Java / Objective C.</p>
 </li>
-<li><a href="https://github.com/status-im/status-lib">status-lib</a> - implements our application protocols for chatbots, has been absorbed into <code>status-react</code> until application protocol settles</li>
-<li><a href="https://github.com/status-im/react-native-status">react-native-status</a> - the intent behind this repo was to seperate Java/Objective C code into a react native module, it may be absorbed into <code>status-react</code> in future</li>
-<li><a href="https://github.com/status-im/status-server">status-server</a> - is our intermediary server primarily used for contact discovery.</li>
 </ul></div>
         </div>
 
