@@ -24,7 +24,7 @@ This guide is written with OS X in mind.
 #### Windows-specific Setup Notes
 Setting up a development instance in Windows requires some tweaks. Consider the following before attempting the following sections:
 
-- Make sure you run everything in a elevated command prompt (Right-click a link to Cmd.exe or Cygwin and click 'Run as Administrator')
+- Make sure you run everything in an elevated command prompt (Right-click a link to Cmd.exe or Cygwin and click 'Run as Administrator')
 - Do not use the ./re-natal symlink. Write your own `re-natal.sh` script that uses full relative paths, give it execution permissions with `chmod +x`, and use it instead. Script:
 ```
 #!/usr/bin/env node
@@ -113,7 +113,7 @@ The following categories are;
 - `bug/` for fixing bugs
 - `tests/` for unit/UI tests
 - `experiment/` for non-features
-- `wip/` for longer lived branches
+- `wip/` for longer-lived branches
 - `junk/` for irrelevant/soon-to-be-deleted branches
 
 ### Pull Requests
@@ -166,7 +166,7 @@ After PR has been reviewed do a final cleanup and squash your commit
 
 The Status application is divided into 6 core repositories;
 
-- [status-react](https://github.com/status-im/status-react) - our main react native application writtein in Clojurescript, Java & Objective C
+- [status-react](https://github.com/status-im/status-react) - our main react native application written in Clojurescript, Java & Objective C
 
 - [go-ethereum](https://github.com/status-im/go-ethereum) - our branch of `go-ethereum` which contains our custom modifications in `go-ethereum/status-develop`
 
