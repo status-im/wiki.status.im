@@ -4,7 +4,7 @@ During the Alpha we are accepting example DApps as default contacts, to add your
 
 - Place a square icon(`85x85px` or `192x192`) of your DApp to `images/contacts` directory. The file should be named the same as your DApp, for example `my-dapp.png`. Make sure your icon fits and looks good with rounded corners.
 
-- Add information about this icon to `src/status_im/resources.cljs`, for example:
+- Add information about this icon to `react-native/src/status_im/resources.cljs`, for example:
 ```
 (def contacts
   {:auction-house (js/require "./images/contacts/auction-house.png")
