@@ -26,7 +26,7 @@ Our work will be used by other people, and we in turn depend on the work of othe
 
 	When somebody leaves or disengages from the project, we ask that they do so in a way that minimises disruption to the project. They should tell people they are leaving and take the proper steps to ensure that others can pick up where they left off.
 
-- **Feel free to ask**  
+- **Answer questions**  
 If there's something you don't know, do ask, questions are encouraged. Nobody is expected to be perfect in this community. Many newcomers just want to get acquinted with the project, so asking questions early avoids many problems later. The project is fast paced and ever evolving, so even people that have been around a long time might have questions.   
 
 	Those who are asked or answer a general question should be responsive and helpful, directing people to the appropriate forums or channels is good, but answering the question is more important.
@@ -59,7 +59,7 @@ Some members may be more visible than others, but good ones use their visibility
 
 
 
-####License
+##License
 Status.im is a **Free Software** project and the individuals and communities around it are its custodians.  We choose not to exclude others from using, understanding, modifying and distributing our work and in doing so we put our trust in one another to act in the best interests of the wider human community that Status.im is designed to serve.  This licence holds the developers to account,  in the knowledge that the software is a common trust and that it is a *privilege*, a *responsibility* to continue to develop it.
 
 The Status Code of Conduct is licensed under the Creative Commons Attribution-Share Alike 3.0 license and has been adapted from the Ubuntu Code of Conduct v2.0. You may re-use it for your own project, and modify it as you wish, just please allow others to use your modifications and give credit to Ubuntu and the Status Projects!
